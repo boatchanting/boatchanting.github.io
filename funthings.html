@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>我的项目</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #f0f2f5;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .project-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin: 20px 0;
+      transition: transform 0.2s;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .project-title {
+      font-size: 1.5em;
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+    
+    .project-description {
+      color: #34495e;
+      line-height: 1.6;
+    }
+    
+    .project-link {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 15px;
+    }
+    
+    .emoji {
+      font-size: 1.2em;
+      vertical-align: middle;
+    }
+
+    /* 作者卡片样式 */
+    .author-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin: 40px 0 20px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    
+    .author-card:hover {
+      transform: scale(1.02);
+    }
+    
+    .author-avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #3498db;
+      margin: 0 auto 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+    }
+    
+    .author-name {
+      font-size: 1.2em;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+    
+    .author-bio {
+      color: #7f8c8d;
+      margin: 10px 0;
+    }
+    
+    .author-link {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="author-card">
+    <div class="author-avatar">👨</div>
+    <div class="author-name">好玩的项目</div>
+    
+    
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">🎮 绩点48游戏</div>
+    <div class="project-description">
+      类似2048的趣味游戏，但用GPA计算得分<br>
+      <span class="emoji">🎓</span> 学术主题 | <span class="emoji">💡</span> 益智挑战
+    </div>
+    <a href="https://boatchanting.github.io//gpa2048//index.html" class="project-link" target="_blank">开始游戏 🎮</a>
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">🚀 同济选课助手2.0</div>
+    <div class="project-description">
+      全新升级版选课助手，优化界面交互体验，自动登录选课系统进行选课<br>
+      <span class="emoji">🎨</span> 界面优化 | <span class="emoji">⚡</span> 性能提升
+    </div>
+    <a href="https://kkgithub.com/boatchanting/Tongji-electcourse2/releases/" class="project-link" target="_blank">下载软件 🌟</a>
+    <a href="https://kkgithub.com/boatchanting/Tongji-Electcourse2" class="project-link" target="_blank">查看源代码📝</a>
+    
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">🚀 同济选课助手</div>
+    <div class="project-description">
+      用于监控课程余量并帮助选课的自动化脚本，代替繁杂的手工点击任务<br>
+      <span class="emoji">🤖</span> 自动点击 | <span class="emoji">🔔</span> 捡漏课程
+    </div>
+    <a href="https://kkgithub.com/boatchanting/Tongji-Electcourse/releases/" class="project-link" target="_blank">下载软件 🌟</a>
+    <a href="https://kkgithub.com/boatchanting/Tongji-Electcourse" class="project-link" target="_blank">查看源代码📝</a>
+  </div>
+
+  
+
+  <div class="project-card">
+    <div class="project-title">📚 选课演示系统</div>
+    <div class="project-description">
+      课程选择流程的交互式演示界面<br>
+      <span class="emoji">🔍</span> 流程展示 | <span class="emoji">🛠️</span> 功能验证
+    </div>
+
+    <a href="https://boatchanting.github.io//CourseSelectionDemo/index.html" class="project-link" target="_blank">体验演示 🎯</a>
+    <a href="https://kkgithub.com/boatchanting/CourseSelectionDemo" class="project-link" target="_blank">查看源代码 📝</a>
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">📚 SD LoRA Model Training - A Beginner's Guide</div>
+    <div class="project-description">
+      了解如何从零开始训练SD-LoRA模型，一个有点过时的经验贴<br>
+      <span class="emoji">🤖</span> 深度学习 | <span class="emoji">📚</span> 教程指南
+    </div>
+    <a href="https://zhuanlan.zhihu.com/p/713953170" class="project-link" target="_blank">阅读指南 📖</a>
+  </div>
+
+  <div class="project-card">
+    <div class="project-title">🏛️ 弄堂AI项目</div>
+    <div class="project-description">
+      面向博物馆场景的对话交互项目<br>
+      <span class="emoji">🤖</span> 智能导览 | <span class="emoji">🖼️</span> 文化传播
+    </div>
+    <a href="https://kkgithub.com/boatchanting/LongtangAI" class="project-link" target="_blank">了解详情 🌐</a>
+  </div>
+  <div class="author-card">
+  <div class="author-bio"> 🏙️城市🌆|🚗汽车🏎️|🤖AI爱好者</div>
+  <a href="https://boatchanting.github.io" class="author-link" target="_blank">
+    关于作者 🌐
+  </a></div>
+</body>
+</html>
