@@ -2,6 +2,7 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>我的项目</title>
   <style>
     body {
@@ -94,6 +95,39 @@
       font-weight: bold;
       display: inline-block;
       margin-top: 15px;
+    }
+
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+      
+      .container {
+        grid-template-columns: 1fr;
+      }
+      
+      .card {
+        padding: 15px;
+      }
+      
+      .project-title {
+        font-size: 1.2em;
+      }
+      
+      .author-avatar {
+        width: 80px;
+        height: 80px;
+        font-size: 1.5em;
+      }
+      
+      .project-link {
+        font-size: 0.9em;
+      }
+      
+      .emoji {
+        font-size: 1em;
+      }
     }
   </style>
 </head>
