@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>黄渡理工大学驻521办事处大扫除排班表</title>
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;500;700&display=swap');
+
+      /* 默认日间模式样式 */
+      body {
+          font-family: 'Segoe UI', sans-serif;
+          margin: 0;
+          padding: 20px;
+          /* 增加全局背景渐变 */
+          background: linear-gradient(135deg, #f5f5f5, #ffffff);
+          color: #333;
+          line-height: 1.6;
+          transition: all 0.3s ease;
+      }
+
+      .win11-header {
+          background: linear-gradient(135deg, #0078D4 0%, #0099FF 100%);
+          color: white;
+          padding: 2rem;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+          margin-bottom: 20px;
+          transition: all 0.3s ease;
+      }
+
+      .container {
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+
+      h1 {
+          margin: 0;
+          font-weight: 500;
+          text-align: center;
+      }
+
+      .week-nav {
+          display: flex;
+          justify-content: center;
+          gap: 15px;
+          margin: 20px 0;
+      }
+
+      button {
+          /* 为按钮添加渐变背景 */
+          background: linear-gradient(135deg, #0078D4, #005bb5);
+          border: none;
+          color: white;
+          padding: 12px 24px;
+          border-radius: 6px;
+          cursor: pointer;
+          font-weight: 500;
+          transition: all 0.2s;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+
+      button:hover {
+          background: linear-gradient(135deg, #005bb5, #004a99);
+          transform: translateY(-1px);
+      }
+
+      button:active {
+          transform: translateY(0);
+      }
+
+      .schedule-table {
+          width: 100%;
+          border-collapse: collapse;
+          background: white;
+          border-radius: 8px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+          overflow: hidden;
+      }
+
+      .schedule-table th {
+          background-color: #0078D4;
+          color: white;
+          padding: 16px;
+          text-align: left;
+      }
+
+      .schedule-table td {
+          padding: 14px;
+          border-bottom: 1px solid #eee;
+      }
+
+      .schedule-table tr:last-child td {
+          border-bottom: none;
+      }
+
+      .job-description {
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          margin-top: 20px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+
+      /* 夜间模式样式 */
+      body.night-mode {
+          background: linear-gradient(135deg, #2b2b2b, #3c3c3c);
+          color: #ddd;
+      }
+
+      body.night-mode .win11-header {
+          background: linear-gradient(135deg, #333, #555);
+      }
+
+      body.night-mode button {
+          background: linear-gradient(135deg, #444, #666);
+          box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+      }
+
+      body.night-mode button:hover {
+          background: linear-gradient(135deg, #666, #888);
+      }
+
+      body.night-mode .schedule-table {
+          background: #444;
+          color: #eee;
+      }
+
+      body.night-mode .schedule-table th {
+          background-color: #333;
+      }
+
+      body.night-mode .job-description {
+          background: #444;
+      }
+
+      @media (max-width: 768px) {
+          .win11-header {
+              padding: 1.5rem;
+              border-radius: 0;
+          }
+          
+          .schedule-table {
+              display: block;
+              overflow-x: auto;
+              white-space: nowrap;
+          }
+          
+          .schedule-table th,
+          .schedule-table td {
+              min-width: 150px;
+          }
+          
+          button {
+              padding: 10px 18px;
+              font-size: 0.9rem;
+          }
+          
+          h1 {
+              font-size: 1.5rem;
+          }
+      }
+  </style>
+</head>
+<body>
+  <div class="win11-header">
+      <div class="container">
+          <h1>黄渡理工大学驻521办事处大扫除排班表</h1>
+      </div>
+  </div>
+
+  <div class="container">
+      <div class="week-nav">
+          <button onclick="changeWeek(-1)">← 上周</button>
+          <span id="currentWeekDisplay">加载中...</span>
+          <button onclick="changeWeek(1)">下周 →</button>
+          <!-- 夜间模式切换按钮 -->
+          <button id="nightModeToggle" style="margin-left:20px;">夜间模式</button>
+      </div>
+
+      <table class="schedule-table">
+          <thead>
+              <tr>
+                  <th>工种</th>
+                  <th>当前负责人</th>
+                  <th>工作内容</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>扫地机器人</td>
+                  <td id="robot">-</td>
+                  <td>彻底清扫地面，包括桌底、柜底、纸箱和鞋子下方</td>
+              </tr>
+              <tr>
+                  <td>拖地大师</td>
+                  <td id="mopper">-</td>
+                  <td>三遍拖地：清灰→查漏→消毒液消杀</td>
+              </tr>
+              <tr>
+                  <td>卷帘大将</td>
+                  <td id="ventilator">-</td>
+                  <td>开窗通风，整理阳台储物间</td>
+              </tr>
+              <tr>
+                  <td>桌面清理大师</td>
+                  <td id="deskCleaner">-</td>
+                  <td>更换垃圾袋，擦拭阶梯板灰尘</td>
+              </tr>
+          </tbody>
+      </table>
+
+      <div class="job-description">
+          <h3>工种轮换规则：</h3>
+          <ul style="list-style: none; padding-left: 20px;">
+              <li>▶ 每周按顺序轮换工种</li>
+              <li>▶ 四大工种循环周期为4周</li>
+              <li>▶ 人员顺序：牢张 → 牢高 → 牢刘 → 牢淞 → 循环</li>
+          </ul>
+      </div>
+  </div>
+
+  <script>
+      const members = ['牢张', '牢高', '牢刘', '牢淞'];
+      const jobs = ['robot', 'mopper', 'ventilator', 'deskCleaner'];
+      const startDate = new Date(2025, 1, 24); // 2025年2月24日（注意月份从0开始）
+
+      function calculateCurrentWeek() {
+          const now = new Date();
+          const timeDiff = now - startDate;
+          if (timeDiff < 0) return 1;
+          return Math.floor(timeDiff / (7 * 24 * 60 * 60 * 1000)) + 1;
+      }
+
+      let currentWeek = calculateCurrentWeek();
+
+      function updateSchedule() {
+          const offset = (currentWeek - 1) % 4;
+          jobs.forEach((job, index) => {
+              const memberIndex = (index + offset) % 4;
+              document.getElementById(job).textContent = members[memberIndex];
+          });
+          
+          const displayDate = new Date(startDate);
+          displayDate.setDate(startDate.getDate() + (currentWeek - 1) * 7);
+          const formattedDate = `${displayDate.getFullYear()}.${String(displayDate.getMonth() + 1).padStart(2, '0')}.${String(displayDate.getDate()).padStart(2, '0')}`;
+          
+          document.getElementById('currentWeekDisplay').innerHTML = 
+              `第 ${currentWeek} 周（${formattedDate}）`;
+      }
+
+      function changeWeek(delta) {
+          currentWeek += delta;
+          if (currentWeek < 1) currentWeek = 1;
+          updateSchedule();
+      }
+
+      // 夜间模式按钮事件监听：切换 body 上的 night-mode 类，并更新按钮文字
+      document.getElementById('nightModeToggle').addEventListener('click', function() {
+          document.body.classList.toggle('night-mode');
+          this.textContent = document.body.classList.contains('night-mode') ? '日间模式' : '夜间模式';
+      });
+
+      // 初始化排班表
+      updateSchedule();
+  </script>
+</body>
+</html>
