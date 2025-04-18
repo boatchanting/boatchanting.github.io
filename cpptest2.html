@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>C/C++ 练习试卷2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#2563eb;/*Win11 蓝*/
+      --accent-grad:linear-gradient(135deg,#2563eb 0%,#4f8df7 100%);
+      --bg:#f3f6fc;
+      --card-bg:#ffffffcc;
+      --radius:18px;
+      --shadow:0 4px 10px rgba(0,0,0,.08);
+    }
+
+    *{box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+    body{margin:0;background:var(--bg);color:#222;line-height:1.6;padding:1rem;}
+
+    header{
+      background:var(--accent-grad);
+      color:#fff;
+      padding:1.5rem 1rem;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      text-align:center;
+      margin-bottom:1.5rem;
+    }
+
+    h1{margin:0;font-size:1.5rem;font-weight:600;}
+
+    .card{
+      background:var(--card-bg);
+      backdrop-filter:blur(12px);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:1.25rem;
+      margin-bottom:1rem;
+    }
+
+    .question-title{font-weight:600;margin-bottom:0.5rem;}
+    label{display:block;margin:0.25rem 0;}
+
+    input[type="text"],textarea{
+      width:100%;
+      padding:0.5rem 0.75rem;
+      border:1px solid #d1d5db;
+      border-radius:10px;
+      font-family:inherit;
+      resize:vertical;
+    }
+
+    textarea{min-height:120px;}
+
+    button{
+      display:inline-flex;align-items:center;gap:0.5rem;
+      background:var(--accent-grad);
+      color:#fff;
+      border:none;
+      border-radius:50px;
+      padding:0.6rem 1.5rem;
+      font-size:1rem;
+      cursor:pointer;
+      box-shadow:0 2px 6px rgba(0,0,0,.15);
+      transition:all .2s ease;
+    }
+    button:hover{transform:translateY(-2px);box-shadow:0 4px 8px rgba(0,0,0,.2);} 
+    button:active{transform:translateY(0);}   
+
+    @media (min-width:600px){
+      .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem;}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>C/C++ 练习试卷2</h1>
+  <p>考试范围：概述、基本类型、运算符与表达式、控制结构、字符串、数组（不含 printf/scanf）</p>
+</header>
+
+<section id="form" class="grid">
+
+  <!-- 单选题 -->
+  <div class="card" id="mcq">
+    <h2>一、单选题</h2>
+
+    <div class="question">
+      <p class="question-title">1.&nbsp;表达式 <code>5 & 3 + 2</code> 的值是（ ）</p>
+      <label><input type="radio" name="q1" value="A"/>A.&nbsp;7</label>
+      <label><input type="radio" name="q1" value="B"/>B.&nbsp;0</label>
+      <label><input type="radio" name="q1" value="C"/>C.&nbsp;3</label>
+      <label><input type="radio" name="q1" value="D"/>D.&nbsp;5</label>
+    </div>
+
+    <div class="question">
+      <p class="question-title">2.&nbsp;关于 <code>const int* p = new int(5);</code>，以下说法正确的是（ ）</p>
+      <label><input type="radio" name="q2" value="A"/>A.&nbsp;可以通过 <code>p</code> 修改指向的值</label>
+      <label><input type="radio" name="q2" value="B"/>B.&nbsp;<code>p</code> 是一个常量指针</label>
+      <label><input type="radio" name="q2" value="C"/>C.&nbsp;<code>p</code> 指向的内存空间不可修改</label>
+      <label><input type="radio" name="q2" value="D"/>D.&nbsp;<code>p</code> 可以指向其他地址</label>
+    </div>
+
+    <div class="question">
+      <p class="question-title">3.&nbsp;以下二维数组初始化语句正确的是（ ）</p>
+      <label><input type="radio" name="q3" value="A"/>A.&nbsp;<code>int arr[2][3] = {{1, 2}, {3, 4}};</code></label>
+      <label><input type="radio" name="q3" value="B"/>B.&nbsp;<code>int arr[][3] = {1, 2, 3, 4};</code></label>
+      <label><input type="radio" name="q3" value="C"/>C.&nbsp;<code>int arr[2][] = {{1, 2}, {3, 4}};</code></label>
+      <label><input type="radio" name="q3" value="D"/>D.&nbsp;<code>int arr[2][3] = {1, 2, 3, 4, 5};</code></label>
+    </div>
+
+    <div class="question">
+      <p class="question-title">4.&nbsp;若 <code>char str[] = "Hello";</code>，则 <code>strlen(str)</code> 的返回值是（ ）</p>
+      <label><input type="radio" name="q4" value="A"/>A.&nbsp;5</label>
+      <label><input type="radio" name="q4" value="B"/>B.&nbsp;6</label>
+      <label><input type="radio" name="q4" value="C"/>C.&nbsp;4</label>
+      <label><input type="radio" name="q4" value="D"/>D.&nbsp;不确定</label>
+    </div>
+
+    <div class="question">
+      <p class="question-title">5.&nbsp;以下循环执行后，<code>sum</code> 的值是（ ）</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>int sum = 0;
+for (int i = 0; i < 5; i++) {
+    if (i == 2) continue;
+    sum += i;
+}</code></pre>
+      <label><input type="radio" name="q5" value="A"/>A.&nbsp;6</label>
+      <label><input type="radio" name="q5" value="B"/>B.&nbsp;7</label>
+      <label><input type="radio" name="q5" value="C"/>C.&nbsp;8</label>
+      <label><input type="radio" name="q5" value="D"/>D.&nbsp;10</label>
+    </div>
+
+    <div class="question">
+      <p class="question-title">6.&nbsp;表达式 <code>sizeof(int[3][4])</code> 的值是（ ）</p>
+      <label><input type="radio" name="q6" value="A"/>A.&nbsp;12</label>
+      <label><input type="radio" name="q6" value="B"/>B.&nbsp;48</label>
+      <label><input type="radio" name="q6" value="C"/>C.&nbsp;16</label>
+      <label><input type="radio" name="q6" value="D"/>D.&nbsp;32</label>
+    </div>
+
+    <div class="question">
+      <p class="question-title">7.&nbsp;关于 <code>do-while</code> 循环，以下说法错误的是（ ）</p>
+      <label><input type="radio" name="q7" value="A"/>A.&nbsp;循环体至少执行一次</label>
+      <label><input type="radio" name="q7" value="B"/>B.&nbsp;条件表达式在循环体之后</label>
+      <label><input type="radio" name="q7" value="C"/>C.&nbsp;可以用 <code>break</code> 提前退出循环</label>
+      <label><input type="radio" name="q7" value="D"/>D.&nbsp;条件表达式为 <code>false</code> 时继续循环</label>
+    </div>
+
+    <div class="question">
+      <p class="question-title">8.&nbsp;若 <code>int x = 5, y = 3;</code>，则 <code>x++ + ++y</code> 的值是（ ）</p>
+      <label><input type="radio" name="q8" value="A"/>A.&nbsp;8</label>
+      <label><input type="radio" name="q8" value="B"/>B.&nbsp;9</label>
+      <label><input type="radio" name="q8" value="C"/>C.&nbsp;10</label>
+      <label><input type="radio" name="q8" value="D"/>D.&nbsp;11</label>
+    </div>
+
+    <div class="question">
+      <p class="question-title">9.&nbsp;以下程序段的输出结果是（ ）</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>int a = 5, b = 3;
+cout << (a > b ? a++, b-- : b++);</code></pre>
+      <label><input type="radio" name="q9" value="A"/>A.&nbsp;5</label>
+      <label><input type="radio" name="q9" value="B"/>B.&nbsp;3</label>
+      <label><input type="radio" name="q9" value="C"/>C.&nbsp;4</label>
+      <label><input type="radio" name="q9" value="D"/>D.&nbsp;2</label>
+    </div>
+
+    <div class="question">
+      <p class="question-title">10.&nbsp;关于 <code>string</code> 类，以下说法错误的是（ ）</p>
+      <label><input type="radio" name="q10" value="A"/>A.&nbsp;<code>string</code> 对象可以直接用 <code>==</code> 比较内容</label>
+      <label><input type="radio" name="q10" value="B"/>B.&nbsp;<code>string</code> 对象可以通过 <code>cin</code> 直接输入</label>
+      <label><input type="radio" name="q10" value="C"/>C.&nbsp;<code>string</code> 的 <code>size()</code> 方法返回字符数</label>
+      <label><input type="radio" name="q10" value="D"/>D.&nbsp;<code>string</code> 的索引从 1 开始</label>
+    </div>
+  </div>
+
+  <!-- 改错题 -->
+  <div class="card" id="debug">
+    <h2>三、程序改错题</h2>
+    <p>每题含 4 行错误，请写出修改后的完整代码行。</p>
+
+    <div class="question">
+      <p class="question-title">1.&nbsp;计算最大公约数</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include <iostream>
+using namespace std;
+int main() {
+    int a, b;
+    cout << "请输入两个正整数：";
+    cin >> a >> b;
+    while (a != b) {
+        if (a > b) a = a - b;
+        else b = a - b; // 错误
+    }
+    cout << "最大公约数：" << a << endl;
+    return 0;
+}</code></pre>
+      <textarea name="fix1" placeholder="在此写出 4 行修改后的代码..."></textarea>
+    </div>
+
+    <div class="question">
+      <p class="question-title">2.&nbsp;替换元音字母</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include <iostream>
+using namespace std;
+int main() {
+    char str[100];
+    cout << "请输入字符串：";
+    cin.getline(str, 100);
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] == 'a' || 'e' || 'i' || 'o' || 'u') { // 错误
+            str[i] = '*';
+        }
+    }
+    cout << "处理后的字符串：" << str << endl;
+    return 0;
+}</code></pre>
+      <textarea name="fix2" placeholder="在此写出 4 行修改后的代码..."></textarea>
+    </div>
+  </div>
+
+  <!-- 填空题 -->
+  <div class="card" id="blanks">
+    <h2>二、程序填空题</h2>
+    <p>阅读代码，将 (1)~(4) 处补全。</p>
+
+    <div class="question">
+      <p class="question-title">1.&nbsp;字符串逆序</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    string s;
+    cout << "请输入字符串：";
+    getline(cin, s);
+    int len = s.size();
+    for (int i = 0; i < len / 2; i++) {
+        ___(1)___; // 交换字符
+    }
+    cout << "逆序后的字符串：" << s << endl;
+    return 0;
+}</code></pre>
+      <textarea name="blank1" placeholder="在此填写 (1)-(4) 代码，每行一个"></textarea>
+    </div>
+
+    <div class="question">
+      <p class="question-title">2.&nbsp;统计二维数组每行最大值</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include <iostream>
+using namespace std;
+int main() {
+    int arr[3][4] = {{1, 5, 3, 8}, {4, 9, 2, 7}, {6, 3, 0, 5}};
+    for (int i = 0; i < 3; i++) {
+        int max_val = ___(2)___; // 初始化最大值
+        for (int j = 1; j < 4; j++) {
+            if (___(3)___) {
+                max_val = arr[i][j];
+            }
+        }
+        cout << "第" << i + 1 << "行最大值：" << max_val << endl;
+    }
+    return 0;
+}</code></pre>
+      <textarea name="blank2" placeholder="在此填写 (1)-(4) 代码，每行一个"></textarea>
+    </div>
+  </div>
+
+  <!-- 编程题 -->
+  <div class="card" id="coding">
+    <h2>四、编程题</h2>
+
+    <div class="question">
+      <p class="question-title">1.&nbsp;对称矩阵判断</p>
+      <p>输入一个 3x3 矩阵，判断其是否为对称矩阵（即满足 <code>arr[i][j] == arr[j][i]</code>）。</p>
+      <textarea name="code1" placeholder="在此粘贴/编写完整 C++ 程序..."></textarea>
+    </div>
+
+    <div class="question">
+      <p class="question-title">2.&nbsp;单词长度统计</p>
+      <p>输入一个字符串，统计其中每个单词的长度并输出，单词间以空格分隔。</p>
+      <textarea name="code2" placeholder="在此粘贴/编写完整 C++ 程序..."></textarea>
+    </div>
+  </div>
+
+</section>
+
+<!-- 导出按钮 -->
+<div style="text-align:center;margin:2rem 0;">
+  <button onclick="downloadAnswers()">导出作答结果为 txt</button>
+</div>
+
+<script>
+function downloadAnswers(){
+  // 收集数据
+  const data=[];
+  // 单选
+  for(let i=1;i<=10;i++){
+    const sel=document.querySelector('input[name="q'+i+'"]:checked');
+    data.push('单选'+i+': '+(sel?sel.value:'未作答'));
+  }
+  // 填空
+  data.push('\n[程序填空题]');
+  data.push('题1:\n'+document.querySelector('[name="blank1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="blank2"]').value.trim());
+  // 改错
+  data.push('\n[改错题]');
+  data.push('题1:\n'+document.querySelector('[name="fix1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="fix2"]').value.trim());
+  // 编程
+  data.push('\n[编程题]');
+  data.push('题1:\n'+document.querySelector('[name="code1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="code2"]').value.trim());
+
+  const blob=new Blob([data.join('\n')],{type:'text/plain;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;
+  a.download='cpp_exam_answers.txt';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
