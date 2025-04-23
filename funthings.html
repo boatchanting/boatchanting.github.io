@@ -5,44 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>我的项目</title>
   <style>
+    :root {
+      --bg-color: #f0f2f5;
+      --card-bg: white;
+      --text-color: #2c3e50;
+      --accent: #3498db;
+      --shadow: rgba(0,0,0,0.1);
+    }
+
+    .dark {
+      --bg-color: #1a1a1a;
+      --card-bg: #2d2d2d;
+      --text-color: #e0e0e0;
+      --accent: #24bac5;
+      --shadow: rgba(255,255,255,0.1);
+    }
+
     body {
       font-family: "Helvetica Neue", Arial, sans-serif;
-      background: #f0f2f5;
+      background: var(--bg-color);
       padding: 20px;
       max-width: 1200px;
       margin: 0 auto;
+      transition: background 0.3s;
     }
-    
+
+
+    /* 项目容器样式 */
     .project-card {
-      background: white;
+      background: var(--card-bg);
       border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 8px var(--shadow);
       padding: 25px;
       margin: 20px 0;
       transition: transform 0.2s;
     }
-    
+
     .project-card:hover {
-      transform: translateY(-5px);
-    }
-    
-    .project-title {
-      font-size: 1.5em;
-      color: #2c3e50;
-      margin-bottom: 15px;
-    }
-    
-    .project-description {
-      color: #34495e;
-      line-height: 1.6;
-    }
-    
-    .project-link {
-      color: #3498db;
-      text-decoration: none;
-      font-weight: bold;
-      display: inline-block;
-      margin-top: 15px;
+      transform: translateY(-10px);
     }
     
     .emoji {
@@ -50,11 +50,91 @@
       vertical-align: middle;
     }
 
+    .clock-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      padding: 40px 30px;
+    }
+
+    .clock-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 15px;
+      backdrop-filter: blur(15px);
+      z-index: -1;
+    }
+
+    .time {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin: 0;
+      line-height: 1;
+      color: var(--text-color);
+    }
+
+    .date {
+      font-size: 1rem;
+      margin: 10px 0 20px;
+      color: var(--text-color);
+      opacity: 0.8;
+    }
+
+    .theme-toggle {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+
+    .theme-btn {
+      background: var(--card-bg);
+      border: 2px solid var(--accent);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+      box-shadow: 0 4px 10px var(--shadow);
+    }
+
+    .theme-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px var(--shadow);
+    }
+
+    .project-title {
+      font-size: 1.5em;
+      color: var(--text-color);
+      margin-bottom: 15px;
+    }
+
+    .project-description {
+      color: var(--text-color);
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+
+    .project-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 15px;
+    }
+
     /* 作者卡片样式 */
     .author-card {
-      background: white;
+      background: var(--card-bg);
       border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 8px var(--shadow);
       padding: 25px;
       margin: 40px 0 20px;
       text-align: center;
@@ -80,7 +160,7 @@
     
     .author-name {
       font-size: 1.2em;
-      color: #2c3e50;
+      color: var(--text-color);
       font-weight: bold;
     }
     
@@ -102,42 +182,50 @@
       body {
         padding: 10px;
       }
-      
       .container {
         grid-template-columns: 1fr;
       }
-      
       .card {
         padding: 15px;
       }
-      
       .project-title {
         font-size: 1.2em;
       }
-      
       .author-avatar {
         width: 80px;
         height: 80px;
         font-size: 1.5em;
       }
-      
-      .project-link {
-        font-size: 0.9em;
-      }
-      
-      .emoji {
-        font-size: 1em;
-      }
+      .project-link {font-size: 0.9em;}
+      .emoji {font-size: 1em;}
+      .theme-toggle { gap: 10px; }
+      .theme-btn { width: 35px; height: 35px; }
     }
   </style>
 </head>
 <body>
-  <div class="author-card">
+  <div class="project-card clock-card"><!-- 时钟卡片 -->
+    <div class="time" id="time">00:00:00</div>
+    <div class="date" id="date">Monday, January 1</div>
+    <div class="theme-toggle">
+      <div class="theme-btn" id="lightBtn">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm0-10a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+        </svg>
+      </div>
+      <div class="theme-btn" id="darkBtn">
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-10a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+        </svg>
+      </div>
+    </div>
+    <!-- 标题卡片，暂时不用了 <div class="author-card">-->
     <div class="author-avatar">👨</div>
     <div class="author-name">好玩的项目</div>
-    
-    
+    <!-- 标题卡片，暂时不用了</div>-->
   </div>
+
+  
 
   <div class="project-card">
     <div class="project-title">🎮 绩点48</div>
@@ -238,4 +326,43 @@
   </a>
 </div>
 </body>
+<script>
+// 更新时间显示的函数
+function updateTime() {
+    // 获取当前日期和时间
+    const now = new Date();
+    // 定义日期格式选项
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    // 将格式化后的日期设置为页面中id为'date'的元素的内容
+    document.getElementById('date').textContent = now.toLocaleDateString(undefined, options);
+    // 将格式化后的时间设置为页面中id为'time'的元素的内容
+    document.getElementById('time').textContent = new Intl.DateTimeFormat(
+      undefined, { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }
+    ).format(now);
+}
+
+// 设置主题的函数
+function setTheme(theme) {
+    document.body.className = theme;
+    localStorage.setItem('theme', theme);
+}
+
+// 检查当前时间并返回相应主题的函数
+function checkTime() {
+    const hour = new Date().getHours();
+    // 根据小时数判断是白天还是黑夜，并返回相应的主题
+    return (hour >= 6 && hour < 18) ? 'light' : 'dark';
+}
+
+// 为“白天”按钮添加点击事件监听器，点击时调用setTheme函数并传入'light'
+document.getElementById('lightBtn').addEventListener('click', () => setTheme('light'));
+// 为“黑夜”按钮添加点击事件监听器，点击时调用setTheme函数并传入'dark'
+document.getElementById('darkBtn').addEventListener('click', () => setTheme('dark'));
+
+// 初始化函数
+const savedTheme = localStorage.getItem('theme') || checkTime(); // 从localStorage获取保存的主题，如果没有则根据当前时间判断
+setTheme(savedTheme); // 设置主题
+updateTime(); // 更新时间显示
+setInterval(updateTime, 1000); // 每秒更新一次时间显示
+</script>
 </html>
