@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>C/C++ 练习试卷6</title>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#2563eb;/*Win11 蓝*/
+      --accent-grad:linear-gradient(135deg,#2563eb 0%,#4f8df7 100%);
+      --bg:#f3f6fc;
+      --card-bg:#ffffffcc;
+      --radius:18px;
+      --shadow:0 4px 10px rgba(0,0,0,.08);
+    }
+
+    *{box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+    body{margin:0;background:var(--bg);color:#222;line-height:1.6;padding:1rem;}
+
+    header{
+      background:var(--accent-grad);
+      color:#fff;
+      padding:1.5rem 1rem;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      text-align:center;
+      margin-bottom:1.5rem;
+    }
+
+    h1{margin:0;font-size:1.5rem;font-weight:600;}
+
+    .card{
+      background:var(--card-bg);
+      backdrop-filter:blur(12px);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:1.25rem;
+      margin-bottom:1rem;
+    }
+
+    .question-title{font-weight:600;margin-bottom:0.5rem;}
+    label{display:block;margin:0.25rem 0;}
+
+    input[type="text"],textarea{
+      width:100%;
+      padding:0.5rem 0.75rem;
+      border:1px solid #d1d5db;
+      border-radius:10px;
+      font-family:inherit;
+      resize:vertical;
+    }
+
+    textarea{min-height:120px;}
+
+    button{
+      display:inline-flex;align-items:center;gap:0.5rem;
+      background:var(--accent-grad);
+      color:#fff;
+      border:none;
+      border-radius:50px;
+      padding:0.6rem 1.5rem;
+      font-size:1rem;
+      cursor:pointer;
+      box-shadow:0 2px 6px rgba(0,0,0,.15);
+      transition:all .2s ease;
+    }
+    button:hover{transform:translateY(-2px);box-shadow:0 4px 8px rgba(0,0,0,.2);} 
+    button:active{transform:translateY(0);}   
+
+    @media (min-width:600px){
+      .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem;}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>C/C++ 练习试卷6</h1>
+  <p>考试范围：概述、基本类型、运算符与表达式、控制结构、字符串、数组（不含 printf/scanf）</p>
+</header>
+
+<section id="form" class="grid">
+
+  <!-- 单选题 -->
+  <div class="card" id="mcq">
+    <h2>一、单选题</h2>
+
+    <div class="question">
+      <p class="question-title">1.&nbsp;若 <code>int x = 5, y = 3;</code> 则表达式 <code>(x > y ? x : y) += 1</code> 的值是（）</p>
+      <label><input type="radio" name="q1" value="A"/>A.&nbsp;6</label>
+      <label><input type="radio" name="q1" value="B"/>B.&nbsp;4</label>
+      <label><input type="radio" name="q1" value="C"/>C.&nbsp;5</label>
+      <label><input type="radio" name="q1" value="D"/>D.&nbsp;语法错误</label>
+    </div>
+    
+    <div class="question">
+      <p class="question-title">2.&nbsp;以下选项中，C++合法的常量是（）</p>
+      <label><input type="radio" name="q2" value="A"/>A.&nbsp;<code>0b101</code></label>
+      <label><input type="radio" name="q2" value="B"/>B.&nbsp;<code>08</code></label>
+      <label><input type="radio" name="q2" value="C"/>C.&nbsp;<code>'C++'</code></label>
+      <label><input type="radio" name="q2" value="D"/>D.&nbsp;<code>3.14f</code></label>
+    </div>
+    
+    <div class="question">
+      <p class="question-title">3.&nbsp;二维数组 <code>int a[3][4] = {1, 2, 3, 4, 5, 6};</code> 中 <code>a[1][2]</code> 的值是（）</p>
+      <label><input type="radio" name="q3" value="A"/>A.&nbsp;0</label>
+      <label><input type="radio" name="q3" value="B"/>B.&nbsp;5</label>
+      <label><input type="radio" name="q3" value="C"/>C.&nbsp;6</label>
+      <label><input type="radio" name="q3" value="D"/>D.&nbsp;未定义</label>
+    </div>
+    
+    <div class="question">
+      <p class="question-title">4.&nbsp;若 <code>char str[] = {'C', '+', '+', '\0'};</code> 则 <code>strlen(str)</code> 的值是（）</p>
+      <label><input type="radio" name="q4" value="A"/>A.&nbsp;3</label>
+      <label><input type="radio" name="q4" value="B"/>B.&nbsp;4</label>
+      <label><input type="radio" name="q4" value="C"/>C.&nbsp;5</label>
+      <label><input type="radio" name="q4" value="D"/>D.&nbsp;6</label>
+    </div>
+    
+    <div class="question">
+      <p class="question-title">5.&nbsp;关于 <code>switch</code> 语句，以下说法错误的是（）</p>
+      <label><input type="radio" name="q5" value="A"/>A.&nbsp;<code>case</code>标签后必须是常量表达式</label>
+      <label><input type="radio" name="q5" value="B"/>B.&nbsp;<code>default</code>分支必须存在</label>
+      <label><input type="radio" name="q5" value="C"/>C.&nbsp;<code>case</code>分支可以嵌套<code>if</code>语句</label>
+      <label><input type="radio" name="q5" value="D"/>D.&nbsp;<code>break</code>用于跳出<code>switch</code>结构</label>
+    </div>
+    
+    <div class="question">
+      <p class="question-title">6.&nbsp;以下循环执行后，<code>sum</code>的值是（）</p>
+      <label><input type="radio" name="q6" value="A"/>A.&nbsp;0</label>
+      <label><input type="radio" name="q6" value="B"/>B.&nbsp;1</label>
+      <label><input type="radio" name="q6" value="C"/>C.&nbsp;3</label>
+      <label><input type="radio" name="q6" value="D"/>D.&nbsp;6</label>
+    </div>
+    
+    <div class="question">
+      <p class="question-title">7.&nbsp;若 <code>int a = 5, b = 2;</code> 则表达式 <code>(float)a / b</code> 的值是（）</p>
+      <label><input type="radio" name="q7" value="A"/>A.&nbsp;2.0</label>
+      <label><input type="radio" name="q7" value="B"/>B.&nbsp;2.5</label>
+      <label><input type="radio" name="q7" value="C"/>C.&nbsp;2</label>
+      <label><input type="radio" name="q7" value="D"/>D.&nbsp;3</label>
+    </div>
+    
+    <div class="question">
+      <p class="question-title">8.&nbsp;以下数组定义中，正确的是（）</p>
+      <label><input type="radio" name="q8" value="A"/>A.&nbsp;<code>int a[3][] = {{1, 2}, {3}};</code></label>
+      <label><input type="radio" name="q8" value="B"/>B.&nbsp;<code>char c[] = "Hello";</code></label>
+      <label><input type="radio" name="q8" value="C"/>C.&nbsp;<code>float f[][2] = {1.1, 2.2, 3.3};</code></label>
+      <label><input type="radio" name="q8" value="D"/>D.&nbsp;<code>int b[][3] = {{1}, {2, 3}, {4, 5}};</code></label>
+    </div>
+    
+    <div class="question">
+      <p class="question-title">9.&nbsp;以下程序段的输出结果是（）</p>
+      <label><input type="radio" name="q9" value="A"/>A.&nbsp;2 4 8</label>
+      <label><input type="radio" name="q9" value="B"/>B.&nbsp;2 2 2</label>
+      <label><input type="radio" name="q9" value="C"/>C.&nbsp;1 2 4</label>
+      <label><input type="radio" name="q9" value="D"/>D.&nbsp;语法错误</label>
+    </div>
+    
+    <div class="question">
+      <p class="question-title">10.&nbsp;若 <code>int a[][3] = {{1, 2}, {3, 4, 5}, {6}};</code> 则 <code>a[2][1]</code> 的值是（）</p>
+      <label><input type="radio" name="q10" value="A"/>A.&nbsp;0</label>
+      <label><input type="radio" name="q10" value="B"/>B.&nbsp;4</label>
+      <label><input type="radio" name="q10" value="C"/>C.&nbsp;5</label>
+      <label><input type="radio" name="q10" value="D"/>D.&nbsp;6</label>
+    </div>
+  </div>
+
+  <!-- 改错题 -->
+  <div class="card" id="debug">
+    <h2>三、程序改错题</h2>
+    <p>每题含 4 行错误，请写出修改后的完整代码行。</p>
+
+    <div class="question">
+      <p class="question-title">1.&nbsp;阿姆斯特朗数检测</p>
+      以下程序试图输出1000以内的所有阿姆斯特朗数（各位数字立方和等于本身的数），但包含4处错误
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt
+using namespace std;
+int main() {
+    int num, temp, digit, sum;
+    for(num = 1; num <= 1000; num++) {
+        temp = num;
+        sum = 0;
+        while(temp != 0) {
+            digit = temp % 10;
+            sum += digit * digit * digit;
+            temp /= 10;
+        }
+        if(sum = num)
+            cout << num << " ";
+    }
+    return 0;
+}</code></pre>
+      <textarea name="fix1" placeholder="在此写出 4 行修改后的代码..."></textarea>
+    </div>
+
+    <div class="question">
+      <p class="question-title">2.&nbsp;奇偶分组</p>
+      以下程序试图将数组a中的元素按奇偶分组（奇数在前，偶数在后），但包含4处错误
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt
+using namespace std;
+int main() {
+    int a[] = {1, 2, 3, 4, 5, 6};
+    int n = sizeof(a) / sizeof(a[0]);
+    int left = 0, right = n - 1;
+    while(left < right) {
+        while(a[left] % 2 == 1) left++;
+        while(a[right] % 2 == 0) right--;
+        if(left < right) {
+            int temp = a[left];
+            a[left] = a[right];
+            a[right] = temp;
+        }
+    }
+    for(int i = 0; i < n; i++)
+        cout << a[i] << " ";
+    return 0;
+}</code></pre>
+      <textarea name="fix2" placeholder="在此写出 4 行修改后的代码..."></textarea>
+    </div>
+  </div>
+
+  <!-- 填空题 -->
+  <div class="card" id="blanks">
+    <h2>二、程序填空题</h2>
+    <p>阅读代码，将 (1)~(4) 处补全。</p>
+
+    <div class="question">
+      <p class="question-title">1.&nbsp;矩阵鞍点查找</p>
+      以下程序实现矩阵的鞍点查找（鞍点是行中最大且列中最小的元素），请将 (1)-(4) 处代码填写完整。
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt
+using namespace std;
+int main() {
+    int mat[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    bool found = false;
+    for(int i = 0; i < 3; i++) {
+        int row_max = mat[i][0], col_index = 0;
+        for(int j = 1; j < 3; j++) {
+            if(mat[i][j] > row_max) {
+                row_max = mat[i][j];
+                ___(1)___;
+            }
+        }
+        int col_min = mat[0][col_index];
+        for(int k = 1; k < 3; k++) {
+            if(mat[k][col_index] < col_min) {
+                ___(2)___;
+            }
+        }
+        if(___3___) {
+            cout << "Saddle: " << row_max;
+            ___4___;
+        }
+    }
+    if(!found) cout << "None";
+}</code></pre>
+      <textarea name="blank1" placeholder="在此填写 (1)-(4) 代码，每行一个"></textarea>
+    </div>
+
+    <div class="question">
+      <p class="question-title">2.&nbsp;字符串加密</p>
+      以下程序实现字符串的加密（将字母替换为后移3位的字符，如'a'→'d'，'z'→'c'
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt
+using namespace std;
+int main() {
+    char str[100];
+    cin >> str;
+    for(int i = 0; str[i] != '\0'; i++) {
+        if(___1___) {
+            if(str[i] >= 'x') str[i] -= 23;
+            else ___2___;
+        } else if(___3___) {
+            if(str[i] >= 'X') str[i] -= 23;
+            else ___4___;
+        }
+    }
+    cout << str;
+}</code></pre>
+      <textarea name="blank2" placeholder="在此填写 (1)-(4) 代码，每行一个"></textarea>
+    </div>
+  </div>
+
+  <!-- 编程题 -->
+  <div class="card" id="coding">
+    <h2>四、编程题</h2>
+
+    <div class="question">
+      <p class="question-title">1.&nbsp;蛇形矩阵填充</p>
+      <p>输入正整数n（n≤20），生成n×n矩阵，按对角线从1开始蛇形填充。例如n=3时：<br/>
+      1 2 6<br/>
+      3 5 7<br/>
+      4 8 9</p>
+      <textarea name="code1" placeholder="在此粘贴/编写完整 C++ 程序..."></textarea>
+    </div>
+
+    <div class="question">
+      <p class="question-title">2.&nbsp;最长回文子串</p>
+      <p>输入长度≤100的字符数组，统计最长连续回文子串长度。例如输入"abba"输出4，输入"abcba"输出5。</p>
+      <textarea name="code2" placeholder="在此粘贴/编写完整 C++ 程序..."></textarea>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- 导出按钮 -->
+<div style="text-align:center;margin:2rem 0;">
+  <button onclick="downloadAnswers()">导出作答结果为 txt</button>
+</div>
+
+<script>
+function downloadAnswers(){
+  // 收集数据
+  const data=[];
+  // 单选
+  for(let i=1;i<=10;i++){
+    const sel=document.querySelector('input[name="q'+i+'"]:checked');
+    data.push('单选'+i+': '+(sel?sel.value:'未作答'));
+  }
+  // 填空
+  data.push('\n[程序填空题]');
+  data.push('题1:\n'+document.querySelector('[name="blank1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="blank2"]').value.trim());
+  // 改错
+  data.push('\n[改错题]');
+  data.push('题1:\n'+document.querySelector('[name="fix1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="fix2"]').value.trim());
+  // 编程
+  data.push('\n[编程题]');
+  data.push('题1:\n'+document.querySelector('[name="code1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="code2"]').value.trim());
+
+  const blob=new Blob([data.join('\n')],{type:'text/plain;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;
+  a.download='cpp_exam_answers.txt';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
