@@ -21,6 +21,30 @@
       --shadow: rgba(255,255,255,0.1);
     }
 
+    .blue-theme {
+      --bg-color: #e8f4ff;
+      --card-bg: #ffffff;
+      --text-color: #1a3c6e;
+      --accent: #2196f3;
+      --shadow: rgba(0, 102, 204, 0.15);
+    }
+
+    .purple-theme {
+      --bg-color: #f3e8ff;
+      --card-bg: #ffffff;
+      --text-color: #4a148c;
+      --accent: #9c27b0;
+      --shadow: rgba(153, 0, 153, 0.15);
+    }
+
+    .green-theme {
+      --bg-color: #e8f5db;
+      --card-bg: #ffffff;
+      --text-color: #388e3c;
+      --accent: #4caf50;
+      --shadow: rgba(0, 153, 51, 0.15);
+    }
+
     body {
       font-family: "Helvetica Neue", Arial, sans-serif;
       background: var(--bg-color);
@@ -94,9 +118,9 @@
     .theme-btn {
       background: var(--card-bg);
       border: 2px solid var(--accent);
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
+      border-radius: 30%;
+      width: 50px;
+      height: 50px;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -106,7 +130,7 @@
     }
 
     .theme-btn:hover {
-      transform: translateY(-2px);
+      transform: translateY(0px);
       box-shadow: 0 6px 15px var(--shadow);
     }
 
@@ -207,25 +231,11 @@
   <div class="project-card clock-card"><!-- 时钟卡片 -->
     <div class="time" id="time">00:00:00</div>
     <div class="date" id="date">Monday, January 1</div>
-    <div class="theme-toggle">
-      <div class="theme-btn" id="lightBtn">
-        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-          <path fill="currentColor" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm0-10a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
-        </svg>
-      </div>
-      <div class="theme-btn" id="darkBtn">
-        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-          <path fill="currentColor" d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-10a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
-        </svg>
-      </div>
-    </div>
     <!-- 标题卡片，暂时不用了 <div class="author-card">-->
     <div class="author-avatar">👨</div>
     <div class="author-name">好玩的项目</div>
     <!-- 标题卡片，暂时不用了</div>-->
   </div>
-
-  
 
   <div class="project-card">
     <div class="project-title">🎮 绩点48</div>
@@ -255,7 +265,6 @@
     <a href="https://boatchanting.github.io//Tongji-electcourse2//index.html" class="project-link" target="_blank">体验界面 🖥️</a>
     <a href="https://kkgithub.com/boatchanting/Tongji-electcourse2/releases/" class="project-link" target="_blank">下载链接 🌟</a>
     <a href="https://kkgithub.com/boatchanting/Tongji-Electcourse2" class="project-link" target="_blank">查看源代码📝</a>
-    
   </div>
 
   <div class="project-card">
@@ -314,9 +323,9 @@
       <span class="emoji">🏘️</span> 寝室信息 | <span class="emoji">🌐</span> 在线展示
     </div>
     <a href="https://weyumm.github.io/tjjd5-521dormitory/" class="project-link" target="_blank">访问官网 🏠</a>
-  </div>
+  </div> 
 
-  <div class="author-card">
+  <div class="author-card">   
   <div class="author-bio"> 🏙️城市🌆|🚗汽车🏎️|🤖AI爱好者</div>
   <a href="https://boatchanting.github.io" class="author-link" target="_blank">
     关于作者 🌐
@@ -324,7 +333,18 @@
   <a href="https://weyumm.github.io" class="author-link" target="_blank">
     友情链接 🌐
   </a>
-</div>
+  </div>
+
+  <!-- 主题切换按钮 -->
+    <div class="theme-toggle"  style="display: flex; justify-content: center; align-items: center;">
+      <div class="theme-btn" id="lightBtn">☀️</div>
+      <div class="theme-btn" id="darkBtn">🌙</div>
+      <div class="theme-btn blue" id="blueBtn">🌊</div>
+      <div class="theme-btn green" id="greenBtn">🍃</div>
+      <div class="theme-btn purple" id="purpleBtn">🎨</div>
+    </div>
+
+
 </body>
 <script>
 // 更新时间显示的函数
@@ -354,10 +374,13 @@ function checkTime() {
     return (hour >= 6 && hour < 18) ? 'light' : 'dark';
 }
 
-// 为“白天”按钮添加点击事件监听器，点击时调用setTheme函数并传入'light'
-document.getElementById('lightBtn').addEventListener('click', () => setTheme('light'));
-// 为“黑夜”按钮添加点击事件监听器，点击时调用setTheme函数并传入'dark'
-document.getElementById('darkBtn').addEventListener('click', () => setTheme('dark'));
+// 为所有主题按钮添加事件监听
+document.querySelectorAll('.theme-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const theme = btn.id.replace('Btn', '').toLowerCase();
+    setTheme(theme === 'light' || theme === 'dark' ? theme : `${theme}-theme`);
+  });
+});
 
 // 初始化函数
 const savedTheme = localStorage.getItem('theme') || checkTime(); // 从localStorage获取保存的主题，如果没有则根据当前时间判断
