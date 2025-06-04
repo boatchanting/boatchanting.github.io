@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>C/C++ 练习试卷1 期末</title>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#2563eb;/*Win11 蓝*/
+      --accent-grad:linear-gradient(135deg,#2563eb 0%,#4f8df7 100%);
+      --bg:#f3f6fc;
+      --card-bg:#ffffffcc;
+      --radius:18px;
+      --shadow:0 4px 10px rgba(0,0,0,.08);
+    }
+
+    *{box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+    body{margin:0;background:var(--bg);color:#222;line-height:1.6;padding:1rem;}
+
+    header{
+      background:var(--accent-grad);
+      color:#fff;
+      padding:1.5rem 1rem;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      text-align:center;
+      margin-bottom:1.5rem;
+    }
+
+    h1{margin:0;font-size:1.5rem;font-weight:600;}
+
+    .card{
+      background:var(--card-bg);
+      backdrop-filter:blur(12px);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:1.25rem;
+      margin-bottom:1rem;
+    }
+
+    .question-title{font-weight:600;margin-bottom:0.5rem;}
+    label{display:block;margin:0.25rem 0;}
+
+    input[type="text"],textarea{
+      width:100%;
+      padding:0.5rem 0.75rem;
+      border:1px solid #d1d5db;
+      border-radius:10px;
+      font-family:inherit;
+      resize:vertical;
+    }
+
+    textarea{min-height:120px;}
+
+    button{
+      display:inline-flex;align-items:center;gap:0.5rem;
+      background:var(--accent-grad);
+      color:#fff;
+      border:none;
+      border-radius:50px;
+      padding:0.6rem 1.5rem;
+      font-size:1rem;
+      cursor:pointer;
+      box-shadow:0 2px 6px rgba(0,0,0,.15);
+      transition:all .2s ease;
+    }
+    button:hover{transform:translateY(-2px);box-shadow:0 4px 8px rgba(0,0,0,.2);} 
+    button:active{transform:translateY(0);}   
+
+    @media (min-width:600px){
+      .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem;}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>C/C++ 练习试卷1 期末</h1>
+  <p>考试范围：</p>
+</header>
+
+<!-- === C / C++ 练习题（中等难度·非计科专业）=== -->
+<section id="form" class="grid">
+
+  <!-- 单选题 -->
+  <div class="card" id="mcq">
+    <h2>一、单选题</h2>
+
+    <!-- 题目 1 -->
+    <div class="question">
+      <p class="question-title">
+        1.&nbsp;设 <code>int a = 5, b = 2, c = 3;</code> 执行语句
+        <code>a += b &gt; c ? b : c;</code> 后，<code>a</code> 的值为（）
+      </p>
+      <label><input type="radio" name="q1" value="A"/>A.&nbsp;6</label>
+      <label><input type="radio" name="q1" value="B"/>B.&nbsp;7</label>
+      <label><input type="radio" name="q1" value="C"/>C.&nbsp;8</label>
+      <label><input type="radio" name="q1" value="D"/>D.&nbsp;10</label>
+    </div>
+
+    <!-- 题目 2 -->
+    <div class="question">
+      <p class="question-title">2.&nbsp;以下 <strong>不是</strong> C/C++ 合法用户标识符的是（）</p>
+      <label><input type="radio" name="q2" value="A"/>A.&nbsp;_temp</label>
+      <label><input type="radio" name="q2" value="B"/>B.&nbsp;X2Y8</label>
+      <label><input type="radio" name="q2" value="C"/>C.&nbsp;πValue</label>
+      <label><input type="radio" name="q2" value="D"/>D.&nbsp;val_3</label>
+    </div>
+
+    <!-- 题目 3 -->
+    <div class="question">
+      <p class="question-title">3.&nbsp;关于二维数组初始化，下列语句 <strong>错误</strong> 的是（）</p>
+      <label><input type="radio" name="q3" value="A"/>A.&nbsp;<code>int m[2][3] = {{1},{2}};</code></label>
+      <label><input type="radio" name="q3" value="B"/>B.&nbsp;<code>int m[][3] = {{1,2,3},{4,5,6}};</code></label>
+      <label><input type="radio" name="q3" value="C"/>C.&nbsp;<code>int m[2][] = {1,2,3,4,5,6};</code></label>
+      <label><input type="radio" name="q3" value="D"/>D.&nbsp;<code>int m[2][3] = {1,2,3,4,5,6};</code></label>
+    </div>
+
+    <!-- 题目 4 -->
+    <div class="question">
+      <p class="question-title">4.&nbsp;若 <code>char s[] = "hello";</code>，以下指针定义 <strong>正确</strong> 的是（）</p>
+      <label><input type="radio" name="q4" value="A"/>A.&nbsp;<code>char *p = &amp;s;</code></label>
+      <label><input type="radio" name="q4" value="B"/>B.&nbsp;<code>char p = s;</code></label>
+      <label><input type="radio" name="q4" value="C"/>C.&nbsp;<code>char *p = s;</code></label>
+      <label><input type="radio" name="q4" value="D"/>D.&nbsp;<code>char **p = s;</code></label>
+    </div>
+
+    <!-- 题目 5 -->
+    <div class="question">
+      <p class="question-title">
+        5.&nbsp;若 <code>double d[10];</code>，表达式
+        <code>sizeof(d)/sizeof(d[0])</code> 的结果是（）
+      </p>
+      <label><input type="radio" name="q5" value="A"/>A.&nbsp;5</label>
+      <label><input type="radio" name="q5" value="B"/>B.&nbsp;10</label>
+      <label><input type="radio" name="q5" value="C"/>C.&nbsp;20</label>
+      <label><input type="radio" name="q5" value="D"/>D.&nbsp;无法确定</label>
+    </div>
+
+    <!-- 题目 6 -->
+    <div class="question">
+      <p class="question-title">
+        6.&nbsp;关于函数 <code>void swap(int &amp;x, int &amp;y)</code>
+        与 <code>void swap(int *x, int *y)</code>，下列说法
+        <strong>错误</strong> 的是（）
+      </p>
+      <label><input type="radio" name="q6" value="A"/>A.&nbsp;前者通过引用交换</label>
+      <label><input type="radio" name="q6" value="B"/>B.&nbsp;后者通过指针交换</label>
+      <label><input type="radio" name="q6" value="C"/>C.&nbsp;两者都可直接用 <code>swap(a,b)</code> 调用</label>
+      <label><input type="radio" name="q6" value="D"/>D.&nbsp;两者都必须返回 <code>int</code></label>
+    </div>
+
+    <!-- 题目 7 -->
+    <div class="question">
+      <p class="question-title">7.&nbsp;以下单链表结点结构体定义 <strong>最恰当</strong> 的是（）</p>
+      <label><input type="radio" name="q7" value="A"/>A.&nbsp;<code>struct Node{int data; Node *next;};</code></label>
+      <label><input type="radio" name="q7" value="B"/>B.&nbsp;<code>struct Node{int data; Node next;};</code></label>
+      <label><input type="radio" name="q7" value="C"/>C.&nbsp;<code>struct Node{int data; *Node next;};</code></label>
+      <label><input type="radio" name="q7" value="D"/>D.&nbsp;<code>struct Node{data int; Node *next;};</code></label>
+    </div>
+
+    <!-- 题目 8 -->
+    <div class="question">
+      <p class="question-title">
+        8.&nbsp;若要以<strong>二进制方式</strong>将结构体数组写入文件 <code>data.bin</code>，
+        文件打开模式应为（）
+      </p>
+      <label><input type="radio" name="q8" value="A"/>A.&nbsp;<code>ios::in</code></label>
+      <label><input type="radio" name="q8" value="B"/>B.&nbsp;<code>ios::out&nbsp;|&nbsp;ios::binary</code></label>
+      <label><input type="radio" name="q8" value="C"/>C.&nbsp;<code>ios::app</code></label>
+      <label><input type="radio" name="q8" value="D"/>D.&nbsp;<code>ios::ate&nbsp;|&nbsp;ios::in</code></label>
+    </div>
+
+    <!-- 题目 9 -->
+    <div class="question">
+      <p class="question-title">9.&nbsp;在类中将成员 <code>x</code> 设为仅对象自身和友元可访问，应使用访问控制符（）</p>
+      <label><input type="radio" name="q9" value="A"/>A.&nbsp;public</label>
+      <label><input type="radio" name="q9" value="B"/>B.&nbsp;private</label>
+      <label><input type="radio" name="q9" value="C"/>C.&nbsp;protected</label>
+      <label><input type="radio" name="q9" value="D"/>D.&nbsp;默认即可</label>
+    </div>
+
+    <!-- 题目 10 -->
+    <div class="question">
+      <p class="question-title">
+        10.&nbsp;代数式&nbsp;<code>4ab / (c + d)</code>&nbsp;下列 C
+        语言表达式 <strong>不等价</strong> 的是（）
+      </p>
+      <label><input type="radio" name="q10" value="A"/>A.&nbsp;<code>4*a*b/(c+d)</code></label>
+      <label><input type="radio" name="q10" value="B"/>B.&nbsp;<code>a*b*4/c+d</code></label>
+      <label><input type="radio" name="q10" value="C"/>C.&nbsp;<code>(4*a*b)/(c+d)</code></label>
+      <label><input type="radio" name="q10" value="D"/>D.&nbsp;<code>4.0*a*b/(c+d)</code></label>
+    </div>
+  </div>
+
+  <!-- 程序改错题 -->
+  <div class="card" id="debug">
+    <h2>三、程序改错题</h2>
+    <p>每题含 4 行错误，请写出修改后的完整代码行。</p>
+
+    <!-- 改错 1 -->
+    <div class="question">
+      <p class="question-title">1.&nbsp;最小素数 (≥&nbsp;m)</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+using namespace std;
+int main(){
+    int m,n,k;
+    cin &gt;&gt; m;
+    for(n=m;;n++){
+        bool isPrime=true;
+        for(k=2;k&lt;=sqrt(n);k++)      // ①
+            if(n%k==0){              // ②
+                isPrime=false;break;
+            }
+        if(isPrime) break;           // ③
+    }
+    cout &lt;&lt; n &lt;&lt; endl;
+    return 0;                        // ④
+}</code></pre>
+      <textarea name="fix1" placeholder="在此写出 4 行修改后的代码..."></textarea>
+    </div>
+
+    <!-- 改错 2 -->
+    <div class="question">
+      <p class="question-title">2.&nbsp;单链表长度</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt;
+using namespace std;
+struct Node{
+    int data;
+    Node *next;
+};
+int Length(Node *head){
+    int cnt=0;
+    for(Node *p=head;p!=NULL;p=p-&gt;next)
+        cnt++;                       // ①
+    return cnt;                      // ②
+}
+int main(){
+    Node *head=NULL;
+    cout &lt;&lt; Length(head) &lt;&lt; endl;   // ③
+    return 0;                        // ④
+}</code></pre>
+      <textarea name="fix2" placeholder="在此写出 4 行修改后的代码..."></textarea>
+    </div>
+  </div>
+
+  <!-- 程序填空题 -->
+  <div class="card" id="blanks">
+    <h2>二、程序填空题</h2>
+    <p>阅读代码，将 (1)~(4) 处补全。</p>
+
+    <!-- 填空 1 -->
+    <div class="question">
+      <p class="question-title">1.&nbsp;2&nbsp;~&nbsp;500 之间的素数统计</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+using namespace std;
+int main(){
+    int n,k,count=0;
+    for(n=2;n&lt;=500;++n){
+        bool prime=true;
+        for(k=2;k&lt;=sqrt(n);++k)
+            if(/*(1)*/) {prime=false;break;}
+        if(/*(2)*/){
+            cout &lt;&lt; n &lt;&lt; '\t';
+            if(++count % 10 == 0) cout &lt;&lt; endl;
+        }
+    }
+    cout &lt;&lt; "\nTotal = " &lt;&lt; /*(3)*/ &lt;&lt; endl;
+    return 0;
+}</code></pre>
+      <textarea name="blank1" placeholder="在此填写 (1)-(3) 代码，每行一个"></textarea>
+    </div>
+
+    <!-- 填空 2 -->
+    <div class="question">
+      <p class="question-title">2.&nbsp;文件写读与平均值</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+using namespace std;
+int main(){
+    int a[5]={12,27,8,33,20};
+    ofstream fout("nums.dat", ios::/*(1)*/);
+    fout.write((char*)a, sizeof(a));
+    fout.close();
+
+    int b[5]={0};
+    ifstream fin("nums.dat", ios::/*(2)*/);
+    fin.read((char*)b, sizeof(b));
+    fin./*(3)*/();
+
+    double sum=0;
+    for(int i=0;i&lt;5;++i) sum+=b[i];
+    cout &lt;&lt; "Average = " &lt;&lt; /*(4)*/ &lt;&lt; endl;
+    return 0;
+}</code></pre>
+      <textarea name="blank2" placeholder="在此填写 (1)-(4) 代码，每行一个"></textarea>
+    </div>
+  </div>
+
+  <!-- 编程题 -->
+  <div class="card" id="coding">
+    <h2>四、编程题</h2>
+
+    <!-- 编程 1 -->
+    <div class="question">
+      <p class="question-title">1.&nbsp;随机生成 20 个不重复座位号</p>
+      <p>随机生成范围 1&nbsp;~&nbsp;60 的 20 个不重复整数，按升序输出。</p>
+      <textarea name="code1" placeholder="在此粘贴/编写完整 C++ 程序..."></textarea>
+    </div>
+
+    <!-- 编程 2 -->
+    <div class="question">
+      <p class="question-title">2.&nbsp;学生成绩管理类</p>
+      <p>设计 <code>Student</code> 类，读入 5 名学生 3 门课成绩，输出平均分最高者学号与平均分。</p>
+      <textarea name="code2" placeholder="在此粘贴/编写完整 C++ 程序..."></textarea>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- 导出按钮 -->
+<div style="text-align:center;margin:2rem 0;">
+  <button onclick="downloadAnswers()">导出作答结果为 txt</button>
+</div>
+
+<script>
+function downloadAnswers(){
+  // 收集数据
+  const data=[];
+  // 单选
+  for(let i=1;i<=10;i++){
+    const sel=document.querySelector('input[name="q'+i+'"]:checked');
+    data.push('单选'+i+': '+(sel?sel.value:'未作答'));
+  }
+  // 填空
+  data.push('\n[程序填空题]');
+  data.push('题1:\n'+document.querySelector('[name="blank1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="blank2"]').value.trim());
+  // 改错
+  data.push('\n[改错题]');
+  data.push('题1:\n'+document.querySelector('[name="fix1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="fix2"]').value.trim());
+  // 编程
+  data.push('\n[编程题]');
+  data.push('题1:\n'+document.querySelector('[name="code1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="code2"]').value.trim());
+
+  const blob=new Blob([data.join('\n')],{type:'text/plain;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;
+  a.download='cpp_exam_answers.txt';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>

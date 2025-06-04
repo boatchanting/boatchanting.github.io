@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>C/C++ 练习试卷2 期末</title>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#2563eb;/*Win11 蓝*/
+      --accent-grad:linear-gradient(135deg,#2563eb 0%,#4f8df7 100%);
+      --bg:#f3f6fc;
+      --card-bg:#ffffffcc;
+      --radius:18px;
+      --shadow:0 4px 10px rgba(0,0,0,.08);
+    }
+
+    *{box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+    body{margin:0;background:var(--bg);color:#222;line-height:1.6;padding:1rem;}
+
+    header{
+      background:var(--accent-grad);
+      color:#fff;
+      padding:1.5rem 1rem;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      text-align:center;
+      margin-bottom:1.5rem;
+    }
+
+    h1{margin:0;font-size:1.5rem;font-weight:600;}
+
+    .card{
+      background:var(--card-bg);
+      backdrop-filter:blur(12px);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:1.25rem;
+      margin-bottom:1rem;
+    }
+
+    .question-title{font-weight:600;margin-bottom:0.5rem;}
+    label{display:block;margin:0.25rem 0;}
+
+    input[type="text"],textarea{
+      width:100%;
+      padding:0.5rem 0.75rem;
+      border:1px solid #d1d5db;
+      border-radius:10px;
+      font-family:inherit;
+      resize:vertical;
+    }
+
+    textarea{min-height:120px;}
+
+    button{
+      display:inline-flex;align-items:center;gap:0.5rem;
+      background:var(--accent-grad);
+      color:#fff;
+      border:none;
+      border-radius:50px;
+      padding:0.6rem 1.5rem;
+      font-size:1rem;
+      cursor:pointer;
+      box-shadow:0 2px 6px rgba(0,0,0,.15);
+      transition:all .2s ease;
+    }
+    button:hover{transform:translateY(-2px);box-shadow:0 4px 8px rgba(0,0,0,.2);} 
+    button:active{transform:translateY(0);}   
+
+    @media (min-width:600px){
+      .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem;}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>C/C++ 练习试卷2 期末</h1>
+  <p></p>
+</header>
+
+<section id="form" class="grid">
+
+  <!-- 单选题 -->
+  <div class="card" id="mcq">
+    <h2>一、单选题</h2>
+
+    <!-- 题目1-->
+    <div class="question">
+      <p class="question-title">1.&nbsp;下列选项中符合C++标识符命名规则的是：</p>
+      <label><input type="radio" name="q1" value="A"/>A.&nbsp;3th</label>
+      <label><input type="radio" name="q1" value="B"/>B.&nbsp;int</label>
+      <label><input type="radio" name="q1" value="C"/>C.&nbsp;_count</label>
+      <label><input type="radio" name="q1" value="D"/>D.&nbsp;max#</label>
+    </div>
+
+    <!-- 题目2-->
+    <div class="question">
+      <p class="question-title">2.&nbsp;若int a=5,b=2; 则表达式 a%b + 'A' 的值为：</p>
+      <label><input type="radio" name="q2" value="A"/>A.&nbsp;66</label>
+      <label><input type="radio" name="q2" value="B"/>B.&nbsp;67</label>
+      <label><input type="radio" name="q2" value="C"/>C.&nbsp;'B'</label>
+      <label><input type="radio" name="q2" value="D"/>D.&nbsp;'C'</label>
+    </div>
+
+    <!-- 题目3-->
+    <div class="question">
+      <p class="question-title">3.&nbsp;关于结构体定义正确的是：</p>
+      <label><input type="radio" name="q3" value="A"/>A.&nbsp;struct { int x; char c; }</label>
+      <label><input type="radio" name="q3" value="B"/>B.&nbsp;struct Student { int num; };</label>
+      <label><input type="radio" name="q3" value="C"/>C.&nbsp;struct { int x } stu;</label>
+      <label><input type="radio" name="q3" value="D"/>D.&nbsp;struct Student { int num; }</label>
+    </div>
+
+    <!-- 题目4-->
+    <div class="question">
+      <p class="question-title">4.&nbsp;下列二维数组初始化正确的是：</p>
+      <label><input type="radio" name="q4" value="A"/>A.&nbsp;int arr[2][3] = {{1,2},3}</label>
+      <label><input type="radio" name="q4" value="B"/>B.&nbsp;int arr[2][3] = {1,2,3,4}</label>
+      <label><input type="radio" name="q4" value="C"/>C.&nbsp;int arr[][3] = {1,2,3,4}</label>
+      <label><input type="radio" name="q4" value="D"/>D.&nbsp;int arr[2][] = {{1,2},{3}}</label>
+    </div>
+
+    <!-- 题目5-->
+    <div class="question">
+      <p class="question-title">5.&nbsp;若有定义int *p, a=5; 正确的指针操作是：</p>
+      <label><input type="radio" name="q5" value="A"/>A.&nbsp;p = &a;</label>
+      <label><input type="radio" name="q5" value="B"/>B.&nbsp;*p = a;</label>
+      <label><input type="radio" name="q5" value="C"/>C.&nbsp;p = a;</label>
+      <label><input type="radio" name="q5" value="D"/>D.&nbsp;&p = a;</label>
+    </div>
+
+    <!-- 题目6-->
+    <div class="question">
+      <p class="question-title">6.&nbsp;下列循环执行次数是：<br>for(int i=0,j=5; i<j; i++,j--) {}</p>
+      <label><input type="radio" name="q6" value="A"/>A.&nbsp;0次</label>
+      <label><input type="radio" name="q6" value="B"/>B.&nbsp;2次</label>
+      <label><input type="radio" name="q6" value="C"/>C.&nbsp;3次</label>
+      <label><input type="radio" name="q6" value="D"/>D.&nbsp;无限次</label>
+    </div>
+
+    <!-- 题目7-->
+    <div class="question">
+      <p class="question-title">7.&nbsp;若char str[] = "C++"; 则strlen(str)的值为：</p>
+      <label><input type="radio" name="q7" value="A"/>A.&nbsp;3</label>
+      <label><input type="radio" name="q7" value="B"/>B.&nbsp;4</label>
+      <label><input type="radio" name="q7" value="C"/>C.&nbsp;5</label>
+      <label><input type="radio" name="q7" value="D"/>D.&nbsp;6</label>
+    </div>
+
+    <!-- 题目8-->
+    <div class="question">
+      <p class="question-title">8.&nbsp;关于函数重载错误的说法是：</p>
+      <label><input type="radio" name="q8" value="A"/>A.&nbsp;参数类型不同</label>
+      <label><input type="radio" name="q8" value="B"/>B.&nbsp;参数个数不同</label>
+      <label><input type="radio" name="q8" value="C"/>C.&nbsp;返回值类型不同</label>
+      <label><input type="radio" name="q8" value="D"/>D.&nbsp;参数顺序不同</label>
+    </div>
+
+    <!-- 题目9-->
+    <div class="question">
+      <p class="question-title">9.&nbsp;下列文件打开方式正确的是：</p>
+      <label><input type="radio" name="q9" value="A"/>A.&nbsp;ifstream infile("data.txt");</label>
+      <label><input type="radio" name="q9" value="B"/>B.&nbsp;ofstream outfile.open("data.txt");</label>
+      <label><input type="radio" name="q9" value="C"/>C.&nbsp;fstream file("data.txt", ios::in);</label>
+      <label><input type="radio" name="q9" value="D"/>D.&nbsp;FILE *fp = fopen("data.txt", "r");</label>
+    </div>
+
+    <!-- 题目10-->
+    <div class="question">
+      <p class="question-title">10.&nbsp;若class A { int x; public: void set(int); }; 则类成员访问权限正确的是：</p>
+      <label><input type="radio" name="q10" value="A"/>A.&nbsp;x是公有成员</label>
+      <label><input type="radio" name="q10" value="B"/>B.&nbsp;set()是私有成员</label>
+      <label><input type="radio" name="q10" value="C"/>C.&nbsp;x是私有成员</label>
+      <label><input type="radio" name="q10" value="D"/>D.&nbsp;无法访问x</label>
+    </div>
+  </div>
+
+  <!-- 改错题 -->
+  <div class="card" id="debug">
+    <h2>三、程序改错题</h2>
+    <p>每题含 4 行错误，请写出修改后的完整代码行。</p>
+
+    <!-- 改错1 -->
+    <div class="question">
+      <p class="question-title">1.&nbsp;输出Fibonacci数列前20项</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int f1=1, f2=1;
+    cout &lt;&lt; f1 &lt;&lt; " " &lt;&lt; f2 &lt;&lt; " ";
+    for(int i=3; i&lt;=20; i++) {
+        int f3 = f1 - f2; // 错误1
+        cout &lt;&lt; f3 &lt;&lt; " ";
+        f1 = f2;
+        f2 = f3;
+    }
+    return 0;
+}</code></pre>
+      <textarea name="fix1" placeholder="在此写出 4 行修改后的代码..."></textarea>
+    </div>
+
+    <!-- 改错2 -->
+    <div class="question">
+      <p class="question-title">2.&nbsp;计算圆柱体体积（半径r，高h）</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt;
+#define PI 3.14
+using namespace std;
+int main() {
+    float r, h;
+    cin &gt;&gt; r &gt;&gt; h;
+    float volume = 2 * PI * r * h; // 错误2
+    cout &lt;&lt; "Volume: " &lt;&lt; volume &lt;&lt; endl;
+    return 0;
+}</code></pre>
+      <textarea name="fix2" placeholder="在此写出 4 行修改后的代码..."></textarea>
+    </div>
+  </div>
+
+  <!-- 填空题 -->
+  <div class="card" id="blanks">
+    <h2>二、程序填空题</h2>
+    <p>阅读代码，将 (1)~(4) 处补全。</p>
+
+    <!-- 填空1 -->
+    <div class="question">
+      <p class="question-title">1.&nbsp;冒泡排序实现</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt;
+using namespace std;
+int main() {
+    int arr[] = {5,3,7,1,9};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    for(int i=0; ___(1)___; i++) {
+        for(int j=0; ___(2)___; j++) {
+            if( ___(3)___ ) {
+                int temp = arr[j];
+                ___(4)___;
+                arr[j+1] = temp;
+            }
+        }
+    }
+    for(int i=0; i&lt;n; i++) cout &lt;&lt; arr[i] &lt;&lt; " ";
+    return 0;
+}</code></pre>
+      <textarea name="blank1" placeholder="在此填写 (1)-(4) 代码，每行一个"></textarea>
+    </div>
+
+    <!-- 填空2 -->
+    <div class="question">
+      <p class="question-title">2.&nbsp;统计单词个数</p>
+      <pre style="white-space:pre; background:#eef; padding:0.5rem; border-radius:10px;"><code>#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
+int main() {
+    char str[100];
+    cout &lt;&lt; "Enter a sentence: ";
+    cin.getline(str, 100);
+    int count = 0, i = 0;
+    while(str[i] != '\0') {
+        if( ___(1)___ ) {
+            while(___(2)___) i++;
+            ___(3)___;
+        }
+        ___(4)___;
+    }
+    cout &lt;&lt; "Total words: " &lt;&lt; count &lt;&lt; endl;
+    return 0;
+}</code></pre>
+      <textarea name="blank2" placeholder="在此填写 (1)-(4) 代码，每行一个"></textarea>
+    </div>
+  </div>
+
+  <!-- 编程题 -->
+  <div class="card" id="coding">
+    <h2>四、编程题</h2>
+
+    <div class="question">
+      <p class="question-title">1.&nbsp;统计正负数和零</p>
+      <p>输入10个整数存入数组，统计其中正数、负数和零的个数并输出结果</p>
+      <textarea name="code1" placeholder="在此粘贴/编写完整 C++ 程序..."></textarea>
+    </div>
+
+    <div class="question">
+      <p class="question-title">2.&nbsp;学生信息管理</p>
+      <p>定义学生结构体（学号、姓名、成绩），输入5个学生信息，查找最高分学生并输出信息，计算平均成绩</p>
+      <textarea name="code2" placeholder="在此粘贴/编写完整 C++ 程序..."></textarea>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- 导出按钮 -->
+<div style="text-align:center;margin:2rem 0;">
+  <button onclick="downloadAnswers()">导出作答结果为 txt</button>
+</div>
+
+<script>
+function downloadAnswers(){
+  // 收集数据
+  const data=[];
+  // 单选
+  for(let i=1;i<=10;i++){
+    const sel=document.querySelector('input[name="q'+i+'"]:checked');
+    data.push('单选'+i+': '+(sel?sel.value:'未作答'));
+  }
+  // 填空
+  data.push('\n[程序填空题]');
+  data.push('题1:\n'+document.querySelector('[name="blank1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="blank2"]').value.trim());
+  // 改错
+  data.push('\n[改错题]');
+  data.push('题1:\n'+document.querySelector('[name="fix1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="fix2"]').value.trim());
+  // 编程
+  data.push('\n[编程题]');
+  data.push('题1:\n'+document.querySelector('[name="code1"]').value.trim());
+  data.push('\n题2:\n'+document.querySelector('[name="code2"]').value.trim());
+
+  const blob=new Blob([data.join('\n')],{type:'text/plain;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;
+  a.download='cpp_exam_answers.txt';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
