@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | BoatChanting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Projects-specific styles */
+        .projects-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .projects-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .projects-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .projects-header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .project-categories {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .category-btn {
+            padding: 8px 16px;
+            border: 1px solid #0288d1;
+            background-color: white;
+            color: #0288d1;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .category-btn:hover, .category-btn.active {
+            background-color: #0288d1;
+            color: white;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .project-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-content {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            color: #0288d1;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .project-description {
+            color: #555;
+            margin-bottom: 15px;
+            flex: 1;
+            line-height: 1.6;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .tech-tag {
+            background-color: #e1f5fe;
+            color: #0288d1;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 10px;
+            margin-top: auto;
+        }
+
+        .project-link {
+            flex: 1;
+            padding: 8px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            text-align: center;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .project-link.primary {
+            background-color: #0288d1;
+            color: white;
+        }
+
+        .project-link.primary:hover {
+            background-color: #0277bd;
+        }
+
+        .project-link.secondary {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .project-link.secondary:hover {
+            background-color: #e0e0e0;
+        }
+
+        .featured-project {
+            grid-column: span 2;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .featured-project .project-image {
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .featured-project .project-content {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .featured-project .project-title {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .featured-badge {
+            background-color: #0288d1;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .project-stats {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .empty-state i {
+            font-size: 3rem;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .featured-project {
+                grid-column: span 1;
+                grid-template-columns: 1fr;
+            }
+
+            .featured-project .project-image {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="index.html" class="logo">BoatChanting</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="tasks.html">Tasks</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="projects-container">
+            <div class="projects-header">
+                <h1>My Projects</h1>
+                <p>A collection of my work and experiments</p>
+            </div>
+
+            <div class="project-categories">
+                <button class="category-btn active" data-category="all">All Projects</button>
+                <button class="category-btn" data-category="python">Python</button>
+                <button class="category-btn" data-category="web">Web</button>
+                <button class="category-btn" data-category="game">Games</button>
+                <button class="category-btn" data-category="ai">AI</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Whimbox Project -->
+                <div class="featured-project" data-category="ai">
+                    <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Whimbox AI Game Agent" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Whimbox AI Game Agent</h3>
+                        <p class="project-description">Whimbox, an AI game agent based on large language models and image recognition technology, delivering a brand new gaming experience! Developed with Python, supporting automated tasks, auto-navigation, and AI conversation features</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">LLM</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">Game Automation</span>
+                        </div>
+                        <div class="github-stats" data-repo="nikkigallery/Whimbox">
+                            <span class="stars"><i class="fas fa-star"></i> <span class="count">70+</span></span>
+                            <span class="forks"><i class="fas fa-code-branch"></i> <span class="count">5+</span></span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/nikkigallery/Whimbox" target="_blank" class="project-link primary">View on GitHub</a>
+                            <a href="#" class="project-link secondary">Documentation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="python">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Tongji Electcourse" class="project-image">
+                    <div class="project-content">
+                        <!-- <span class="featured-badge">Featured Project</span> -->
+                        <h2 class="project-title">Tongji Electcourse</h2>
+                        <p class="project-description">A Python script designed to help students monitor course availability and automatically register for classes when spots become available. This project has helped hundreds of students secure their desired courses during peak registration periods.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Selenium</span>
+                            <span class="tech-tag">Web Scraping</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/boatchanting/Tongji-Electcourse" target="_blank" class="project-link primary">View on GitHub</a>
+                            <a href="#" class="project-link secondary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="python">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Tongji Electcourse 2" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Tongji Electcourse 2</h3>
+                        <p class="project-description">An updated version of the original Electcourse script with a more user-friendly interface and additional features. Includes GUI implementation and improved error handling.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                            <span class="tech-tag">GUI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/boatchanting/Tongji-Electcourse2" target="_blank" class="project-link primary">View on GitHub</a>
+                            <a href="#" class="project-link secondary">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="GPA48" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">GPA48</h3>
+                        <p class="project-description">A fun game inspired by 2048, but with a twist - it uses GPA scores to calculate the game's progress. Built with HTML, CSS, and JavaScript for a smooth gaming experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://boatchanting.github.io//gpa2048//index.html" target="_blank" class="project-link primary">Play Game</a>
+                            <a href="#" class="project-link secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Course Selection Demo" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Course Selection Demo</h3>
+                        <p class="project-description">A demo interface for course selection systems, showcasing modern UI/UX design principles and interactive elements for an intuitive user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/boatchanting/CourseSelectionDemo" target="_blank" class="project-link primary">View on GitHub</a>
+                            <a href="#" class="project-link secondary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ai">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Longtang AI" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Longtang AI</h3>
+                        <p class="project-description">A conversational AI project designed for museum settings. Provides visitors with interactive information about exhibits and answers questions in a natural, engaging manner.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Chatbot</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/boatchanting/LongtangAI" target="_blank" class="project-link primary">View on GitHub</a>
+                            <a href="#" class="project-link secondary">Documentation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="game">
+                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Unity Game Project" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Unity Game Prototype</h3>
+                        <p class="project-description">A prototype game built with Unity, exploring 3D game development concepts and mechanics. Features include character movement, interactive objects, and basic game physics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D</span>
+                            <span class="tech-tag">Game Dev</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link primary">View Project</a>
+                            <a href="#" class="project-link secondary">Gameplay Video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="python">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Data Analysis Tool" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Data Analysis Tool</h3>
+                        <p class="project-description">A Python-based tool for analyzing and visualizing data sets. Includes features for data cleaning, statistical analysis, and generating interactive charts and graphs.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Data Science</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link primary">View on GitHub</a>
+                            <a href="#" class="project-link secondary">Examples</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Personal Website" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">A responsive portfolio website built to showcase projects and skills. Features modern design, smooth animations, and a clean, professional layout.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link primary">Live Site</a>
+                            <a href="#" class="project-link secondary">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 BoatChanting. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="tasks.html">Tasks</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Projects-specific JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // Category filtering
+            const categoryBtns = document.querySelectorAll('.category-btn');
+            const projectCards = document.querySelectorAll('.project-card, .featured-project');
+
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Update active button
+                    categoryBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+
+                    const category = this.getAttribute('data-category');
+
+                    // Filter projects
+                    projectCards.forEach(project => {
+                        if (category === 'all' || project.getAttribute('data-category') === category) {
+                            project.style.display = project.classList.contains('featured-project') ? 'grid' : 'flex';
+                        } else {
+                            project.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Add click tracking for project links
+            const projectLinks = document.querySelectorAll('.project-link');
+            projectLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    if (this.getAttribute('href') === '#') {
+                        e.preventDefault();
+                        showNotification('This feature is coming soon!', 'info');
+                    }
+                });
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</body>
+</html>
