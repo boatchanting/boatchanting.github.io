@@ -1,0 +1,1328 @@
+[
+    {
+        "name": "schmecken",
+        "trans": [
+            "Verb. 好吃"
+        ]
+    },
+    {
+        "name": "auf Deutsch",
+        "trans": [
+            "Adv. 用德语"
+        ]
+    },
+    {
+        "name": "der Apfel -ä",
+        "trans": [
+            "名词. 苹果"
+        ]
+    },
+    {
+        "name": "die Banane -n",
+        "trans": [
+            "名词. 香蕉"
+        ]
+    },
+    {
+        "name": "das Bier -e",
+        "trans": [
+            "名词. 啤酒"
+        ]
+    },
+    {
+        "name": "das Eis oPl",
+        "trans": [
+            "名词. 冰激凌（不可数）"
+        ]
+    },
+    {
+        "name": "der Fisch -e",
+        "trans": [
+            "名词. 鱼"
+        ]
+    },
+    {
+        "name": "der Hamburger -s",
+        "trans": [
+            "名词. 汉堡包"
+        ]
+    },
+    {
+        "name": "der Joghurt -s",
+        "trans": [
+            "名词. 酸奶"
+        ]
+    },
+    {
+        "name": "die Kiwi -s",
+        "trans": [
+            "名词. 猕猴桃"
+        ]
+    },
+    {
+        "name": "die Milch oPl",
+        "trans": [
+            "名词. 牛奶（不可数）"
+        ]
+    },
+    {
+        "name": "die Orange -n",
+        "trans": [
+            "名词. 橙子"
+        ]
+    },
+    {
+        "name": "die Pizza -s",
+        "trans": [
+            "名词. 披萨"
+        ]
+    },
+    {
+        "name": "der Reis oPl",
+        "trans": [
+            "名词. 米饭（不可数）"
+        ]
+    },
+    {
+        "name": "der Salat -e",
+        "trans": [
+            "名词. 沙拉"
+        ]
+    },
+    {
+        "name": "die Tomate -n",
+        "trans": [
+            "名词. 番茄"
+        ]
+    },
+    {
+        "name": "der Wein -e",
+        "trans": [
+            "名词. 葡萄酒"
+        ]
+    },
+    {
+        "name": "essen",
+        "trans": [
+            "Verb. 吃"
+        ]
+    },
+    {
+        "name": "trinken",
+        "trans": [
+            "Verb. 喝"
+        ]
+    },
+    {
+        "name": "gehen",
+        "trans": [
+            "Verb. 去"
+        ]
+    },
+    {
+        "name": "der Hörsaal -äle",
+        "trans": [
+            "名词. 报告厅"
+        ]
+    },
+    {
+        "name": "treffen",
+        "trans": [
+            "Verb. 见面"
+        ]
+    },
+    {
+        "name": "der Hunger oPl",
+        "trans": [
+            "名词. 饥饿（不可数）"
+        ]
+    },
+    {
+        "name": "frühstücken",
+        "trans": [
+            "Verb. 吃早餐"
+        ]
+    },
+    {
+        "name": "die Lust oPl",
+        "trans": [
+            "名词. 欲望，兴趣（不可数）"
+        ]
+    },
+    {
+        "name": "die Zeit -en",
+        "trans": [
+            "名词. 时间"
+        ]
+    },
+    {
+        "name": "das Geld oPl",
+        "trans": [
+            "名词. 钱（不可数）"
+        ]
+    },
+    {
+        "name": "welcher",
+        "trans": [
+            "Pron. 哪个（疑问代词）"
+        ]
+    },
+    {
+        "name": "heute",
+        "trans": [
+            "Adv. 今天"
+        ]
+    },
+    {
+        "name": "der Montag -e",
+        "trans": [
+            "名词. 星期一"
+        ]
+    },
+    {
+        "name": "der Donnerstag -e",
+        "trans": [
+            "名词. 星期四"
+        ]
+    },
+    {
+        "name": "der Freitag -e",
+        "trans": [
+            "名词. 星期五"
+        ]
+    },
+    {
+        "name": "das Essen oPl",
+        "trans": [
+            "名词. 食物（不可数）"
+        ]
+    },
+    {
+        "name": "das Restaurant -s",
+        "trans": [
+            "名词. 餐厅"
+        ]
+    },
+    {
+        "name": "teuer",
+        "trans": [
+            "Adj. 昂贵的"
+        ]
+    },
+    {
+        "name": "wohin",
+        "trans": [
+            "Adv. 去哪里"
+        ]
+    },
+    {
+        "name": "die Mensa -s",
+        "trans": [
+            "名词. 学生食堂"
+        ]
+    },
+    {
+        "name": "der Unterricht oPl",
+        "trans": [
+            "名词. 课程；教学"
+        ]
+    },
+    {
+        "name": "zu Ende sein",
+        "trans": [
+            "Verb (sein). 结束"
+        ]
+    },
+    {
+        "name": "hungrig",
+        "trans": [
+            "Adj. 饥饿的"
+        ]
+    },
+    {
+        "name": "erstaunen",
+        "trans": [
+            "Verb. 使惊讶"
+        ]
+    },
+    {
+        "name": "ungesund",
+        "trans": [
+            "Adj. 不健康的"
+        ]
+    },
+    {
+        "name": "hektisch",
+        "trans": [
+            "Adj. 忙乱的"
+        ]
+    },
+    {
+        "name": "das Frühstück",
+        "trans": [
+            "名词. 早餐"
+        ]
+    },
+    {
+        "name": "zusammen",
+        "trans": [
+            "Adv. 一起"
+        ]
+    },
+    {
+        "name": "der Termin -e",
+        "trans": [
+            "名词. （约定的）日期；约会"
+        ]
+    },
+    {
+        "name": "Na und",
+        "trans": [
+            "Partikel. 那又怎么样？"
+        ]
+    },
+    {
+        "name": "nicht mehr",
+        "trans": [
+            "Adv. 不再"
+        ]
+    },
+    {
+        "name": "möchten",
+        "trans": [
+            "Verb (Modalverb). 想，想要"
+        ]
+    },
+    {
+        "name": "verstehen",
+        "trans": [
+            "Verb. 理解；懂得"
+        ]
+    },
+    {
+        "name": "für",
+        "trans": [
+            "Präp. 为了；对于"
+        ]
+    },
+    {
+        "name": "wichtig",
+        "trans": [
+            "Adj. 重要的"
+        ]
+    },
+    {
+        "name": "ganz",
+        "trans": [
+            "Adj. 整个的；完全的"
+        ]
+    },
+    {
+        "name": "die Nähe oPl",
+        "trans": [
+            "名词. 附近；邻近"
+        ]
+    },
+    {
+        "name": "freitags",
+        "trans": [
+            "Adv. 星期五（时间状语）"
+        ]
+    },
+    {
+        "name": "mit/kommen",
+        "trans": [
+            "Verb (trennbar). 一起来"
+        ]
+    },
+    {
+        "name": "markiert",
+        "trans": [
+            "Adj. 已标记的"
+        ]
+    },
+    {
+        "name": "können",
+        "trans": [
+            "Verb (Modalverb). 能；可以"
+        ]
+    },
+    {
+        "name": "zu",
+        "trans": [
+            "Präp. 到；向"
+        ]
+    },
+    {
+        "name": "warm",
+        "trans": [
+            "Adj. 温热的"
+        ]
+    },
+    {
+        "name": "das Ei -er",
+        "trans": [
+            "名词. 鸡蛋"
+        ]
+    },
+    {
+        "name": "nach",
+        "trans": [
+            "Präp. 在……之后"
+        ]
+    },
+    {
+        "name": "das Abendessen -",
+        "trans": [
+            "名词. 晚餐"
+        ]
+    },
+    {
+        "name": "über",
+        "trans": [
+            "Präp. 关于；在……之上"
+        ]
+    },
+    {
+        "name": "das Problem -e",
+        "trans": [
+            "名词. 问题"
+        ]
+    },
+    {
+        "name": "mit",
+        "trans": [
+            "Präp. 和……一起"
+        ]
+    },
+    {
+        "name": "der Artikel -",
+        "trans": [
+            "名词. 文章；物品"
+        ]
+    },
+    {
+        "name": "helfen",
+        "trans": [
+            "Verb. 帮助"
+        ]
+    },
+    {
+        "name": "an",
+        "trans": [
+            "Präp. 在……上"
+        ]
+    },
+    {
+        "name": "die Architektur oPl",
+        "trans": [
+            "名词. 建筑学"
+        ]
+    },
+    {
+        "name": "die Freizeit oPl",
+        "trans": [
+            "名词. 业余时间"
+        ]
+    },
+    {
+        "name": "das Chinesische",
+        "trans": [
+            "名词. 汉语；中文"
+        ]
+    },
+    {
+        "name": "manchmal",
+        "trans": [
+            "Adv. 有时"
+        ]
+    },
+    {
+        "name": "das Gemüse oPl",
+        "trans": [
+            "名词. 蔬菜"
+        ]
+    },
+    {
+        "name": "der Kommilitone -n",
+        "trans": [
+            "名词. 同学"
+        ]
+    },
+    {
+        "name": "raten",
+        "trans": [
+            "Verb. 建议；猜测"
+        ]
+    },
+    {
+        "name": "bestimmt",
+        "trans": [
+            "Adv. 肯定地；一定的"
+        ]
+    },
+    {
+        "name": "vielleicht",
+        "trans": [
+            "Adv. 也许"
+        ]
+    },
+    {
+        "name": "die Speisekarte -n",
+        "trans": [
+            "名词. 菜单"
+        ]
+    },
+    {
+        "name": "auf",
+        "trans": [
+            "Präp. 在……上面；关于"
+        ]
+    },
+    {
+        "name": "es gibt",
+        "trans": [
+            "Verb. 有；存在"
+        ]
+    },
+    {
+        "name": "das Bild -er",
+        "trans": [
+            "名词. 图片；图像"
+        ]
+    },
+    {
+        "name": "die Nudel -n",
+        "trans": [
+            "名词. 面条"
+        ]
+    },
+    {
+        "name": "suchen",
+        "trans": [
+            "Verb. 寻找"
+        ]
+    },
+    {
+        "name": "etwas",
+        "trans": [
+            "Pron. 某物；一些东西"
+        ]
+    },
+    {
+        "name": "der Vegetarier -",
+        "trans": [
+            "名词. 素食者（男性）"
+        ]
+    },
+    {
+        "name": "die Vegetarierin -nen",
+        "trans": [
+            "名词. 素食者（女性）"
+        ]
+    },
+    {
+        "name": "vegetarisch",
+        "trans": [
+            "Adj. 素食的"
+        ]
+    },
+    {
+        "name": "das Obst oPl",
+        "trans": [
+            "名词. 水果"
+        ]
+    },
+    {
+        "name": "die Kartoffel -n",
+        "trans": [
+            "名词. 土豆"
+        ]
+    },
+    {
+        "name": "das Fleisch oPl",
+        "trans": [
+            "名词. 肉"
+        ]
+    },
+    {
+        "name": "der Sport oPl",
+        "trans": [
+            "名词. 运动"
+        ]
+    },
+    {
+        "name": "brauchen",
+        "trans": [
+            "Verb. 需要"
+        ]
+    },
+    {
+        "name": "denn",
+        "trans": [
+            "Konj. 因为；因为"
+        ]
+    },
+    {
+        "name": "lieben",
+        "trans": [
+            "Verb.爱"
+        ]
+    },
+    {
+        "name": "das Tier -e",
+        "trans": [
+            "名词. 动物"
+        ]
+    },
+    {
+        "name": "doch",
+        "trans": [
+            "Part./Konj. 但是；然而"
+        ]
+    },
+    {
+        "name": "noch",
+        "trans": [
+            "Adv. 还；仍然"
+        ]
+    },
+    {
+        "name": "mal",
+        "trans": [
+            "Part. 表示请求或建议"
+        ]
+    },
+    {
+        "name": "buchstabieren",
+        "trans": [
+            "Verb. 拼写"
+        ]
+    },
+    {
+        "name": "man",
+        "trans": [
+            "Pron. 人们；一个人"
+        ]
+    },
+    {
+        "name": "die Wurst -Würste",
+        "trans": [
+            "名词. 香肠"
+        ]
+    },
+    {
+        "name": "meistens",
+        "trans": [
+            "Adv. 大多数时候"
+        ]
+    },
+    {
+        "name": "bestellen",
+        "trans": [
+            "Verb. 点餐；订购"
+        ]
+    },
+    {
+        "name": "am Ende",
+        "trans": [
+            "Präp. 在……结束时"
+        ]
+    },
+    {
+        "name": "die Nudelsuppe -n",
+        "trans": [
+            "名词. 面条汤"
+        ]
+    },
+    {
+        "name": "das Rindfleisch oPl",
+        "trans": [
+            "名词. 牛肉"
+        ]
+    },
+    {
+        "name": "der Pilz -e",
+        "trans": [
+            "名词. 蘑菇"
+        ]
+    },
+    {
+        "name": "gebraten",
+        "trans": [
+            "Adj. 煎的；炸的"
+        ]
+    },
+    {
+        "name": "chinesisch",
+        "trans": [
+            "Adj. 中国的；中文的"
+        ]
+    },
+    {
+        "name": "der Hühnerschenkel -",
+        "trans": [
+            "名词. 鸡腿"
+        ]
+    },
+    {
+        "name": "die Cola -s",
+        "trans": [
+            "名词. 可乐"
+        ]
+    },
+    {
+        "name": "die Gurke -n",
+        "trans": [
+            "名词. 黄瓜"
+        ]
+    },
+    {
+        "name": "das Spiegelei -er",
+        "trans": [
+            "名词. 煎蛋"
+        ]
+    },
+    {
+        "name": "nehmen",
+        "trans": [
+            "Verb. 拿；取"
+        ]
+    },
+    {
+        "name": "lecker",
+        "trans": [
+            "Adj. 好吃的"
+        ]
+    },
+    {
+        "name": "okay",
+        "trans": [
+            "Part. 好的；可以"
+        ]
+    },
+    {
+        "name": "einmal",
+        "trans": [
+            "Adv. 一次；曾经"
+        ]
+    },
+    {
+        "name": "die Dose -n",
+        "trans": [
+            "名词. 罐头"
+        ]
+    },
+    {
+        "name": "zu",
+        "trans": [
+            "Präp. 向；到（某处）"
+        ]
+    },
+    {
+        "name": "genug",
+        "trans": [
+            "Adj. 足够的"
+        ]
+    },
+    {
+        "name": "übrigens",
+        "trans": [
+            "Adv. 顺便说一下"
+        ]
+    },
+    {
+        "name": "das Geflügel oPl",
+        "trans": [
+            "名词. 禽肉"
+        ]
+    },
+    {
+        "name": "probieren",
+        "trans": [
+            "Verb. 尝试；品尝"
+        ]
+    },
+    {
+        "name": "die Lebensmittel Pl",
+        "trans": [
+            "食物，食品"
+        ]
+    },
+    {
+        "name": "verschwenden",
+        "trans": [
+            "Verb. 浪费，挥霍"
+        ]
+    },
+    {
+        "name": "Recht haben",
+        "trans": [
+            "Verb. 是对的；有道理"
+        ]
+    },
+    {
+        "name": "groß",
+        "trans": [
+            "Adj. 大的"
+        ]
+    },
+    {
+        "name": "alles",
+        "trans": [
+            "Pron. 一切；所有东西"
+        ]
+    },
+    {
+        "name": "auf/essen",
+        "trans": [
+            "Verb. 吃光；吃完"
+        ]
+    },
+    {
+        "name": "die Blüte -n",
+        "trans": [
+            "名词. 花；开花"
+        ]
+    },
+    {
+        "name": "zahlen",
+        "trans": [
+            "Verb. 付款；支付"
+        ]
+    },
+    {
+        "name": "finden",
+        "trans": [
+            "Verb. 找到；发现"
+        ]
+    },
+    {
+        "name": "ein/laden",
+        "trans": [
+            "Verb. 邀请"
+        ]
+    },
+    {
+        "name": "getrennt",
+        "trans": [
+            "Adj. 分开的；分别的"
+        ]
+    },
+    {
+        "name": "wirklich",
+        "trans": [
+            "Adv. 真正地；确实"
+        ]
+    },
+    {
+        "name": "die Empfehlung -en",
+        "trans": [
+            "名词. 建议；推荐"
+        ]
+    },
+    {
+        "name": "bezahlen",
+        "trans": [
+            "Verb. 支付；付款"
+        ]
+    },
+    {
+        "name": "nötig",
+        "trans": [
+            "Adj. 必要的"
+        ]
+    },
+    {
+        "name": "besser",
+        "trans": [
+            "Adj./Adv. 更好的（好）"
+        ]
+    },
+    {
+        "name": "nächst-",
+        "trans": [
+            "Präf. 下一个（用于时间等）"
+        ]
+    },
+    {
+        "name": "das Mal -e",
+        "trans": [
+            "名词. 次数；时候"
+        ]
+    },
+    {
+        "name": "der Wunsch -e",
+        "trans": [
+            "名词. 愿望"
+        ]
+    },
+    {
+        "name": "der Sommer -e",
+        "trans": [
+            "名词. 夏天"
+        ]
+    },
+    {
+        "name": "nach",
+        "trans": [
+            "Präp. 在……之后；朝向"
+        ]
+    },
+    {
+        "name": "die Hausaufgabe -n",
+        "trans": [
+            "名词. 家庭作业"
+        ]
+    },
+    {
+        "name": "fertig",
+        "trans": [
+            "Adj. 完成的；准备好的"
+        ]
+    },
+    {
+        "name": "schreiben",
+        "trans": [
+            "Verb. 写"
+        ]
+    },
+    {
+        "name": "die Kultur -en",
+        "trans": [
+            "名词. 文化"
+        ]
+    },
+    {
+        "name": "kennen lernen",
+        "trans": [
+            "Verb. 认识；结识"
+        ]
+    },
+    {
+        "name": "die Nachricht",
+        "trans": [
+            "名词. 消息；新闻"
+        ]
+    },
+    {
+        "name": "bekommen",
+        "trans": [
+            "Verb. 得到；收到"
+        ]
+    },
+    {
+        "name": "die Antwort -en",
+        "trans": [
+            "名词. 回答"
+        ]
+    },
+    {
+        "name": "der Samstag -e",
+        "trans": [
+            "名词. 星期六"
+        ]
+    },
+    {
+        "name": "besuchen",
+        "trans": [
+            "Verb. 参观；拜访"
+        ]
+    },
+    {
+        "name": "Bescheid sagen",
+        "trans": [
+            "Verb. 告知；回复"
+        ]
+    },
+    {
+        "name": "leider",
+        "trans": [
+            "Adv. 遗憾地"
+        ]
+    },
+    {
+        "name": "die Idee -n",
+        "trans": [
+            "名词. 想法；主意"
+        ]
+    },
+    {
+        "name": "erst",
+        "trans": [
+            "Adv. 才；刚刚"
+        ]
+    },
+    {
+        "name": "die Uhr -en",
+        "trans": [
+            "名词. 钟；手表"
+        ]
+    },
+    {
+        "name": "die Einladung -en",
+        "trans": [
+            "名词. 邀请"
+        ]
+    },
+    {
+        "name": "leid/tun",
+        "trans": [
+            "Verb. 道歉；感到遗憾"
+        ]
+    },
+    {
+        "name": "krank",
+        "trans": [
+            "Adj. 生病的"
+        ]
+    },
+    {
+        "name": "der Freund -e",
+        "trans": [
+            "名词. 朋友（男性）"
+        ]
+    },
+    {
+        "name": "nach Hause",
+        "trans": [
+            "Adv. 回家"
+        ]
+    },
+    {
+        "name": "der Vormittag -e",
+        "trans": [
+            "名词. 上午"
+        ]
+    },
+    {
+        "name": "Liebings-",
+        "trans": [
+            "Präf. 最喜欢的"
+        ]
+    },
+    {
+        "name": "die Sprache -n",
+        "trans": [
+            "名词. 语言"
+        ]
+    },
+    {
+        "name": "klug",
+        "trans": [
+            "Adj. 聪明的"
+        ]
+    },
+    {
+        "name": "fleißig",
+        "trans": [
+            "Adj. 勤奋的"
+        ]
+    },
+    {
+        "name": "bleiben",
+        "trans": [
+            "Verb. 留下；停留"
+        ]
+    },
+    {
+        "name": "programmieren",
+        "trans": [
+            "Verb. 编程"
+        ]
+    },
+    {
+        "name": "der Kurs -e",
+        "trans": [
+            "名词. 课程"
+        ]
+    },
+    {
+        "name": "enden",
+        "trans": [
+            "Verb. 结束"
+        ]
+    },
+    {
+        "name": "um",
+        "trans": [
+            "Präp. 在（时间）；为了"
+        ]
+    },
+    {
+        "name": "glauben",
+        "trans": [
+            "Verb. 相信；认为"
+        ]
+    },
+    {
+        "name": "unterwegs",
+        "trans": [
+            "Adj. 在途中"
+        ]
+    },
+    {
+        "name": "lieber",
+        "trans": [
+            "Adj./Adv. 更喜欢的（地）"
+        ]
+    },
+    {
+        "name": "in Ordnung",
+        "trans": [
+            "Part. 好的；没问题"
+        ]
+    },
+    {
+        "name": "grün",
+        "trans": [
+            "Adj. 绿色的"
+        ]
+    },
+    {
+        "name": "schwärzen",
+        "trans": [
+            "Verb. [可能为拼写错误，应为 \"schwärzen\" 或上下文不符，暂按“变黑”理解] 变黑"
+        ]
+    },
+    {
+        "name": "der Durst oPl",
+        "trans": [
+            "名词. 口渴"
+        ]
+    },
+    {
+        "name": "langsam",
+        "trans": [
+            "Adj./Adv. 慢的（地）"
+        ]
+    },
+    {
+        "name": "kochen",
+        "trans": [
+            "Verb. 烹饪；煮"
+        ]
+    },
+    {
+        "name": "selbst",
+        "trans": [
+            "Pron./Adv. 自己；甚至"
+        ]
+    },
+    {
+        "name": "einfach",
+        "trans": [
+            "Adj./Adv. 简单的（地）；干脆"
+        ]
+    },
+    {
+        "name": "über",
+        "trans": [
+            "Präp. 关于；在……之上"
+        ]
+    },
+    {
+        "name": "die App -e",
+        "trans": [
+            "名词. 应用程序"
+        ]
+    },
+    {
+        "name": "der Lieferdienst -e",
+        "trans": [
+            "名词. 外送服务"
+        ]
+    },
+    {
+        "name": "gefragt",
+        "trans": [
+            "Adj. 被问的；受关注的"
+        ]
+    },
+    {
+        "name": "eigentlich",
+        "trans": [
+            "Adv. 实际上；本来"
+        ]
+    },
+    {
+        "name": "egal",
+        "trans": [
+            "Adj. 无所谓的；没关系"
+        ]
+    },
+    {
+        "name": "das Angebot -e",
+        "trans": [
+            "名词. 提供；优惠"
+        ]
+    },
+    {
+        "name": "das Internet oPl",
+        "trans": [
+            "名词. 互联网"
+        ]
+    },
+    {
+        "name": "vielfältig",
+        "trans": [
+            "Adj. 多样的"
+        ]
+    },
+    {
+        "name": "das Sushi -s",
+        "trans": [
+            "名词. 寿司"
+        ]
+    },
+    {
+        "name": "ruhig",
+        "trans": [
+            "Adj. 安静的；冷静的"
+        ]
+    },
+    {
+        "name": "schauen",
+        "trans": [
+            "Verb. 看；观看"
+        ]
+    },
+    {
+        "name": "der Käse oPl",
+        "trans": [
+            "名词. 奶酪"
+        ]
+    },
+    {
+        "name": "der Teller -",
+        "trans": [
+            "名词. 盘子"
+        ]
+    },
+    {
+        "name": "die Spaghetti Pl",
+        "trans": [
+            "名词. 意大利面（复数）"
+        ]
+    },
+    {
+        "name": "das Stück -",
+        "trans": [
+            "名词. 一块；一段"
+        ]
+    },
+    {
+        "name": "der Hühnerflügel -",
+        "trans": [
+            "名词. 鸡翅"
+        ]
+    },
+    {
+        "name": "das Getränk -e",
+        "trans": [
+            "名词. 饮料"
+        ]
+    },
+    {
+        "name": "der Kühlschrank -äe",
+        "trans": [
+            "名词. 冰箱"
+        ]
+    },
+    {
+        "name": "die Zwiebel -n",
+        "trans": [
+            "名词. [修正拼写] 洋葱"
+        ]
+    },
+    {
+        "name": "einverstanden",
+        "trans": [
+            "Adj. 同意的"
+        ]
+    },
+    {
+        "name": "leer",
+        "trans": [
+            "Adj. 空的"
+        ]
+    },
+    {
+        "name": "großartig",
+        "trans": [
+            "Adj. 极好的"
+        ]
+    },
+    {
+        "name": "bringen",
+        "trans": [
+            "Verb. 带来；带来"
+        ]
+    },
+    {
+        "name": "kulturell",
+        "trans": [
+            "Adj. 文化的"
+        ]
+    },
+    {
+        "name": "bedingt",
+        "trans": [
+            "Adj. 有条件的；受限的"
+        ]
+    },
+    {
+        "name": "das Gericht -e",
+        "trans": [
+            "名词. 菜肴；法院"
+        ]
+    },
+    {
+        "name": "der Müll oPl",
+        "trans": [
+            "名词. 垃圾"
+        ]
+    },
+    {
+        "name": "die Tonne -n",
+        "trans": [
+            "名词. 桶"
+        ]
+    },
+    {
+        "name": "die Regierung -en",
+        "trans": [
+            "名词. 政府"
+        ]
+    },
+    {
+        "name": "stoppen",
+        "trans": [
+            "Verb. 停止"
+        ]
+    },
+    {
+        "name": "sparsam",
+        "trans": [
+            "Adj. 节俭的"
+        ]
+    },
+    {
+        "name": "gegen",
+        "trans": [
+            "Präp. 反对；朝着"
+        ]
+    },
+    {
+        "name": "tun",
+        "trans": [
+            "Verb. 做"
+        ]
+    },
+    {
+        "name": "anders",
+        "trans": [
+            "Adj./Adv. 不同的（地）"
+        ]
+    }
+]

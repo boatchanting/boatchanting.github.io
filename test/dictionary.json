@@ -1,0 +1,68 @@
+{
+  "dictionaries": [
+    {
+      "id": "D1",
+      "name": "新一代大学德语一",
+      "description": "",
+      "units": [
+        {
+          "id": "D1E1",
+          "name": "Willikommen!",
+          "file": "D1E1.json",
+          "wordCount": 118
+        },
+        {
+          "id": "D1E2",
+          "name": "Wie geht's?",
+          "file": "D1E2.json",
+          "wordCount": 145
+        },
+        {
+          "id": "D1E3",
+          "name": "Das schmeckt!",
+          "file": "D1E3.json",
+          "wordCount": 218
+        },
+        {
+          "id": "D1E4",
+          "name": "Sonst noch etwas?",
+          "file": "D1E4.json",
+          "wordCount": 200
+        },
+        {
+          "id": "D1E5",
+          "name": "Von früh bis spät",
+          "file": "D1E5.json",
+          "wordCount": 179
+        }
+      ],
+      "totalWords": 860
+    },
+    {
+      "id": "D2",
+      "name": "德语 A2 进阶词汇",
+      "description": "巩固日常交流能力，扩展场景词汇",
+      "units": [
+        {
+          "id": "D2E1",
+          "name": "交通出行",
+          "file": "D2E1.json",
+          "wordCount": 0
+        },
+        {
+          "id": "D2E2",
+          "name": "购物消费",
+          "file": "D2E2.json",
+          "wordCount": 0
+        },
+        {
+          "id": "D2E3",
+          "name": "健康与医疗",
+          "file": "D2E3.json",
+          "wordCount": 0
+        }
+      ],
+      "totalWords": 0
+    }
+  ]
+}

@@ -1,0 +1,1202 @@
+[
+    {
+        "name": "sonst",
+        "trans": [
+            "Adv. 否则；另外"
+        ]
+    },
+    {
+        "name": "ein/kaufen",
+        "trans": [
+            "Verb. 购买；买东西"
+        ]
+    },
+    {
+        "name": "der Markt äe",
+        "trans": [
+            "名词. 市场"
+        ]
+    },
+    {
+        "name": "der Buchladen ä",
+        "trans": [
+            "名词. 书店"
+        ]
+    },
+    {
+        "name": "die Bäckerei -en",
+        "trans": [
+            "名词. 面包店"
+        ]
+    },
+    {
+        "name": "das Fastfood oPl",
+        "trans": [
+            "名词. 快餐"
+        ]
+    },
+    {
+        "name": "das Kaufhaus äer",
+        "trans": [
+            "名词. 百货商店"
+        ]
+    },
+    {
+        "name": "der Supermarkt äe",
+        "trans": [
+            "名词.超市"
+        ]
+    },
+    {
+        "name": "das Redemittel -",
+        "trans": [
+            "名词. 表达方式；常用语"
+        ]
+    },
+    {
+        "name": "richtig",
+        "trans": [
+            "Adj./Adv. 正确的（地）"
+        ]
+    },
+    {
+        "name": "der Verkäufer -",
+        "trans": [
+            "名词. 售货员（男性）"
+        ]
+    },
+    {
+        "name": "die Verkäuferin -nen",
+        "trans": [
+            "名词.售货员（女性）"
+        ]
+    },
+    {
+        "name": "der Kunde -n",
+        "trans": [
+            "名词. 客户（男性）"
+        ]
+    },
+    {
+        "name": "die Kundin -nen",
+        "trans": [
+            "名词. 客户（女性）"
+        ]
+    },
+    {
+        "name": "das Kilo -",
+        "trans": [
+            "名词. 千克；公斤"
+        ]
+    },
+    {
+        "name": "das Kilogramm -",
+        "trans": [
+            "名词. 千克；公斤"
+        ]
+    },
+    {
+        "name": "das Gramm -",
+        "trans": [
+            "名词. 克"
+        ]
+    },
+    {
+        "name": "der Eisbergsalat oPl",
+        "trans": [
+            "名词. 球生菜"
+        ]
+    },
+    {
+        "name": "kosten",
+        "trans": [
+            "Verb. 花费；值……"
+        ]
+    },
+    {
+        "name": "gleichfalls",
+        "trans": [
+            "Adv. 同样地；也"
+        ]
+    },
+    {
+        "name": "kaufen",
+        "trans": [
+            "Verb. 买"
+        ]
+    },
+    {
+        "name": "die Notiz -en",
+        "trans": [
+            "名词. 便条；笔记"
+        ]
+    },
+    {
+        "name": "das Wochenende -n",
+        "trans": [
+            "名词. 周末"
+        ]
+    },
+    {
+        "name": "an/rufen",
+        "trans": [
+            "Verb. 打电话"
+        ]
+    },
+    {
+        "name": "gerade",
+        "trans": [
+            "Adv. 刚刚；正在"
+        ]
+    },
+    {
+        "name": "hin/gehen",
+        "trans": [
+            "Verb. 去（某处）"
+        ]
+    },
+    {
+        "name": "wann",
+        "trans": [
+            "Adv. 什么时候"
+        ]
+    },
+    {
+        "name": "der Einkauf äe",
+        "trans": [
+            "名词. 购物"
+        ]
+    },
+    {
+        "name": "der Bäcker -",
+        "trans": [
+            "名词. 面包师；面包店老板"
+        ]
+    },
+    {
+        "name": "das Pfund -",
+        "trans": [
+            "名词. 磅"
+        ]
+    },
+    {
+        "name": "halb",
+        "trans": [
+            "Num. 一半"
+        ]
+    },
+    {
+        "name": "anderthalb",
+        "trans": [
+            "Num. 一点五"
+        ]
+    },
+    {
+        "name": "müssen",
+        "trans": [
+            "Verb. 必须；不得不"
+        ]
+    },
+    {
+        "name": "der Arzt Äe",
+        "trans": [
+            "名词. 医生"
+        ]
+    },
+    {
+        "name": "die Arbeit -en",
+        "trans": [
+            "名词. 工作；劳动"
+        ]
+    },
+    {
+        "name": "sollen",
+        "trans": [
+            "Verb. 应该；将要"
+        ]
+    },
+    {
+        "name": "gucken",
+        "trans": [
+            "Verb. 看；瞧"
+        ]
+    },
+    {
+        "name": "stehen",
+        "trans": [
+            "Verb. 站立；位于"
+        ]
+    },
+    {
+        "name": "benutzen",
+        "trans": [
+            "Verb. 使用"
+        ]
+    },
+    {
+        "name": "die Maßeinheit -en",
+        "trans": [
+            "名词. 计量单位"
+        ]
+    },
+    {
+        "name": "sondern",
+        "trans": [
+            "Konj. 而是（用于否定句后）"
+        ]
+    },
+    {
+        "name": "die Medizin -en",
+        "trans": [
+            "名词. 药物；医学"
+        ]
+    },
+    {
+        "name": "treiben",
+        "trans": [
+            "Verb. 进行（运动）；推动"
+        ]
+    },
+    {
+        "name": "das Bett -en",
+        "trans": [
+            "名词. 床"
+        ]
+    },
+    {
+        "name": "spät",
+        "trans": [
+            "Adj./Adv. 晚的（地）"
+        ]
+    },
+    {
+        "name": "nachts",
+        "trans": [
+            "Adv. 在夜里"
+        ]
+    },
+    {
+        "name": "der Fleischer -",
+        "trans": [
+            "名词. 屠夫；肉铺老板"
+        ]
+    },
+    {
+        "name": "der Stand äe",
+        "trans": [
+            "名词. 摊位"
+        ]
+    },
+    {
+        "name": "der Imbiss -e",
+        "trans": [
+            "名词. 小吃摊；快餐"
+        ]
+    },
+    {
+        "name": "nichts",
+        "trans": [
+            "Pron. 什么也没有"
+        ]
+    },
+    {
+        "name": "der Moment -e",
+        "trans": [
+            "名词. 时刻"
+        ]
+    },
+    {
+        "name": "das Plastik oPl",
+        "trans": [
+            "名词.塑料"
+        ]
+    },
+    {
+        "name": "die Tüte -n",
+        "trans": [
+            "名词. 袋子"
+        ]
+    },
+    {
+        "name": "ungefähr",
+        "trans": [
+            "Adv. 大约；差不多"
+        ]
+    },
+    {
+        "name": "der Euro -s",
+        "trans": [
+            "名词. 欧元"
+        ]
+    },
+    {
+        "name": "der Cent -",
+        "trans": [
+            "名词. 分（货币单位）"
+        ]
+    },
+    {
+        "name": "rot",
+        "trans": [
+            "Adj. 红色的"
+        ]
+    },
+    {
+        "name": "die Provinz -en",
+        "trans": [
+            "名词.省；地区"
+        ]
+    },
+    {
+        "name": "frisch",
+        "trans": [
+            "Adj. 新鲜的"
+        ]
+    },
+    {
+        "name": "das Vitamin -e",
+        "trans": [
+            "名词. 维生素"
+        ]
+    },
+    {
+        "name": "die Gesundheit oPl",
+        "trans": [
+            "名词. 健康"
+        ]
+    },
+    {
+        "name": "selber",
+        "trans": [
+            "Pron./Adv. 自己；亲自"
+        ]
+    },
+    {
+        "name": "aus/suchen",
+        "trans": [
+            "Verb. 挑选；选择"
+        ]
+    },
+    {
+        "name": "dürfen",
+        "trans": [
+            "Verb.  可以；被允许"
+        ]
+    },
+    {
+        "name": "bisschen",
+        "trans": [
+            "Pron. 少量，少许"
+        ]
+    },
+    {
+        "name": "ein bisschen",
+        "trans": [
+            "一点儿，少许"
+        ]
+    },
+    {
+        "name": "kostenlos",
+        "trans": [
+            "Adj. 免费的"
+        ]
+    },
+    {
+        "name": "gehören",
+        "trans": [
+            "Verb. 属于"
+        ]
+    },
+    {
+        "name": "der Service oPl",
+        "trans": [
+            "名词. 服务"
+        ]
+    },
+    {
+        "name": "plastikfrei",
+        "trans": [
+            "Adj. 无塑料的"
+        ]
+    },
+    {
+        "name": "die Umwelt oPl",
+        "trans": [
+            "名词. 环境"
+        ]
+    },
+    {
+        "name": "gefährlich",
+        "trans": [
+            "Adj. 危险的"
+        ]
+    },
+    {
+        "name": "schädlich",
+        "trans": [
+            "Adj. 有害的"
+        ]
+    },
+    {
+        "name": "verwenden",
+        "trans": [
+            "Verb. 使用；采用"
+        ]
+    },
+    {
+        "name": "der Preis -e",
+        "trans": [
+            "名词. 价格"
+        ]
+    },
+    {
+        "name": "fast",
+        "trans": [
+            "Adv. 几乎"
+        ]
+    },
+    {
+        "name": "die Kasse -n",
+        "trans": [
+            "名词. 收银台"
+        ]
+    },
+    {
+        "name": "vorn",
+        "trans": [
+            "Adv. 在前面"
+        ]
+    },
+    {
+        "name": "hinten",
+        "trans": [
+            "Adv. 在后面"
+        ]
+    },
+    {
+        "name": "rechts",
+        "trans": [
+            "Adv. 在右边"
+        ]
+    },
+    {
+        "name": "die Fleischtheke -n",
+        "trans": [
+            "名词.肉类柜台"
+        ]
+    },
+    {
+        "name": "die Abteilung -en",
+        "trans": [
+            "名词. 部门；区域"
+        ]
+    },
+    {
+        "name": "das Milchprodukt -e",
+        "trans": [
+            "名词. 乳制品"
+        ]
+    },
+    {
+        "name": "das Kühlregal -e",
+        "trans": [
+            "名词.  冷藏柜"
+        ]
+    },
+    {
+        "name": "die Tiefkühltruhe -n",
+        "trans": [
+            "名词. 冰柜"
+        ]
+    },
+    {
+        "name": "der Park -s",
+        "trans": [
+            "名词. 公园"
+        ]
+    },
+    {
+        "name": "das Picknick -e",
+        "trans": [
+            "名词. 野餐"
+        ]
+    },
+    {
+        "name": "die Information -en",
+        "trans": [
+            "名词. 信息"
+        ]
+    },
+    {
+        "name": "die Leute Pl",
+        "trans": [
+            "名词. 人们"
+        ]
+    },
+    {
+        "name": "klar",
+        "trans": [
+            "Adj./Adv. 清楚的；当然"
+        ]
+    },
+    {
+        "name": "die Schlange -n",
+        "trans": [
+            "名词. 蛇"
+        ]
+    },
+    {
+        "name": "Schlange stehen",
+        "trans": [
+            "Verb. 排队"
+        ]
+    },
+    {
+        "name": "der Beutel -",
+        "trans": [
+            "名词. 袋子"
+        ]
+    },
+    {
+        "name": "der Toast -e",
+        "trans": [
+            "名词. 吐司"
+        ]
+    },
+    {
+        "name": "das Brot -e",
+        "trans": [
+            "名词. 面包"
+        ]
+    },
+    {
+        "name": "das Brötchen -",
+        "trans": [
+            "名词. 小面包"
+        ]
+    },
+    {
+        "name": "das Glas äer",
+        "trans": [
+            "名词. 玻璃杯"
+        ]
+    },
+    {
+        "name": "die Marmelade -n",
+        "trans": [
+            "名词. 果酱"
+        ]
+    },
+    {
+        "name": "die Butter oPl",
+        "trans": [
+            "名词. 黄油"
+        ]
+    },
+    {
+        "name": "die Packung -en",
+        "trans": [
+            "名词. 包装；盒"
+        ]
+    },
+    {
+        "name": "backen",
+        "trans": [
+            "Verb. 烘焙；烤"
+        ]
+    },
+    {
+        "name": "die Torte -n",
+        "trans": [
+            "名词. 蛋糕（多层）"
+        ]
+    },
+    {
+        "name": "das Bund -e",
+        "trans": [
+            "名词. 一捆，束，串（如一把葱）"
+        ]
+    },
+    {
+        "name": "das Netz -e",
+        "trans": [
+            "名词. 网袋；网兜"
+        ]
+    },
+    {
+        "name": "die Schale -n",
+        "trans": [
+            "名词. 碗；水果盘"
+        ]
+    },
+    {
+        "name": "die Erdbeere -n",
+        "trans": [
+            "名词. 草莓"
+        ]
+    },
+    {
+        "name": "der Saft äe",
+        "trans": [
+            "名词. 果汁"
+        ]
+    },
+    {
+        "name": "die Flasche -n",
+        "trans": [
+            "名词. 瓶子"
+        ]
+    },
+    {
+        "name": "das Wasser oPl",
+        "trans": [
+            "名词. 水"
+        ]
+    },
+    {
+        "name": "die Papierserviette -n",
+        "trans": [
+            "名词. 纸巾"
+        ]
+    },
+    {
+        "name": "der Pappteller -",
+        "trans": [
+            "名词. 纸盘"
+        ]
+    },
+    {
+        "name": "Einweg-",
+        "trans": [
+            "Präf. 一次性（的）"
+        ]
+    },
+    {
+        "name": "das Essstäbchen -",
+        "trans": [
+            "名词. 筷子"
+        ]
+    },
+    {
+        "name": "der Chip -s",
+        "trans": [
+            "名词. 薯片"
+        ]
+    },
+    {
+        "name": "die Tafel -n",
+        "trans": [
+            "名词. 一块（巧克力）"
+        ]
+    },
+    {
+        "name": "die Schokolade -n",
+        "trans": [
+            "名词. 巧克力"
+        ]
+    },
+    {
+        "name": "die Nuss üe",
+        "trans": [
+            "名词. 坚果"
+        ]
+    },
+    {
+        "name": "das Kern -e",
+        "trans": [
+            "名词.核；核心；实质"
+        ]
+    },
+    {
+        "name": "der Sonnenblumenkern -e",
+        "trans": [
+            "名词. 葵花籽"
+        ]
+    },
+    {
+        "name": "vergessen",
+        "trans": [
+            "Verb. 忘记"
+        ]
+    },
+    {
+        "name": "fehlen",
+        "trans": [
+            "Verb. 缺少；不在"
+        ]
+    },
+    {
+        "name": "bei",
+        "trans": [
+            "Präp. 在……旁边；在……期间"
+        ]
+    },
+    {
+        "name": "das Knabberzeug oPl",
+        "trans": [
+            "名词.零食；小食"
+        ]
+    },
+    {
+        "name": "holen",
+        "trans": [
+            "Verb. 拿取；接（人）"
+        ]
+    },
+    {
+        "name": "der Prospekt -e",
+        "trans": [
+            "名词. 产品目录；宣传册"
+        ]
+    },
+    {
+        "name": "das Fett -e",
+        "trans": [
+            "名词. 脂肪"
+        ]
+    },
+    {
+        "name": "fettarm",
+        "trans": [
+            "Adj. 低脂的"
+        ]
+    },
+    {
+        "name": "das Sonderangebot -e",
+        "trans": [
+            "名词. 特价商品；促销品"
+        ]
+    },
+    {
+        "name": "das Liter -",
+        "trans": [
+            "名词. 升（容量单位）"
+        ]
+    },
+    {
+        "name": "die Reihe -n",
+        "trans": [
+            "名词. 排；顺序"
+        ]
+    },
+    {
+        "name": "an die Reihe kommen",
+        "trans": [
+            "Verb. 轮到（某人）"
+        ]
+    },
+    {
+        "name": "der Kassenbon -s",
+        "trans": [
+            "名词. 收银小票，（商店）收款凭据"
+        ]
+    },
+    {
+        "name": "stimmen",
+        "trans": [
+            "Verb. 同意；正确"
+        ]
+    },
+    {
+        "name": "das Geschenk -e",
+        "trans": [
+            "名词. 礼物"
+        ]
+    },
+    {
+        "name": "die Hose -n",
+        "trans": [
+            "名词. 裤子"
+        ]
+    },
+    {
+        "name": "der Geburtstag -e",
+        "trans": [
+            "名词.生日"
+        ]
+    },
+    {
+        "name": "tragen",
+        "trans": [
+            "Verb. 穿；携带"
+        ]
+    },
+    {
+        "name": "modern",
+        "trans": [
+            "Adj. 时尚的；现代的"
+        ]
+    },
+    {
+        "name": "unmodern",
+        "trans": [
+            "Adj. 不时髦的；过时的"
+        ]
+    },
+    {
+        "name": "schick",
+        "trans": [
+            "Adj. 漂亮的；讲究的"
+        ]
+    },
+    {
+        "name": "der Vorschlag äe",
+        "trans": [
+            "名词. 建议"
+        ]
+    },
+    {
+        "name": "verkaufen",
+        "trans": [
+            "Verb. 出售；销售"
+        ]
+    },
+    {
+        "name": "ändern",
+        "trans": [
+            "Verb. 更改；修改"
+        ]
+    },
+    {
+        "name": "um/tauschen",
+        "trans": [
+            "Verb. 更换；调换"
+        ]
+    },
+    {
+        "name": "die Größe -n",
+        "trans": [
+            "名词. 尺寸；大小"
+        ]
+    },
+    {
+        "name": "klein",
+        "trans": [
+            "Adj. 小的"
+        ]
+    },
+    {
+        "name": "online",
+        "trans": [
+            "Adv. 在线地"
+        ]
+    },
+    {
+        "name": "cool",
+        "trans": [
+            "Adj. 酷的；棒的"
+        ]
+    },
+    {
+        "name": "dunkel",
+        "trans": [
+            "Adj. 深色的；暗的"
+        ]
+    },
+    {
+        "name": "die Farbe -n",
+        "trans": [
+            "名词. 颜色"
+        ]
+    },
+    {
+        "name": "die Form -en",
+        "trans": [
+            "名词. 形状；形式"
+        ]
+    },
+    {
+        "name": "die Baumwolle oPl",
+        "trans": [
+            "名词. 棉花"
+        ]
+    },
+    {
+        "name": "die Qualität -en",
+        "trans": [
+            "名词. 质量"
+        ]
+    },
+    {
+        "name": "günstig",
+        "trans": [
+            "Adj. 便宜的；划算的"
+        ]
+    },
+    {
+        "name": "gefallen",
+        "trans": [
+            "Verb. 喜欢；中意"
+        ]
+    },
+    {
+        "name": "passen",
+        "trans": [
+            "Verb. 合适；匹配"
+        ]
+    },
+    {
+        "name": "ander-",
+        "trans": [
+            "Präf. 其他（用于复合词）"
+        ]
+    },
+    {
+        "name": "natürlich",
+        "trans": [
+            "Adj./Adv. 自然的；当然"
+        ]
+    },
+    {
+        "name": "normalerweise",
+        "trans": [
+            "Adv. 通常地"
+        ]
+    },
+    {
+        "name": "die Ware -n",
+        "trans": [
+            "名词. 商品；货物"
+        ]
+    },
+    {
+        "name": "zurück/geben",
+        "trans": [
+            "Verb. 归还"
+        ]
+    },
+    {
+        "name": "ärgerlich",
+        "trans": [
+            "Adj. 令人恼火的；生气的"
+        ]
+    },
+    {
+        "name": "die Bedingung -en",
+        "trans": [
+            "名词. 条件"
+        ]
+    },
+    {
+        "name": "erklären",
+        "trans": [
+            "Verb. 解释；说明"
+        ]
+    },
+    {
+        "name": "spätestens",
+        "trans": [
+            "Adv. 最迟；至晚"
+        ]
+    },
+    {
+        "name": "der Erhalt oPl",
+        "trans": [
+            "名词. 收到；获得"
+        ]
+    },
+    {
+        "name": "zurück/senden",
+        "trans": [
+            "Verb. 退回；寄回"
+        ]
+    },
+    {
+        "name": "original",
+        "trans": [
+            "Adj. 原装的；原始的"
+        ]
+    },
+    {
+        "name": "der Zustand äe",
+        "trans": [
+            "名词. 状态；状况"
+        ]
+    },
+    {
+        "name": "das Etikett -e",
+        "trans": [
+            "名词. 标签"
+        ]
+    },
+    {
+        "name": "entfernen",
+        "trans": [
+            "Verb. 移除；去掉"
+        ]
+    },
+    {
+        "name": "waschen",
+        "trans": [
+            "Verb. 洗"
+        ]
+    },
+    {
+        "name": "warten",
+        "trans": [
+            "Verb. 等待"
+        ]
+    },
+    {
+        "name": "wollen",
+        "trans": [
+            "Verb. 想要"
+        ]
+    },
+    {
+        "name": "die Prüfung -en",
+        "trans": [
+            "名词. 考试"
+        ]
+    },
+    {
+        "name": "früh",
+        "trans": [
+            "Adj./Adv. 早的（地）"
+        ]
+    },
+    {
+        "name": "abends",
+        "trans": [
+            "Adv. 在晚上"
+        ]
+    },
+    {
+        "name": "fern/sehen",
+        "trans": [
+            "Verb. 看电视"
+        ]
+    },
+    {
+        "name": "verbieten",
+        "trans": [
+            "Verb. 禁止"
+        ]
+    },
+    {
+        "name": "die Mathematik oPl",
+        "trans": [
+            "名词. 数学"
+        ]
+    },
+    {
+        "name": "aus/geben",
+        "trans": [
+            "Verb. 花费；支出"
+        ]
+    },
+    {
+        "name": "der Monat -e",
+        "trans": [
+            "名词. 月份"
+        ]
+    },
+    {
+        "name": "die Ausgabe -n",
+        "trans": [
+            "名词. 版本；支出"
+        ]
+    },
+    {
+        "name": "das Kino -s",
+        "trans": [
+            "名词. 电影院"
+        ]
+    },
+    {
+        "name": "die Kleidung oPl",
+        "trans": [
+            "名词. 衣服（总称）"
+        ]
+    },
+    {
+        "name": "pro",
+        "trans": [
+            "Präp. 每（单位）"
+        ]
+    },
+    {
+        "name": "meinen",
+        "trans": [
+            "Verb. 认为；意思是"
+        ]
+    },
+    {
+        "name": "produzieren",
+        "trans": [
+            "Verb. 生产；制造"
+        ]
+    },
+    {
+        "name": "die Verpackung -en",
+        "trans": [
+            "名词. 包装"
+        ]
+    },
+    {
+        "name": "wunschlos",
+        "trans": [
+            "Adj. 无欲的；满足的"
+        ]
+    },
+    {
+        "name": "die Sucht üe",
+        "trans": [
+            "名词.瘾；嗜好"
+        ]
+    },
+    {
+        "name": "werden",
+        "trans": [
+            "Verb. 成为；变得"
+        ]
+    },
+    {
+        "name": "genial",
+        "trans": [
+            "Adj. 聪明的；绝妙的"
+        ]
+    },
+    {
+        "name": "perfekt",
+        "trans": [
+            "Adj. 完美的"
+        ]
+    },
+    {
+        "name": "verrückt",
+        "trans": [
+            "Adj. 疯狂的；着迷的"
+        ]
+    },
+    {
+        "name": "blöd",
+        "trans": [
+            "Adj. 愚蠢的；笨的"
+        ]
+    },
+    {
+        "name": "der Flohmarkt äe",
+        "trans": [
+            "名词. 跳蚤市场"
+        ]
+    },
+    {
+        "name": "neu",
+        "trans": [
+            "Adj. 新的"
+        ]
+    },
+    {
+        "name": "der Besitzer -",
+        "trans": [
+            "名词. 所有者；主人"
+        ]
+    },
+    {
+        "name": "die Gitarre -n",
+        "trans": [
+            "名词. 吉他"
+        ]
+    }
+]

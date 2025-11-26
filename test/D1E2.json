@@ -1,0 +1,872 @@
+[
+    {
+        "name": "schlecht",
+        "trans": [
+            "Adj. 差的；糟糕的"
+        ]
+    },
+    {
+        "name": "ihnen",
+        "trans": [
+            "Pron. 他们（第三格）；您（尊称，第三格）"
+        ]
+    },
+    {
+        "name": "dir",
+        "trans": [
+            "Pron. 你（第三格）"
+        ]
+    },
+    {
+        "name": "die Oma -s",
+        "trans": [
+            "名词. 奶奶"
+        ]
+    },
+    {
+        "name": "Naja",
+        "trans": [
+            "Interj. 嗯；还好吧"
+        ]
+    },
+    {
+        "name": "sehr",
+        "trans": [
+            "Adv. 非常"
+        ]
+    },
+    {
+        "name": "nicht",
+        "trans": [
+            "Part. 不"
+        ]
+    },
+    {
+        "name": "so",
+        "trans": [
+            "Adv. 如此；这样"
+        ]
+    },
+    {
+        "name": "der Anruf -e",
+        "trans": [
+            "名词. 电话"
+        ]
+    },
+    {
+        "name": "das Heft -e",
+        "trans": [
+            "名词. 笔记本"
+        ]
+    },
+    {
+        "name": "kein",
+        "trans": [
+            "Art./Pron. 没有（非阳性/中性）"
+        ]
+    },
+    {
+        "name": "die Sache -n",
+        "trans": [
+            "名词. 事情；东西"
+        ]
+    },
+    {
+        "name": "interessant",
+        "trans": [
+            "Adj. 有趣的"
+        ]
+    },
+    {
+        "name": "der Ball -Bälle",
+        "trans": [
+            "名词. 球"
+        ]
+    },
+    {
+        "name": "die Lampe -n",
+        "trans": [
+            "名词. 灯"
+        ]
+    },
+    {
+        "name": "die Kanne -n",
+        "trans": [
+            "名词. 壶"
+        ]
+    },
+    {
+        "name": "die Vase -n",
+        "trans": [
+            "名词. 花瓶"
+        ]
+    },
+    {
+        "name": "der Löffel -",
+        "trans": [
+            "名词. 勺子"
+        ]
+    },
+    {
+        "name": "die Gabel -n",
+        "trans": [
+            "名词. 叉子"
+        ]
+    },
+    {
+        "name": "neugierig",
+        "trans": [
+            "Adj. 好奇的"
+        ]
+    },
+    {
+        "name": "der Vater ä",
+        "trans": [
+            "名词. 父亲"
+        ]
+    },
+    {
+        "name": "der Ingenieur -e",
+        "trans": [
+            "名词. 工程师"
+        ]
+    },
+    {
+        "name": "die Mutter ü",
+        "trans": [
+            "名词. 母亲"
+        ]
+    },
+    {
+        "name": "die Ärztin -nen",
+        "trans": [
+            "名词. 女医生"
+        ]
+    },
+    {
+        "name": "der Opa -s",
+        "trans": [
+            "名词. 爷爷"
+        ]
+    },
+    {
+        "name": "gern",
+        "trans": [
+            "Adv. 愿意地；喜欢做某事"
+        ]
+    },
+    {
+        "name": "fahren",
+        "trans": [
+            "Verb. 开车；行驶"
+        ]
+    },
+    {
+        "name": "oft",
+        "trans": [
+            "Adv. 经常"
+        ]
+    },
+    {
+        "name": "das Rad äer",
+        "trans": [
+            "名词. 自行车"
+        ]
+    },
+    {
+        "name": "der Bruder ü",
+        "trans": [
+            "名词.  兄弟"
+        ]
+    },
+    {
+        "name": "Ach so",
+        "trans": [
+            "Interj. 原来如此"
+        ]
+    },
+    {
+        "name": "süß",
+        "trans": [
+            "Adj. 可爱的；甜的"
+        ]
+    },
+    {
+        "name": "alt",
+        "trans": [
+            "Adj. 年老的；旧的"
+        ]
+    },
+    {
+        "name": "erst",
+        "trans": [
+            "Adv. 才；刚刚"
+        ]
+    },
+    {
+        "name": "zehn",
+        "trans": [
+            "Num. 十"
+        ]
+    },
+    {
+        "name": "das Jahr -Jahre",
+        "trans": [
+            "名词. 年"
+        ]
+    },
+    {
+        "name": "aber",
+        "trans": [
+            "Konj. 但是"
+        ]
+    },
+    {
+        "name": "mögen",
+        "trans": [
+            "Verb. 喜欢"
+        ]
+    },
+    {
+        "name": "die Philosophie -n",
+        "trans": [
+            "名词. 哲学"
+        ]
+    },
+    {
+        "name": "sein",
+        "trans": [
+            "Art./Pron./Verb. 他的；是（动词）"
+        ]
+    },
+    {
+        "name": "der Beruf -e",
+        "trans": [
+            "名词. 职业"
+        ]
+    },
+    {
+        "name": "die Anwältin -nen",
+        "trans": [
+            "名词. 女律师"
+        ]
+    },
+    {
+        "name": "die Familie -n",
+        "trans": [
+            "名词. 家庭"
+        ]
+    },
+    {
+        "name": "glücklich",
+        "trans": [
+            "Adj. 幸福的；快乐的"
+        ]
+    },
+    {
+        "name": "haben",
+        "trans": [
+            "Verb. 有"
+        ]
+    },
+    {
+        "name": "aus/sprechen",
+        "trans": [
+            "Verb. 发音"
+        ]
+    },
+    {
+        "name": "der Vokal -e",
+        "trans": [
+            "名词. 元音"
+        ]
+    },
+    {
+        "name": "üben",
+        "trans": [
+            "Verb. 练习"
+        ]
+    },
+    {
+        "name": "die Aussprache oPl",
+        "trans": [
+            "名词.发音"
+        ]
+    },
+    {
+        "name": "weiter",
+        "trans": [
+            "Adv. 继续地"
+        ]
+    },
+    {
+        "name": "nie",
+        "trans": [
+            "Adv. 从不"
+        ]
+    },
+    {
+        "name": "der Vorname -n",
+        "trans": [
+            "名词. 名字"
+        ]
+    },
+    {
+        "name": "tanzen",
+        "trans": [
+            "Verb. 跳舞"
+        ]
+    },
+    {
+        "name": "ergänzen",
+        "trans": [
+            "Verb.补充"
+        ]
+    },
+    {
+        "name": "die Tasse -n",
+        "trans": [
+            "名词. 茶杯"
+        ]
+    },
+    {
+        "name": "warum",
+        "trans": [
+            "Adv. 为什么"
+        ]
+    },
+    {
+        "name": "sagen",
+        "trans": [
+            "Verb. 说"
+        ]
+    },
+    {
+        "name": "nennen",
+        "trans": [
+            "Verb. 称呼；命名"
+        ]
+    },
+    {
+        "name": "ein paar",
+        "trans": [
+            "Pron. 几个；一些"
+        ]
+    },
+    {
+        "name": "antworten",
+        "trans": [
+            "Verb. 回答"
+        ]
+    },
+    {
+        "name": "sprechen",
+        "trans": [
+            "Verb. 说话"
+        ]
+    },
+    {
+        "name": "schnell",
+        "trans": [
+            "Adj./Adv. 快的（地）"
+        ]
+    },
+    {
+        "name": "lesen",
+        "trans": [
+            "Verb. 阅读"
+        ]
+    },
+    {
+        "name": "das Buch üer",
+        "trans": [
+            "名词. 书"
+        ]
+    },
+    {
+        "name": "laufen",
+        "trans": [
+            "Verb. 跑；走"
+        ]
+    },
+    {
+        "name": "selten",
+        "trans": [
+            "Adv. 很少"
+        ]
+    },
+    {
+        "name": "der Kontakt -e",
+        "trans": [
+            "名词. 联系"
+        ]
+    },
+    {
+        "name": "das Datum ten",
+        "trans": [
+            "名词. 数据(Pl)；日期"
+        ]
+    },
+    {
+        "name": "die E-Mail -s",
+        "trans": [
+            "名词. 电子邮件"
+        ]
+    },
+    {
+        "name": "die Adresse -n",
+        "trans": [
+            "名词. 地址"
+        ]
+    },
+    {
+        "name": "das Telefon -e",
+        "trans": [
+            "名词. 电话"
+        ]
+    },
+    {
+        "name": "die Nummer -n",
+        "trans": [
+            "名词. 号码"
+        ]
+    },
+    {
+        "name": "das Handy -s",
+        "trans": [
+            "名词. 手机"
+        ]
+    },
+    {
+        "name": "die Entschuldigung -en",
+        "trans": [
+            "名词. 道歉；借口"
+        ]
+    },
+    {
+        "name": "das Telefon -e",
+        "trans": [
+            "名词. 电话"
+        ]
+    },
+    {
+        "name": "die Nummer -n",
+        "trans": [
+            "名词. 号码"
+        ]
+    },
+    {
+        "name": "das Handy -s",
+        "trans": [
+            "名词. 手机"
+        ]
+    },
+    {
+        "name": "die Entschuldigung -en",
+        "trans": [
+            "名词. 道歉；借口"
+        ]
+    },
+    {
+        "name": "null",
+        "trans": [
+            "Num. 零"
+        ]
+    },
+    {
+        "name": "immer",
+        "trans": [
+            "Adv. 总是"
+        ]
+    },
+    {
+        "name": "zu Hause",
+        "trans": [
+            "Adv. 在家"
+        ]
+    },
+    {
+        "name": "bis",
+        "trans": [
+            "Präp. 直到"
+        ]
+    },
+    {
+        "name": "morgen",
+        "trans": [
+            "Adv./Nomen. 明天"
+        ]
+    },
+    {
+        "name": "die Verzeihung -en",
+        "trans": [
+            "名词. 原谅"
+        ]
+    },
+    {
+        "name": "entschuldigen",
+        "trans": [
+            "Verb. 道歉"
+        ]
+    },
+    {
+        "name": "verzeihen",
+        "trans": [
+            "Verb. [修正拼写] 原谅"
+        ]
+    },
+    {
+        "name": "zählen",
+        "trans": [
+            "Verb. 数数；计算"
+        ]
+    },
+    {
+        "name": "zwei",
+        "trans": [
+            "Num. 二"
+        ]
+    },
+    {
+        "name": "drei",
+        "trans": [
+            "Num. 三"
+        ]
+    },
+    {
+        "name": "vier",
+        "trans": [
+            "Num. 四"
+        ]
+    },
+    {
+        "name": "sechs",
+        "trans": [
+            "Num. 六"
+        ]
+    },
+    {
+        "name": "sieben",
+        "trans": [
+            "Num. 七"
+        ]
+    },
+    {
+        "name": "acht",
+        "trans": [
+            "Num.八"
+        ]
+    },
+    {
+        "name": "neun",
+        "trans": [
+            "Num. 九"
+        ]
+    },
+    {
+        "name": "das Blog -s",
+        "trans": [
+            "名词. 博客"
+        ]
+    },
+    {
+        "name": "vor/stellen",
+        "trans": [
+            "Verb. 介绍；提出"
+        ]
+    },
+    {
+        "name": "das Studentenwohnheim -e",
+        "trans": [
+            "名词. 学生宿舍"
+        ]
+    },
+    {
+        "name": "schreiben",
+        "trans": [
+            "Verb. 写"
+        ]
+    },
+    {
+        "name": "ein paar",
+        "trans": [
+            "Pron. 几个；一些"
+        ]
+    },
+    {
+        "name": "der Fehler -",
+        "trans": [
+            "名词. 错误"
+        ]
+    },
+    {
+        "name": "das Köln",
+        "trans": [
+            "名词. 科隆"
+        ]
+    },
+    {
+        "name": "die Eltern Pl",
+        "trans": [
+            "名词. 父母"
+        ]
+    },
+    {
+        "name": "der Unternehmer -",
+        "trans": [
+            "名词. 企业家"
+        ]
+    },
+    {
+        "name": "die Sekretärin -nen",
+        "trans": [
+            "名词. 女秘书"
+        ]
+    },
+    {
+        "name": "joggen",
+        "trans": [
+            "Verb. 慢跑"
+        ]
+    },
+    {
+        "name": "elf",
+        "trans": [
+            "Num. 十一"
+        ]
+    },
+    {
+        "name": "spielen",
+        "trans": [
+            "Verb. 玩；演奏"
+        ]
+    },
+    {
+        "name": "der Fußball -Bälle",
+        "trans": [
+            "名词. 足球"
+        ]
+    },
+    {
+        "name": "das Klavier -e",
+        "trans": [
+            "名词. 钢琴"
+        ]
+    },
+    {
+        "name": "die Musik oPl",
+        "trans": [
+            "名词.音乐"
+        ]
+    },
+    {
+        "name": "die Information -en",
+        "trans": [
+            "名词. 信息"
+        ]
+    },
+    {
+        "name": "der Familienname -n",
+        "trans": [
+            "名词. 姓氏"
+        ]
+    },
+    {
+        "name": "Bremen",
+        "trans": [
+            "名词. 不来梅（城市）"
+        ]
+    },
+    {
+        "name": "Hamburg",
+        "trans": [
+            "名词. 汉堡（城市）"
+        ]
+    },
+    {
+        "name": "die Ingenieurin -nen",
+        "trans": [
+            "名词. 女工程师"
+        ]
+    },
+    {
+        "name": "wissen",
+        "trans": [
+            "Verb. 知道"
+        ]
+    },
+    {
+        "name": "mehr",
+        "trans": [
+            "Pron./Adv. 更多"
+        ]
+    },
+    {
+        "name": "von",
+        "trans": [
+            "Präp. 来自"
+        ]
+    },
+    {
+        "name": "Westdeutschland",
+        "trans": [
+            "名词. 西德"
+        ]
+    },
+    {
+        "name": "die Person -en",
+        "trans": [
+            "名词. 人"
+        ]
+    },
+    {
+        "name": "dann",
+        "trans": [
+            "Adv. 然后；之后"
+        ]
+    },
+    {
+        "name": "ihr",
+        "trans": [
+            "Poss.Pr. 她的；他们的"
+        ]
+    },
+    {
+        "name": "aus/sehen",
+        "trans": [
+            "Verb. 看起来；外观"
+        ]
+    },
+    {
+        "name": "zwölf",
+        "trans": [
+            "Num. 十二"
+        ]
+    },
+    {
+        "name": "alle",
+        "trans": [
+            "Pron. 所有；大家"
+        ]
+    },
+    {
+        "name": "fit",
+        "trans": [
+            "Adj. 健康的；状态好"
+        ]
+    },
+    {
+        "name": "super",
+        "trans": [
+            "Adj. 极好的"
+        ]
+    },
+    {
+        "name": "gesund",
+        "trans": [
+            "Adj. 健康的"
+        ]
+    },
+    {
+        "name": "los/gehen",
+        "trans": [
+            "Verb. 出发；开始"
+        ]
+    },
+    {
+        "name": "später",
+        "trans": [
+            "Adv. 稍后"
+        ]
+    },
+    {
+        "name": "bald",
+        "trans": [
+            "Adv. 很快"
+        ]
+    },
+    {
+        "name": "sofort",
+        "trans": [
+            "Adv. 立刻"
+        ]
+    },
+    {
+        "name": "gleich",
+        "trans": [
+            "Adv. 马上"
+        ]
+    },
+    {
+        "name": "das Wiederhören oPl",
+        "trans": [
+            "名词. 再次听到；（电话结束用语）期待再通话"
+        ]
+    },
+    {
+        "name": "beide",
+        "trans": [
+            "Pron. 两者都"
+        ]
+    },
+    {
+        "name": "als",
+        "trans": [
+            "Konj. 当……时候；比"
+        ]
+    },
+    {
+        "name": "unser",
+        "trans": [
+            "Poss.Pr. 我们的"
+        ]
+    },
+    {
+        "name": "euer",
+        "trans": [
+            "Poss.Pr. 你们的（非正式复数）"
+        ]
+    },
+    {
+        "name": "das Hobby -s",
+        "trans": [
+            "名词.爱好"
+        ]
+    },
+    {
+        "name": "wessen",
+        "trans": [
+            "Pron. 谁的"
+        ]
+    },
+    {
+        "name": "jeder",
+        "trans": [
+            "Pron. 每个人；每个"
+        ]
+    },
+    {
+        "name": "ziehen",
+        "trans": [
+            "Verb. 拉；搬家"
+        ]
+    },
+    {
+        "name": "die Karte -n",
+        "trans": [
+            "名词. 卡片；地图"
+        ]
+    },
+    {
+        "name": "die Rolle -n",
+        "trans": [
+            "名词. 角色；作用"
+        ]
+    },
+    {
+        "name": "das Alter -",
+        "trans": [
+            "名词. 年龄"
+        ]
+    }
+]

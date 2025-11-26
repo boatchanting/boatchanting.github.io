@@ -1,0 +1,710 @@
+[
+    {
+        "name": "die Einheit -en",
+        "trans": [
+            "名词. 单元；统一"
+        ]
+    },
+    {
+        "name": "eins",
+        "trans": [
+            "Num. 一"
+        ]
+    },
+    {
+        "name": "willkommen",
+        "trans": [
+            "Adj. 欢迎的"
+        ]
+    },
+    {
+        "name": "oh",
+        "trans": [
+            "Interj. 哦；啊"
+        ]
+    },
+    {
+        "name": "das",
+        "trans": [
+            "Pron./Art. 那个；这（中性）"
+        ]
+    },
+    {
+        "name": "sein",
+        "trans": [
+            "Verb. 是；有（动词）"
+        ]
+    },
+    {
+        "name": "Deutschland",
+        "trans": [
+            "名词. 德国"
+        ]
+    },
+    {
+        "name": "das Lied -er",
+        "trans": [
+            "名词. 歌曲"
+        ]
+    },
+    {
+        "name": "schön",
+        "trans": [
+            "Adj. 美好的"
+        ]
+    },
+    {
+        "name": "das Deutsch",
+        "trans": [
+            "名词. 德语"
+        ]
+    },
+    {
+        "name": "der Lehrer -",
+        "trans": [
+            "名词. 老师（男性）"
+        ]
+    },
+    {
+        "name": "singen",
+        "trans": [
+            "Verb. 唱歌"
+        ]
+    },
+    {
+        "name": "hier",
+        "trans": [
+            "Adv. 这里"
+        ]
+    },
+    {
+        "name": "gleich",
+        "trans": [
+            "Adv. 马上；同样"
+        ]
+    },
+    {
+        "name": "wie",
+        "trans": [
+            "Adv. 如何；像……一样"
+        ]
+    },
+    {
+        "name": "das Englisch",
+        "trans": [
+            "名词. 英语"
+        ]
+    },
+    {
+        "name": "wo",
+        "trans": [
+            "Adv. 在哪里"
+        ]
+    },
+    {
+        "name": "der Buchstabe -n",
+        "trans": [
+            "名词. 字母"
+        ]
+    },
+    {
+        "name": "der Rhythmus men",
+        "trans": [
+            "名词. 节奏"
+        ]
+    },
+    {
+        "name": "jetzt",
+        "trans": [
+            "Adv. 现在"
+        ]
+    },
+    {
+        "name": "hören",
+        "trans": [
+            "Verb. 听见；听"
+        ]
+    },
+    {
+        "name": "wir",
+        "trans": [
+            "Pron. 我们"
+        ]
+    },
+    {
+        "name": "was",
+        "trans": [
+            "Pron. 什么"
+        ]
+    },
+    {
+        "name": "buchstabieren",
+        "trans": [
+            "Verb. 拼写"
+        ]
+    },
+    {
+        "name": "der Name -n",
+        "trans": [
+            "名词. 名字"
+        ]
+    },
+    {
+        "name": "die Herkunft oPl",
+        "trans": [
+            "名词. 来源；出身"
+        ]
+    },
+    {
+        "name": "der Ort -e",
+        "trans": [
+            "名词. 地方"
+        ]
+    },
+    {
+        "name": "kommen",
+        "trans": [
+            "Verb. 来"
+        ]
+    },
+    {
+        "name": "gut",
+        "trans": [
+            "Adj. 好的"
+        ]
+    },
+    {
+        "name": "der Tag -e",
+        "trans": [
+            "名词. 天；日子"
+        ]
+    },
+    {
+        "name": "mein",
+        "trans": [
+            "Poss.Pr. 我的"
+        ]
+    },
+    {
+        "name": "heißen",
+        "trans": [
+            "Verb. 叫做；名为"
+        ]
+    },
+    {
+        "name": "Sie",
+        "trans": [
+            "Pron. 您（尊称）"
+        ]
+    },
+    {
+        "name": "der Herr -en",
+        "trans": [
+            "名词. 先生"
+        ]
+    },
+    {
+        "name": "ich",
+        "trans": [
+            "Pron. 我"
+        ]
+    },
+    {
+        "name": "woher",
+        "trans": [
+            "Adv. 从哪里"
+        ]
+    },
+    {
+        "name": "aus",
+        "trans": [
+            "Präp. 来自"
+        ]
+    },
+    {
+        "name": "und",
+        "trans": [
+            "Konj. 和"
+        ]
+    },
+    {
+        "name": "China",
+        "trans": [
+            "名词. 中国"
+        ]
+    },
+    {
+        "name": "wiederholen",
+        "trans": [
+            "Verb. 重复"
+        ]
+    },
+    {
+        "name": "das Wort öer",
+        "trans": [
+            "名词.单词"
+        ]
+    },
+    {
+        "name": "hallo",
+        "trans": [
+            "Interj. 你好"
+        ]
+    },
+    {
+        "name": "dein",
+        "trans": [
+            "Poss.Pr. 你的（非正式）"
+        ]
+    },
+    {
+        "name": "du",
+        "trans": [
+            "Pron. 你（非正式）"
+        ]
+    },
+    {
+        "name": "lernen",
+        "trans": [
+            "Verb. 学习"
+        ]
+    },
+    {
+        "name": "der Partner -",
+        "trans": [
+            "名词. 伙伴；伴侣"
+        ]
+    },
+    {
+        "name": "der Morgen -",
+        "trans": [
+            "名词. 早晨"
+        ]
+    },
+    {
+        "name": "der Abend -e",
+        "trans": [
+            "名词. 晚上"
+        ]
+    },
+    {
+        "name": "Ihr",
+        "trans": [
+            "Poss.Pr. 您的（尊称）"
+        ]
+    },
+    {
+        "name": "wohnen",
+        "trans": [
+            "Verb. 居住"
+        ]
+    },
+    {
+        "name": "sie",
+        "trans": [
+            "Pron. 她；他们（小写，第三人称复数）"
+        ]
+    },
+    {
+        "name": "ihr",
+        "trans": [
+            "Poss.Pr. 她的；他们的"
+        ]
+    },
+    {
+        "name": "wer",
+        "trans": [
+            "Pron. 谁"
+        ]
+    },
+    {
+        "name": "ja",
+        "trans": [
+            "Part. 是的"
+        ]
+    },
+    {
+        "name": "in",
+        "trans": [
+            "Präp. 在……里面"
+        ]
+    },
+    {
+        "name": "das Haus äer",
+        "trans": [
+            "名词.房子"
+        ]
+    },
+    {
+        "name": "fünf",
+        "trans": [
+            "Num. 五"
+        ]
+    },
+    {
+        "name": "auch",
+        "trans": [
+            "Adv. 也"
+        ]
+    },
+    {
+        "name": "genau",
+        "trans": [
+            "Adv. 正确地；正是"
+        ]
+    },
+    {
+        "name": "die Studentin -nen",
+        "trans": [
+            "名词. 女学生"
+        ]
+    },
+    {
+        "name": "kennen",
+        "trans": [
+            "Verb. 认识；熟悉"
+        ]
+    },
+    {
+        "name": "der Laut -e",
+        "trans": [
+            "名词. 语音；声音"
+        ]
+    },
+    {
+        "name": "er",
+        "trans": [
+            "Pron. 他"
+        ]
+    },
+    {
+        "name": "der Student -en",
+        "trans": [
+            "名词. 男学生"
+        ]
+    },
+    {
+        "name": "der Kaffee oPl",
+        "trans": [
+            "名词.咖啡"
+        ]
+    },
+    {
+        "name": "die Mappe -n",
+        "trans": [
+            "名词.文件夹"
+        ]
+    },
+    {
+        "name": "es",
+        "trans": [
+            "Pron. 它"
+        ]
+    },
+    {
+        "name": "das Kind -er",
+        "trans": [
+            "名词. 孩子"
+        ]
+    },
+    {
+        "name": "toll",
+        "trans": [
+            "Adj. 棒极了；精彩的"
+        ]
+    },
+    {
+        "name": "ähnlich",
+        "trans": [
+            "Adj. 相似的"
+        ]
+    },
+    {
+        "name": "finden",
+        "trans": [
+            "Verb. 找到；觉得"
+        ]
+    },
+    {
+        "name": "die Regel -n",
+        "trans": [
+            "名词. 规则"
+        ]
+    },
+    {
+        "name": "telefonieren",
+        "trans": [
+            "Verb. 打电话"
+        ]
+    },
+    {
+        "name": "fragen",
+        "trans": [
+            "Verb. [修正拼写] 问"
+        ]
+    },
+    {
+        "name": "vor",
+        "trans": [
+            "Präp. 在……之前"
+        ]
+    },
+    {
+        "name": "da",
+        "trans": [
+            "Adv. 那里；当时"
+        ]
+    },
+    {
+        "name": "zeigen",
+        "trans": [
+            "Verb. 展示；指出"
+        ]
+    },
+    {
+        "name": "das Foto -s",
+        "trans": [
+            "名词. 照片"
+        ]
+    },
+    {
+        "name": "studieren",
+        "trans": [
+            "Verb. 学习（大学）；攻读学位"
+        ]
+    },
+    {
+        "name": "nun",
+        "trans": [
+            "Adv. 现在；那么"
+        ]
+    },
+    {
+        "name": "leben",
+        "trans": [
+            "Verb. 生活；居住"
+        ]
+    },
+    {
+        "name": "arbeiten",
+        "trans": [
+            "Verb. 工作"
+        ]
+    },
+    {
+        "name": "links",
+        "trans": [
+            "Adv. 在左边"
+        ]
+    },
+    {
+        "name": "die Mitte oPl",
+        "trans": [
+            "名词. 中间"
+        ]
+    },
+    {
+        "name": "bilden",
+        "trans": [
+            "Verb. 构成；形成"
+        ]
+    },
+    {
+        "name": "der Satz äe",
+        "trans": [
+            "名词. 句子"
+        ]
+    },
+    {
+        "name": "Bonn",
+        "trans": [
+            "名词. 波恩（德国城市）"
+        ]
+    },
+    {
+        "name": "machen",
+        "trans": [
+            "Verb. 做；制造"
+        ]
+    },
+    {
+        "name": "Polen",
+        "trans": [
+            "名词. 波兰"
+        ]
+    },
+    {
+        "name": "der Dialog -e",
+        "trans": [
+            "名词. 对话"
+        ]
+    },
+    {
+        "name": "die Frau -en",
+        "trans": [
+            "名词. 女人；女士"
+        ]
+    },
+    {
+        "name": "der Mann -Männer",
+        "trans": [
+            "名词. 男人；先生"
+        ]
+    },
+    {
+        "name": "nein",
+        "trans": [
+            "Part. 不"
+        ]
+    },
+    {
+        "name": "nett",
+        "trans": [
+            "Adj. 友好的；和蔼的"
+        ]
+    },
+    {
+        "name": "der Tee oPl",
+        "trans": [
+            "名词. 茶"
+        ]
+    },
+    {
+        "name": "die Universität -en",
+        "trans": [
+            "名词. 大学"
+        ]
+    },
+    {
+        "name": "bekannt",
+        "trans": [
+            "Adj. 著名的；熟悉的"
+        ]
+    },
+    {
+        "name": "oder",
+        "trans": [
+            "Konj. 或者"
+        ]
+    },
+    {
+        "name": "die Gruppe -n",
+        "trans": [
+            "名词. 小组；群体"
+        ]
+    },
+    {
+        "name": "bitte",
+        "trans": [
+            "Part. 请；当然（回应感谢）"
+        ]
+    },
+    {
+        "name": "danke",
+        "trans": [
+            "Part. 谢谢"
+        ]
+    },
+    {
+        "name": "das Wiedersehen oPl",
+        "trans": [
+            "名词. 再见；重逢"
+        ]
+    },
+    {
+        "name": "tschüs",
+        "trans": [
+            "Interj. 再见（口语）"
+        ]
+    },
+    {
+        "name": "ciao",
+        "trans": [
+            "Interj. 再见；你好（源自意大利语）"
+        ]
+    },
+    {
+        "name": "aha",
+        "trans": [
+            "Interj. 啊哈；原来如此"
+        ]
+    },
+    {
+        "name": "viel",
+        "trans": [
+            "Adj./Adv. 许多（地）"
+        ]
+    },
+    {
+        "name": "der Dank oPl",
+        "trans": [
+            "名词. 感谢"
+        ]
+    },
+    {
+        "name": "der Code -s",
+        "trans": [
+            "名词. 代码；密码"
+        ]
+    },
+    {
+        "name": "denn",
+        "trans": [
+            "Konj. 因为；用于解释"
+        ]
+    },
+    {
+        "name": "pst",
+        "trans": [
+            "Interj. 嘘（示意安静）"
+        ]
+    },
+    {
+        "name": "das Projekt -e",
+        "trans": [
+            "名词. 项目"
+        ]
+    },
+    {
+        "name": "die Liste -n",
+        "trans": [
+            "名词. 清单；列表"
+        ]
+    },
+    {
+        "name": "das Interview -s",
+        "trans": [
+            "名词. 采访；面谈"
+        ]
+    },
+    {
+        "name": "das Beispiel -e",
+        "trans": [
+            "名词. 例子"
+        ]
+    },
+    {
+        "name": "das Geschlecht -er",
+        "trans": [
+            "名词. 性别"
+        ]
+    },
+    {
+        "name": "der Klassensprecher -",
+        "trans": [
+            "名词. 班长"
+        ]
+    },
+    {
+        "name": "ordnen",
+        "trans": [
+            "Verb. 整理；排序"
+        ]
+    },
+    {
+        "name": "gründen",
+        "trans": [
+            "Verb. 创立；建立"
+        ]
+    }
+]
