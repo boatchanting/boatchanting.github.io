@@ -34,9 +34,27 @@
           "name": "Von früh bis spät",
           "file": "D1E5.json",
           "wordCount": 179
+        },
+        {
+          "id": "D1E6",
+          "name": "Glücklich!",
+          "file": "D1E6.json",
+          "wordCount": 236
+        },
+        {
+          "id": "D1E7",
+          "name": "Immer was los!",
+          "file": "D1E7.json",
+          "wordCount": 182
+        },
+        {
+          "id": "D1E8",
+          "name": "Ich wohne gern hier!",
+          "file": "D1E8.json",
+          "wordCount": 209
         }
       ],
-      "totalWords": 860
+      "totalWords":1487
     },
     {
       "id": "D2",

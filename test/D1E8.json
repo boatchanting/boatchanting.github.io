@@ -1,0 +1,1256 @@
+[
+    {
+        "name": "der Bodenstuhl üe",
+        "trans": [
+            "名词. 落地椅，懒人沙发"
+        ]
+    },
+    {
+        "name": "die Kommode -n",
+        "trans": [
+            "名词. 抽屉柜，五斗橱"
+        ]
+    },
+    {
+        "name": "das Kissen -",
+        "trans": [
+            "名词. 软垫，枕头"
+        ]
+    },
+    {
+        "name": "der Drehstuhl üe",
+        "trans": [
+            "名词. 转椅"
+        ]
+    },
+    {
+        "name": "der Schreibtisch -e",
+        "trans": [
+            "名词. 写字台"
+        ]
+    },
+    {
+        "name": "die Pflanze -n",
+        "trans": [
+            "名词. 植物"
+        ]
+    },
+    {
+        "name": "das Wandregal -e",
+        "trans": [
+            "名词. 吊橱"
+        ]
+    },
+    {
+        "name": "der Teppich -e",
+        "trans": [
+            "名词. 地毯"
+        ]
+    },
+    {
+        "name": "das Stockbett -en",
+        "trans": [
+            "名词. 双层床，上下铺"
+        ]
+    },
+    {
+        "name": "die Klimaanlage -n",
+        "trans": [
+            "名词. 空调"
+        ]
+    },
+    {
+        "name": "das Fenster -",
+        "trans": [
+            "名词. 窗"
+        ]
+    },
+    {
+        "name": "die Landkarte -n",
+        "trans": [
+            "名词. 地图"
+        ]
+    },
+    {
+        "name": "das Laptop -s",
+        "trans": [
+            "名词. 笔记本电脑 （der也可以）"
+        ]
+    },
+    {
+        "name": "der Schrank -e",
+        "trans": [
+            "名词. 橱，柜子"
+        ]
+    },
+    {
+        "name": "die Heizung -en",
+        "trans": [
+            "名词. 暖气；供暖"
+        ]
+    },
+    {
+        "name": "das Instrument -e",
+        "trans": [
+            "名词. 仪器；乐器"
+        ]
+    },
+    {
+        "name": "der Koffer -",
+        "trans": [
+            "名词. 箱子"
+        ]
+    },
+    {
+        "name": "die Ordnung -en",
+        "trans": [
+            "名词. 秩序，条理"
+        ]
+    },
+    {
+        "name": "ordentlich",
+        "trans": [
+            "Adj. 井井有条的，整洁的"
+        ]
+    },
+    {
+        "name": "der Wecker -",
+        "trans": [
+            "名词. 闹钟"
+        ]
+    },
+    {
+        "name": "über",
+        "trans": [
+            "Präp. 在……之上；到……上方  （ +D/+A）"
+        ]
+    },
+    {
+        "name": "zwischen",
+        "trans": [
+            "Präp. 在……之间；置于……之间  （ +D/+A）"
+        ]
+    },
+    {
+        "name": "der Stiftbecher -",
+        "trans": [
+            "名词. 笔筒"
+        ]
+    },
+    {
+        "name": "hinter",
+        "trans": [
+            "Präp. 在……后面；到……后面  （ +D/+A）"
+        ]
+    },
+    {
+        "name": "liegen",
+        "trans": [
+            "Verb. 躺，卧；平放着；位于"
+        ]
+    },
+    {
+        "name": "die Maus äe",
+        "trans": [
+            "名词. 鼠；鼠标"
+        ]
+    },
+    {
+        "name": "neben",
+        "trans": [
+            "Präp. 在……旁；到……旁  （ +D/+A）"
+        ]
+    },
+    {
+        "name": "hängen",
+        "trans": [
+            "Verb. 将……悬挂；挂着  （+A）"
+        ]
+    },
+    {
+        "name": "einige",
+        "trans": [
+            "Pron. 几个，一些"
+        ]
+    },
+    {
+        "name": "der Kugelschreiber -",
+        "trans": [
+            "名词. 圆珠笔"
+        ]
+    },
+    {
+        "name": "irgendwie",
+        "trans": [
+            "Adv. 用某种方式（或方法）"
+        ]
+    },
+    {
+        "name": "das Chaos oPl",
+        "trans": [
+            "名词. 混乱，杂乱无章"
+        ]
+    },
+    {
+        "name": "der Mitbewohner -",
+        "trans": [
+            "名词. 室友"
+        ]
+    },
+    {
+        "name": "stecken",
+        "trans": [
+            "Verb. 插进；插在"
+        ]
+    },
+    {
+        "name": "der Schlüssel -",
+        "trans": [
+            "名词. 钥匙"
+        ]
+    },
+    {
+        "name": "die Tür -en",
+        "trans": [
+            "名词. 门"
+        ]
+    },
+    {
+        "name": "das Tablet -s",
+        "trans": [
+            "名词. 平板电脑"
+        ]
+    },
+    {
+        "name": "der Rucksack äe",
+        "trans": [
+            "名词. 旅行背包"
+        ]
+    },
+    {
+        "name": "das Bücherregal -e",
+        "trans": [
+            "名词. 书架，书橱"
+        ]
+    },
+    {
+        "name": "die Zeitschrift -en",
+        "trans": [
+            "名词. 杂志，期刊"
+        ]
+    },
+    {
+        "name": "das Bad äer",
+        "trans": [
+            "名词. 浴室，浴场；洗澡"
+        ]
+    },
+    {
+        "name": "das Badezimmer -",
+        "trans": [
+            "名词. 浴室"
+        ]
+    },
+    {
+        "name": "das Waschbecken -",
+        "trans": [
+            "名词. 洗手盆，盥洗盆"
+        ]
+    },
+    {
+        "name": "die Nase -n",
+        "trans": [
+            "名词. 鼻子"
+        ]
+    },
+    {
+        "name": "die Oper -n",
+        "trans": [
+            "名词. 歌剧；歌剧院"
+        ]
+    },
+    {
+        "name": "der Eintritt -e",
+        "trans": [
+            "名词. 进入；入场"
+        ]
+    },
+    {
+        "name": "an/fangen",
+        "trans": [
+            "Verb. 开始 （不规则动词）"
+        ]
+    },
+    {
+        "name": "vorgestern",
+        "trans": [
+            "Adv. 前天"
+        ]
+    },
+    {
+        "name": "der Schein -e",
+        "trans": [
+            "名词. 纸币；证明书"
+        ]
+    },
+    {
+        "name": "die Brieftasche -n",
+        "trans": [
+            "名词. 皮夹子"
+        ]
+    },
+    {
+        "name": "die Schublade -n",
+        "trans": [
+            "名词. 抽屉"
+        ]
+    },
+    {
+        "name": "legen",
+        "trans": [
+            "Verb. 横放，平放"
+        ]
+    },
+    {
+        "name": "die Pinnwand äe",
+        "trans": [
+            "名词. 软木挂板；信息栏"
+        ]
+    },
+    {
+        "name": "erinnern",
+        "trans": [
+            "Verb. 提醒，使回忆起"
+        ]
+    },
+    {
+        "name": "niemals",
+        "trans": [
+            "Adv. 从不，决不"
+        ]
+    },
+    {
+        "name": "herrschen",
+        "trans": [
+            "Verb. 统治；存在着，充满着"
+        ]
+    },
+    {
+        "name": "der Berg -e",
+        "trans": [
+            "名词. 山"
+        ]
+    },
+    {
+        "name": "der Stapel -",
+        "trans": [
+            "名词. 堆，垛"
+        ]
+    },
+    {
+        "name": "hinein/legen",
+        "trans": [
+            "Verb. 把……放进去  （+A）"
+        ]
+    },
+    {
+        "name": "das Lesezeichen -",
+        "trans": [
+            "名词. 书签"
+        ]
+    },
+    {
+        "name": "behalten",
+        "trans": [
+            "Verb. 保留，留下 （不规则动词）（+A）"
+        ]
+    },
+    {
+        "name": "der Arbeitsplatz äe",
+        "trans": [
+            "名词. 工作场所；工作岗位"
+        ]
+    },
+    {
+        "name": "die Effizienz -en",
+        "trans": [
+            "名词. 效率"
+        ]
+    },
+    {
+        "name": "die Umgebung -en",
+        "trans": [
+            "名词. 周围，环境"
+        ]
+    },
+    {
+        "name": "die Unterlage -n",
+        "trans": [
+            "名词. 资料，证明材料"
+        ]
+    },
+    {
+        "name": "der Gegenstand äe",
+        "trans": [
+            "名词. 物件，东西；对象"
+        ]
+    },
+    {
+        "name": "effizient",
+        "trans": [
+            "Adj. 效率高的，有功效的"
+        ]
+    },
+    {
+        "name": "vor allem",
+        "trans": [
+            "Adv. 首先，特别是"
+        ]
+    },
+    {
+        "name": "die Aufmerksamkeit oPl",
+        "trans": [
+            "名词. 注意力，专心"
+        ]
+    },
+    {
+        "name": "die Menge -n",
+        "trans": [
+            "名词. 数量，大量"
+        ]
+    },
+    {
+        "name": "eine Menge",
+        "trans": [
+            "Pron. 大量的"
+        ]
+    },
+    {
+        "name": "die Freiheit -en",
+        "trans": [
+            "名词. 自由"
+        ]
+    },
+    {
+        "name": "ein/schränken",
+        "trans": [
+            "Verb. 限制"
+        ]
+    },
+    {
+        "name": "reinigen",
+        "trans": [
+            "Verb. 清洗，清扫"
+        ]
+    },
+    {
+        "name": "weg/räumen",
+        "trans": [
+            "Verb. 除去，清除；把……放到一边"
+        ]
+    },
+    {
+        "name": "der Ordner -",
+        "trans": [
+            "名词. 文件夹"
+        ]
+    },
+    {
+        "name": "das Register -",
+        "trans": [
+            "名词. 目录，索引"
+        ]
+    },
+    {
+        "name": "der Inhalt -e",
+        "trans": [
+            "名词. 内容"
+        ]
+    },
+    {
+        "name": "das Verzeichnis -se",
+        "trans": [
+            "名词. 目录，表（格）"
+        ]
+    },
+    {
+        "name": "vermeiden",
+        "trans": [
+            "Verb. 避免"
+        ]
+    },
+    {
+        "name": "der Wissenschaftler -",
+        "trans": [
+            "名词. 科学家"
+        ]
+    },
+    {
+        "name": "fest/stellen",
+        "trans": [
+            "Verb. 发觉；确认（+A）"
+        ]
+    },
+    {
+        "name": "die Dekoration -en",
+        "trans": [
+            "名词. 装饰"
+        ]
+    },
+    {
+        "name": "das Minimum ma",
+        "trans": [
+            "名词. 最小值，最低值"
+        ]
+    },
+    {
+        "name": "persönlich",
+        "trans": [
+            "Adj. 本人的；亲自的"
+        ]
+    },
+    {
+        "name": "die Motivation -en",
+        "trans": [
+            "名词. 动力，诱因"
+        ]
+    },
+    {
+        "name": "steigern",
+        "trans": [
+            "Verb. 提高，使升高"
+        ]
+    },
+    {
+        "name": "weg/nehmen",
+        "trans": [
+            "Verb. 拿走，夺去  （不规则动词）（(+D)+A）"
+        ]
+    },
+    {
+        "name": "übersichtlich",
+        "trans": [
+            "Adj. 一目了然的，条理清楚的"
+        ]
+    },
+    {
+        "name": "aus/probieren",
+        "trans": [
+            "Verb. 试验，检验  （+A）"
+        ]
+    },
+    {
+        "name": "die Chance -n",
+        "trans": [
+            "名词. 机会，（成功的）可能性"
+        ]
+    },
+    {
+        "name": "beruhigen",
+        "trans": [
+            "Verb. 使平静，使安静  （+A）"
+        ]
+    },
+    {
+        "name": "sorgen",
+        "trans": [
+            "Verb. 照料，关心；办理  （+für）"
+        ]
+    },
+    {
+        "name": "das System -e",
+        "trans": [
+            "名词. 体系，系统"
+        ]
+    },
+    {
+        "name": "sortieren",
+        "trans": [
+            "Verb. 把……分类，拣选"
+        ]
+    },
+    {
+        "name": "entsprechend",
+        "trans": [
+            "Adj./Adv. 相应的（地），有关的"
+        ]
+    },
+    {
+        "name": "beeinträchtigen",
+        "trans": [
+            "Verb. 损害，妨碍（+A）"
+        ]
+    },
+    {
+        "name": "der Eindruck üe",
+        "trans": [
+            "名词. 印象"
+        ]
+    },
+    {
+        "name": "das Image -s",
+        "trans": [
+            "名词. 形象"
+        ]
+    },
+    {
+        "name": "teilen",
+        "trans": [
+            "Verb. 分开；分享"
+        ]
+    },
+    {
+        "name": "überzeugen",
+        "trans": [
+            "Verb. 使人确信，说服  （+A(+von)）"
+        ]
+    },
+    {
+        "name": "die Weise -n",
+        "trans": [
+            "名词. 方式，方法"
+        ]
+    },
+    {
+        "name": "um/stellen",
+        "trans": [
+            "Verb. 重新放置，挪动"
+        ]
+    },
+    {
+        "name": "zwingen",
+        "trans": [
+            "Verb. 强迫"
+        ]
+    },
+    {
+        "name": "das Genie -s",
+        "trans": [
+            "名词. 天才"
+        ]
+    },
+    {
+        "name": "zusammen/hängen",
+        "trans": [
+            "Verb. 有关联"
+        ]
+    },
+    {
+        "name": "der Altbau -ten",
+        "trans": [
+            "名词. 旧建筑，旧住宅"
+        ]
+    },
+    {
+        "name": "das Zentrum tren",
+        "trans": [
+            "名词. 中心"
+        ]
+    },
+    {
+        "name": "das Geschäft -e",
+        "trans": [
+            "名词. 商店；生意"
+        ]
+    },
+    {
+        "name": "das Meter -",
+        "trans": [
+            "名词. 米  （der也可以）"
+        ]
+    },
+    {
+        "name": "das Quadratmeter -",
+        "trans": [
+            "名词. 平方米  （der也可以）"
+        ]
+    },
+    {
+        "name": "chaotisch",
+        "trans": [
+            "Adj. 混乱的，乱七八糟的"
+        ]
+    },
+    {
+        "name": "zurechtkommen",
+        "trans": [
+            "Verb. 同……相处融洽；能胜任"
+        ]
+    },
+    {
+        "name": "der Saustall äe",
+        "trans": [
+            "名词. 猪圈；很脏的住所"
+        ]
+    },
+    {
+        "name": "kreuz und quer",
+        "trans": [
+            "Adv. 交叉来回；漫无目的地来来去去"
+        ]
+    },
+    {
+        "name": "ungefragt",
+        "trans": [
+            "Adj. 未被询问的"
+        ]
+    },
+    {
+        "name": "packen",
+        "trans": [
+            "Verb. 包装，收拾"
+        ]
+    },
+    {
+        "name": "die Kiste -n",
+        "trans": [
+            "名词. 方形盒，箱子"
+        ]
+    },
+    {
+        "name": "bestimmen",
+        "trans": [
+            "Verb. 规定，确定"
+        ]
+    },
+    {
+        "name": "schwierig",
+        "trans": [
+            "Adj. 困难的，棘手的"
+        ]
+    },
+    {
+        "name": "schicken",
+        "trans": [
+            "Verb. 寄；派遣"
+        ]
+    },
+    {
+        "name": "die Leistung -en",
+        "trans": [
+            "名词. 成绩，成就；功率"
+        ]
+    },
+    {
+        "name": "wöchentlich",
+        "trans": [
+            "Adj./Adv. 每周的（地），每周一次的"
+        ]
+    },
+    {
+        "name": "ab und zu",
+        "trans": [
+            "有时，偶尔"
+        ]
+    },
+    {
+        "name": "das Einfamilienhaus äer",
+        "trans": [
+            "名词. 单户住宅"
+        ]
+    },
+    {
+        "name": "das Land äer",
+        "trans": [
+            "名词. 国家；土地，农村（o. Pl.）"
+        ]
+    },
+    {
+        "name": "das Appartement -s",
+        "trans": [
+            "名词. 公寓住房"
+        ]
+    },
+    {
+        "name": "die Altstadt äe",
+        "trans": [
+            "名词. 旧城，旧市区"
+        ]
+    },
+    {
+        "name": "in Bezug auf",
+        "trans": [
+            "Präp. 涉及，关联"
+        ]
+    },
+    {
+        "name": "das Zuhause oPl",
+        "trans": [
+            "名词. 家，住处"
+        ]
+    },
+    {
+        "name": "weg/werfen",
+        "trans": [
+            "Verb. 扔掉，丢弃（不规则动词）"
+        ]
+    },
+    {
+        "name": "der Wohnplatz äe",
+        "trans": [
+            "名词. 住所"
+        ]
+    },
+    {
+        "name": "der Norden oPl",
+        "trans": [
+            "名词. 北（方），北部"
+        ]
+    },
+    {
+        "name": "der Süden oPl",
+        "trans": [
+            "名词. 南（方），南部"
+        ]
+    },
+    {
+        "name": "der Westen oPl",
+        "trans": [
+            "名词. 西（方），西部，西方国家"
+        ]
+    },
+    {
+        "name": "der Osten oPl",
+        "trans": [
+            "名词. 东（方），东部"
+        ]
+    },
+    {
+        "name": "der Nordosten -",
+        "trans": [
+            "名词. 东北方向，东北部"
+        ]
+    },
+    {
+        "name": "um/steigen",
+        "trans": [
+            "Verb. 换车"
+        ]
+    },
+    {
+        "name": "der Ausgang äe",
+        "trans": [
+            "名词. 出口；结局"
+        ]
+    },
+    {
+        "name": "vorbei/gehen",
+        "trans": [
+            "Verb. 在旁边走过"
+        ]
+    },
+    {
+        "name": "zuerst",
+        "trans": [
+            "Adv. 首先；起初"
+        ]
+    },
+    {
+        "name": "ab/biegen",
+        "trans": [
+            "Verb. 拐弯"
+        ]
+    },
+    {
+        "name": "entlang +A/+D",
+        "trans": [
+            "Präp. 沿着，顺着"
+        ]
+    },
+    {
+        "name": "geradeaus",
+        "trans": [
+            "Adv. 径直，一直"
+        ]
+    },
+    {
+        "name": "die Kreuzung -en",
+        "trans": [
+            "名词. 十字路口"
+        ]
+    },
+    {
+        "name": "der Parkplatz -e",
+        "trans": [
+            "名词. 停车场"
+        ]
+    },
+    {
+        "name": "das Wohnhaus -er",
+        "trans": [
+            "名词. （单独的或有多个住户的）住宅"
+        ]
+    },
+    {
+        "name": "die Linie -n",
+        "trans": [
+            "名词. 线条；交通线"
+        ]
+    },
+    {
+        "name": "ein/steigen",
+        "trans": [
+            "Verb. 上（车，船等）"
+        ]
+    },
+    {
+        "name": "gegenüber +D",
+        "trans": [
+            "Präp. 在……的对面"
+        ]
+    },
+    {
+        "name": "der Balkon -s / -e",
+        "trans": [
+            "名词. 阳台"
+        ]
+    },
+    {
+        "name": "das Wohnzimmer -",
+        "trans": [
+            "名词. 起居室，客厅"
+        ]
+    },
+    {
+        "name": "das Schlafzimmer -",
+        "trans": [
+            "名词. 卧室"
+        ]
+    },
+    {
+        "name": "das Arbeitszimmer -",
+        "trans": [
+            "名词. 书房"
+        ]
+    },
+    {
+        "name": "die Diele -n",
+        "trans": [
+            "名词. 门厅，过道"
+        ]
+    },
+    {
+        "name": "die Küche -n",
+        "trans": [
+            "名词. 厨房；菜肴"
+        ]
+    },
+    {
+        "name": "der Fernseher -",
+        "trans": [
+            "名词. 电视机"
+        ]
+    },
+    {
+        "name": "die Stereoanlage -n",
+        "trans": [
+            "名词. 立体声音响（设备）"
+        ]
+    },
+    {
+        "name": "der Sessel -",
+        "trans": [
+            "名词. 沙发椅"
+        ]
+    },
+    {
+        "name": "das Sofa -s",
+        "trans": [
+            "名词. 长沙发"
+        ]
+    },
+    {
+        "name": "die Wanne -n",
+        "trans": [
+            "名词. 浴缸，浴盆"
+        ]
+    },
+    {
+        "name": "die Waschmaschine -n",
+        "trans": [
+            "名词. 洗衣机"
+        ]
+    },
+    {
+        "name": "der Herd -e",
+        "trans": [
+            "名词. 炉灶"
+        ]
+    },
+    {
+        "name": "der Ofen Ö",
+        "trans": [
+            "名词. 炉子"
+        ]
+    },
+    {
+        "name": "der Kleiderständer -",
+        "trans": [
+            "名词. （立式）衣架"
+        ]
+    },
+    {
+        "name": "der Mantel ä",
+        "trans": [
+            "名词. 大衣，外套"
+        ]
+    },
+    {
+        "name": "die Vermutung -en",
+        "trans": [
+            "名词. 猜测"
+        ]
+    },
+    {
+        "name": "die Treppe -n",
+        "trans": [
+            "名词. 阶梯，楼梯"
+        ]
+    },
+    {
+        "name": "der Aufzug äe",
+        "trans": [
+            "名词. 电梯"
+        ]
+    },
+    {
+        "name": "außer",
+        "trans": [
+            "Präp. 在……外；除……以外（ +D）"
+        ]
+    },
+    {
+        "name": "der Betrieb -e",
+        "trans": [
+            "名词. 企业；运行"
+        ]
+    },
+    {
+        "name": "die Etage -n",
+        "trans": [
+            "名词. 楼层"
+        ]
+    },
+    {
+        "name": "der Stock -",
+        "trans": [
+            "名词. （楼）层"
+        ]
+    },
+    {
+        "name": "oberst-",
+        "trans": [
+            "Adj. 在最上面的，最高级别的"
+        ]
+    },
+    {
+        "name": "der Händler -",
+        "trans": [
+            "名词. 商人，商贩"
+        ]
+    },
+    {
+        "name": "hell",
+        "trans": [
+            "Adj. 明亮的；浅色的"
+        ]
+    },
+    {
+        "name": "wachsen",
+        "trans": [
+            "Verb. 生长，增长  （不规则动词）"
+        ]
+    },
+    {
+        "name": "gelb",
+        "trans": [
+            "Adj. 黄色的"
+        ]
+    },
+    {
+        "name": "ein/schalten",
+        "trans": [
+            "Verb. 接通，开（动）"
+        ]
+    },
+    {
+        "name": "die Spülmaschine -n",
+        "trans": [
+            "名词. 洗碗机"
+        ]
+    },
+    {
+        "name": "letzt-",
+        "trans": [
+            "Adj. 最后的；最近的"
+        ]
+    },
+    {
+        "name": "renovieren",
+        "trans": [
+            "Verb. 修缮，整修，装修"
+        ]
+    },
+    {
+        "name": "das Unternehmen -",
+        "trans": [
+            "名词. 企业"
+        ]
+    },
+    {
+        "name": "versprichen",
+        "trans": [
+            "Verb. 许诺，答应"
+        ]
+    },
+    {
+        "name": "wunderbar",
+        "trans": [
+            "Adj. 奇妙的；极好的"
+        ]
+    },
+    {
+        "name": "das Holz öer",
+        "trans": [
+            "名词. 木头（o. Pl.）；木材"
+        ]
+    },
+    {
+        "name": "wirken",
+        "trans": [
+            "Verb. 生效，起作用"
+        ]
+    },
+    {
+        "name": "exotisch",
+        "trans": [
+            "Adj. 异国色彩的"
+        ]
+    },
+    {
+        "name": "der Nachttisch -e",
+        "trans": [
+            "名词. 床头柜"
+        ]
+    },
+    {
+        "name": "betrachten",
+        "trans": [
+            "Verb. 观察"
+        ]
+    },
+    {
+        "name": "der Raum äe",
+        "trans": [
+            "名词. 房间；场地，空间"
+        ]
+    },
+    {
+        "name": "optisch",
+        "trans": [
+            "Adj. 光的，光学的；视力的，视觉的"
+        ]
+    },
+    {
+        "name": "räumen",
+        "trans": [
+            "Verb. 收拾；腾出"
+        ]
+    },
+    {
+        "name": "der Traum äe",
+        "trans": [
+            "名词. 梦；梦想"
+        ]
+    },
+    {
+        "name": "international",
+        "trans": [
+            "Adj. 国际的，国家间的"
+        ]
+    },
+    {
+        "name": "die Metropole -n",
+        "trans": [
+            "名词. 大都会"
+        ]
+    },
+    {
+        "name": "die Post oPl",
+        "trans": [
+            "名词. 邮局；邮件"
+        ]
+    },
+    {
+        "name": "das Museum seen",
+        "trans": [
+            "名词. 博物馆"
+        ]
+    },
+    {
+        "name": "die Ausstellung -en",
+        "trans": [
+            "名词. 展览（会）"
+        ]
+    },
+    {
+        "name": "grillen",
+        "trans": [
+            "Verb. （在烤架上）烤"
+        ]
+    },
+    {
+        "name": "die Miete -n",
+        "trans": [
+            "名词. 租金"
+        ]
+    },
+    {
+        "name": "hoch",
+        "trans": [
+            "Adj. 高的"
+        ]
+    },
+    {
+        "name": "trotzdem",
+        "trans": [
+            "Adv. 尽管如此"
+        ]
+    },
+    {
+        "name": "der Stau -e",
+        "trans": [
+            "名词. 堵车；阻塞 （复数-s也可以）"
+        ]
+    },
+    {
+        "name": "erreichen",
+        "trans": [
+            "Verb. 够到，达到，赶上；联系上"
+        ]
+    },
+    {
+        "name": "billig",
+        "trans": [
+            "Adj. 便宜的，廉价的"
+        ]
+    },
+    {
+        "name": "auf/wachsen",
+        "trans": [
+            "Verb. 长大，成长 （不规则动词）"
+        ]
+    },
+    {
+        "name": "die Kindheit oPl",
+        "trans": [
+            "名词. 童年"
+        ]
+    },
+    {
+        "name": "eng",
+        "trans": [
+            "Adj. 狭窄的；紧密的"
+        ]
+    }
+]

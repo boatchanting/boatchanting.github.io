@@ -1,0 +1,1094 @@
+[
+    {
+        "name": "los",
+        "trans": [
+            "Part./Adj. 开始；脱落的"
+        ]
+    },
+    {
+        "name": "typisch",
+        "trans": [
+            "Adj. 典型的"
+        ]
+    },
+    {
+        "name": "die Jahreszeit -en",
+        "trans": [
+            "名词. 季，季节"
+        ]
+    },
+    {
+        "name": "der Frühling -e",
+        "trans": [
+            "名词. 春季"
+        ]
+    },
+    {
+        "name": "der Herbst -e",
+        "trans": [
+            "名词. 秋季"
+        ]
+    },
+    {
+        "name": "der Winter -",
+        "trans": [
+            "名词. 冬天，冬季"
+        ]
+    },
+    {
+        "name": "kalt",
+        "trans": [
+            "Adj. 冷的，冷淡的"
+        ]
+    },
+    {
+        "name": "der Schnee oPl",
+        "trans": [
+            "名词. 雪"
+        ]
+    },
+    {
+        "name": "heiß",
+        "trans": [
+            "Adj. 热的；热烈的"
+        ]
+    },
+    {
+        "name": "das Gewitter -",
+        "trans": [
+            "名词. 雷雨"
+        ]
+    },
+    {
+        "name": "der Wind -e",
+        "trans": [
+            "名词. 风"
+        ]
+    },
+    {
+        "name": "die Sonne -n",
+        "trans": [
+            "名词. 太阳；阳光"
+        ]
+    },
+    {
+        "name": "der Regen oPl",
+        "trans": [
+            "名词. 雨"
+        ]
+    },
+    {
+        "name": "das Wetter oPl",
+        "trans": [
+            "名词. 天气"
+        ]
+    },
+    {
+        "name": "die Heimat -en",
+        "trans": [
+            "名词. 家乡；祖国"
+        ]
+    },
+    {
+        "name": "regnerisch",
+        "trans": [
+            "Adj. 下雨的；多雨的"
+        ]
+    },
+    {
+        "name": "sonnig",
+        "trans": [
+            "Adj. 阳光灿烂的"
+        ]
+    },
+    {
+        "name": "windig",
+        "trans": [
+            "Adj. 有风的，多风的"
+        ]
+    },
+    {
+        "name": "der Sturm üe",
+        "trans": [
+            "名词. 风暴，暴风雨"
+        ]
+    },
+    {
+        "name": "stürmisch",
+        "trans": [
+            "Adj. 有风暴的，暴风雨般的"
+        ]
+    },
+    {
+        "name": "die Wolke -n",
+        "trans": [
+            "名词. 云"
+        ]
+    },
+    {
+        "name": "bewölkt",
+        "trans": [
+            "Adj. 多云的"
+        ]
+    },
+    {
+        "name": "wolkig",
+        "trans": [
+            "Adj. 多云的"
+        ]
+    },
+    {
+        "name": "der Nebel -",
+        "trans": [
+            "名词. 雾"
+        ]
+    },
+    {
+        "name": "neblig",
+        "trans": [
+            "Adj. 有雾的"
+        ]
+    },
+    {
+        "name": "die Jacke -n",
+        "trans": [
+            "名词. 短上衣，夹克衫"
+        ]
+    },
+    {
+        "name": "dicht",
+        "trans": [
+            "Adj. 稠密的；紧密的，密封的"
+        ]
+    },
+    {
+        "name": "frieren",
+        "trans": [
+            "Verb. 感到寒冷"
+        ]
+    },
+    {
+        "name": "voraussagen",
+        "trans": [
+            "Verb. 预报，预言"
+        ]
+    },
+    {
+        "name": "die Natur oPl",
+        "trans": [
+            "名词. 自然（界），大自然"
+        ]
+    },
+    {
+        "name": "gestern",
+        "trans": [
+            "Adv. 昨天"
+        ]
+    },
+    {
+        "name": "klingeln",
+        "trans": [
+            "Verb. 按铃，摇铃；发出铃声"
+        ]
+    },
+    {
+        "name": "Haupt-",
+        "trans": [
+            "Präf. （在复合词中表示）总，主要"
+        ]
+    },
+    {
+        "name": "der Regenschirm -e",
+        "trans": [
+            "名词. 雨伞"
+        ]
+    },
+    {
+        "name": "kühl",
+        "trans": [
+            "Adj. 凉的，凉爽的"
+        ]
+    },
+    {
+        "name": "der Grad -e",
+        "trans": [
+            "名词. 度（数）；程度（复数变化直接-也可）"
+        ]
+    },
+    {
+        "name": "sinken",
+        "trans": [
+            "Verb. 下降，下落"
+        ]
+    },
+    {
+        "name": "die Temperatur -en",
+        "trans": [
+            "名词. 温度"
+        ]
+    },
+    {
+        "name": "schlimm",
+        "trans": [
+            "Adj. 坏的，糟糕的"
+        ]
+    },
+    {
+        "name": "die Straße -n",
+        "trans": [
+            "名词. 街道，道路，公路"
+        ]
+    },
+    {
+        "name": "glatt",
+        "trans": [
+            "Adj. 光滑的，平滑的"
+        ]
+    },
+    {
+        "name": "aus/rutschen",
+        "trans": [
+            "Verb. 滑倒；滑落"
+        ]
+    },
+    {
+        "name": "erscheinen",
+        "trans": [
+            "Verb. 出现；出版；显得"
+        ]
+    },
+    {
+        "name": "der Regenbogen -",
+        "trans": [
+            "名词. 彩虹"
+        ]
+    },
+    {
+        "name": "die Luft oPl",
+        "trans": [
+            "名词. 空气"
+        ]
+    },
+    {
+        "name": "heiter",
+        "trans": [
+            "Adj. 晴朗的；快活的"
+        ]
+    },
+    {
+        "name": "präsentieren",
+        "trans": [
+            "Verb. 呈现，展示；表演"
+        ]
+    },
+    {
+        "name": "der Himmel -",
+        "trans": [
+            "名词. 天空；天堂"
+        ]
+    },
+    {
+        "name": "der Erfolg -e",
+        "trans": [
+            "名词. 成功，成就"
+        ]
+    },
+    {
+        "name": "wahrscheinlich",
+        "trans": [
+            "Adj. （很）可能的，大概的"
+        ]
+    },
+    {
+        "name": "über",
+        "trans": [
+            "Präp. 超过 (+D)"
+        ]
+    },
+    {
+        "name": "übersetzen",
+        "trans": [
+            "Verb. 翻译"
+        ]
+    },
+    {
+        "name": "draußen",
+        "trans": [
+            "Adv. 在外面，在户外"
+        ]
+    },
+    {
+        "name": "das Glück oPl",
+        "trans": [
+            "名词. 幸福，幸运，运气"
+        ]
+    },
+    {
+        "name": "zum Glück",
+        "trans": [
+            "Adv. 幸亏，幸好"
+        ]
+    },
+    {
+        "name": "steigen",
+        "trans": [
+            "Verb. 登上；升高；上（下）车"
+        ]
+    },
+    {
+        "name": "scheinen",
+        "trans": [
+            "Verb. 照耀，照射"
+        ]
+    },
+    {
+        "name": "die Blume -n",
+        "trans": [
+            "名词. 花"
+        ]
+    },
+    {
+        "name": "blühen",
+        "trans": [
+            "Verb. 开花"
+        ]
+    },
+    {
+        "name": "der Schneemann äer",
+        "trans": [
+            "名词. 雪人"
+        ]
+    },
+    {
+        "name": "trocken",
+        "trans": [
+            "Adj. 干的，干燥的；乏味的"
+        ]
+    },
+    {
+        "name": "feucht",
+        "trans": [
+            "Adj. 潮湿的"
+        ]
+    },
+    {
+        "name": "mild",
+        "trans": [
+            "Adj. 温和的，柔和的"
+        ]
+    },
+    {
+        "name": "gemütlich",
+        "trans": [
+            "Adj. 舒适的，无拘束的"
+        ]
+    },
+    {
+        "name": "schwül",
+        "trans": [
+            "Adj. 闷热的，湿热的"
+        ]
+    },
+    {
+        "name": "blitzen",
+        "trans": [
+            "Verb. 闪电；闪光"
+        ]
+    },
+    {
+        "name": "der Blitz -e",
+        "trans": [
+            "名词. 闪电"
+        ]
+    },
+    {
+        "name": "donnern",
+        "trans": [
+            "Verb. 打雷"
+        ]
+    },
+    {
+        "name": "der Donner -",
+        "trans": [
+            "名词. 雷，雷声"
+        ]
+    },
+    {
+        "name": "wehen",
+        "trans": [
+            "Verb. （风）吹"
+        ]
+    },
+    {
+        "name": "die Hitze oPl",
+        "trans": [
+            "名词. 炎热"
+        ]
+    },
+    {
+        "name": "das Gesicht -er",
+        "trans": [
+            "名词. 脸；面部表情"
+        ]
+    },
+    {
+        "name": "traurig",
+        "trans": [
+            "Adj. 悲伤的"
+        ]
+    },
+    {
+        "name": "schief",
+        "trans": [
+            "Adj. （倾）斜的，歪的"
+        ]
+    },
+    {
+        "name": "nervös",
+        "trans": [
+            "Adj. 紧张的，烦躁的"
+        ]
+    },
+    {
+        "name": "der Mensch -en",
+        "trans": [
+            "名词. 人"
+        ]
+    },
+    {
+        "name": "menschlich",
+        "trans": [
+            "Adj. 人的，人道的；通人情的"
+        ]
+    },
+    {
+        "name": "überwinden",
+        "trans": [
+            "Verb. 克服"
+        ]
+    },
+    {
+        "name": "wahrnehmen",
+        "trans": [
+            "Verb. 发觉，觉察；看见，听见 （不规则变化）"
+        ]
+    },
+    {
+        "name": "das Fachwort -er",
+        "trans": [
+            "名词. 专业词"
+        ]
+    },
+    {
+        "name": "reden",
+        "trans": [
+            "Verb. 谈话，谈论"
+        ]
+    },
+    {
+        "name": "übernächst-",
+        "trans": [
+            "Präf. 再下一个的"
+        ]
+    },
+    {
+        "name": "passieren",
+        "trans": [
+            "Verb. 发生"
+        ]
+    },
+    {
+        "name": "vertraut",
+        "trans": [
+            "Adj. 亲密的，熟悉的"
+        ]
+    },
+    {
+        "name": "mit etw. vertraut sein",
+        "trans": [
+            "Verb. 熟悉某事物，对某事物在行"
+        ]
+    },
+    {
+        "name": "der Zettel -",
+        "trans": [
+            "名词. 纸条，纸片"
+        ]
+    },
+    {
+        "name": "das Stichwort -e",
+        "trans": [
+            "名词. 提示语；提纲"
+        ]
+    },
+    {
+        "name": "mutig",
+        "trans": [
+            "Adj. 勇敢的，大胆的"
+        ]
+    },
+    {
+        "name": "das Publikum oPl",
+        "trans": [
+            "名词. 观众，听众，读者"
+        ]
+    },
+    {
+        "name": "plötzlich",
+        "trans": [
+            "Adj./Adv. 突然的（地），意外的"
+        ]
+    },
+    {
+        "name": "überhaupt",
+        "trans": [
+            "Adv. （在疑问句中）究竟，到底"
+        ]
+    },
+    {
+        "name": "erst-",
+        "trans": [
+            "Präf. 第一的，首先"
+        ]
+    },
+    {
+        "name": "der Auftritt -e",
+        "trans": [
+            "名词. 登场，登台"
+        ]
+    },
+    {
+        "name": "der Finger -",
+        "trans": [
+            "名词. 手指"
+        ]
+    },
+    {
+        "name": "bewegen",
+        "trans": [
+            "Verb. 挪动，使（活）动"
+        ]
+    },
+    {
+        "name": "die Bühne -n",
+        "trans": [
+            "名词. 舞台"
+        ]
+    },
+    {
+        "name": "mehrmals",
+        "trans": [
+            "Adv. 多次"
+        ]
+    },
+    {
+        "name": "laut",
+        "trans": [
+            "Adj./Adv. 大声的（地）"
+        ]
+    },
+    {
+        "name": "der Tipp -s",
+        "trans": [
+            "名词. 示意；忠告"
+        ]
+    },
+    {
+        "name": "verwirrt",
+        "trans": [
+            "Adj. 混乱的，迷茫的"
+        ]
+    },
+    {
+        "name": "vorbei",
+        "trans": [
+            "Adv. 过去，结束"
+        ]
+    },
+    {
+        "name": "die Tat -en",
+        "trans": [
+            "名词. 行为，行动"
+        ]
+    },
+    {
+        "name": "in der Tat",
+        "trans": [
+            "Adv. 事实上"
+        ]
+    },
+    {
+        "name": "wunderschön",
+        "trans": [
+            "Adj. 极美的，异常美的"
+        ]
+    },
+    {
+        "name": "der Schatten -",
+        "trans": [
+            "名词. 影子，阴影，荫处"
+        ]
+    },
+    {
+        "name": "mitbringen",
+        "trans": [
+            "Verb. 带来，携带"
+        ]
+    },
+    {
+        "name": "das Mittagessen oPl",
+        "trans": [
+            "名词. 午餐"
+        ]
+    },
+    {
+        "name": "das Sandwich -s",
+        "trans": [
+            "名词. 三明治（der也可以，复数变化-es也可以）"
+        ]
+    },
+    {
+        "name": "klingen",
+        "trans": [
+            "Verb. 听起来"
+        ]
+    },
+    {
+        "name": "die Übung -en",
+        "trans": [
+            "名词. 练习"
+        ]
+    },
+    {
+        "name": "der Meister -",
+        "trans": [
+            "名词. 师傅；能手，大师"
+        ]
+    },
+    {
+        "name": "das Modalverb -en",
+        "trans": [
+            "名词. 情态动词"
+        ]
+    },
+    {
+        "name": "fähig",
+        "trans": [
+            "Adj. 有能力的，有才能的"
+        ]
+    },
+    {
+        "name": "verboten",
+        "trans": [
+            "Adj. 禁止的"
+        ]
+    },
+    {
+        "name": "notwendig",
+        "trans": [
+            "Adj. 必要的，必需的"
+        ]
+    },
+    {
+        "name": "organisieren",
+        "trans": [
+            "Verb. 组织"
+        ]
+    },
+    {
+        "name": "unter",
+        "trans": [
+            "Präp. 在……下面  （+D）"
+        ]
+    },
+    {
+        "name": "der Baum üe",
+        "trans": [
+            "名词. 树木"
+        ]
+    },
+    {
+        "name": "verbringen",
+        "trans": [
+            "Verb. 度过"
+        ]
+    },
+    {
+        "name": "die Organisation -en",
+        "trans": [
+            "名词. 组织（工作）；机构"
+        ]
+    },
+    {
+        "name": "schaffen",
+        "trans": [
+            "Verb. 完成，做到；创造"
+        ]
+    },
+    {
+        "name": "musikalisch",
+        "trans": [
+            "Adj. 音乐的"
+        ]
+    },
+    {
+        "name": "begabt",
+        "trans": [
+            "Adj. 有天赋的"
+        ]
+    },
+    {
+        "name": "das Gedächtnis -se",
+        "trans": [
+            "名词. 记忆，记忆力"
+        ]
+    },
+    {
+        "name": "auswendig",
+        "trans": [
+            "Adv. 凭记忆"
+        ]
+    },
+    {
+        "name": "zuständig",
+        "trans": [
+            "Adj. 主管的，相关的"
+        ]
+    },
+    {
+        "name": "das Rezept -e",
+        "trans": [
+            "名词. 处方；菜谱"
+        ]
+    },
+    {
+        "name": "echt",
+        "trans": [
+            "Adj. 真正的，纯的"
+        ]
+    },
+    {
+        "name": "gleichzeitig",
+        "trans": [
+            "Adj./Adv. 同时（发生）的（地）"
+        ]
+    },
+    {
+        "name": "humorvoll",
+        "trans": [
+            "Adj. 幽默的"
+        ]
+    },
+    {
+        "name": "ziemlich",
+        "trans": [
+            "Adv. 相当地"
+        ]
+    },
+    {
+        "name": "die Vergangenheit -en",
+        "trans": [
+            "名词. 过去"
+        ]
+    },
+    {
+        "name": "vorher",
+        "trans": [
+            "Adv. 先前，以前"
+        ]
+    },
+    {
+        "name": "berichten",
+        "trans": [
+            "Verb. 报道，告知"
+        ]
+    },
+    {
+        "name": "feiern",
+        "trans": [
+            "Verb. 庆祝"
+        ]
+    },
+    {
+        "name": "geizig",
+        "trans": [
+            "Adj. 吝啬的"
+        ]
+    },
+    {
+        "name": "das Café -s",
+        "trans": [
+            "名词. 咖啡馆"
+        ]
+    },
+    {
+        "name": "herunterladen",
+        "trans": [
+            "Verb. 下载（不规则变化）"
+        ]
+    },
+    {
+        "name": "sparen",
+        "trans": [
+            "Verb. 储蓄，省下；节约"
+        ]
+    },
+    {
+        "name": "das Taxi -s",
+        "trans": [
+            "名词. 出租汽车"
+        ]
+    },
+    {
+        "name": "zurückfahren",
+        "trans": [
+            "Verb. 驶回；乘车返回  （不规则变化）"
+        ]
+    },
+    {
+        "name": "das Studium ien",
+        "trans": [
+            "名词. （大学）学习，研究"
+        ]
+    },
+    {
+        "name": "zusammenarbeiten",
+        "trans": [
+            "Verb. 合作，协作"
+        ]
+    },
+    {
+        "name": "jein",
+        "trans": [
+            "Part. 既对也错，难说"
+        ]
+    },
+    {
+        "name": "wieso",
+        "trans": [
+            "Adv. 为什么，怎么"
+        ]
+    },
+    {
+        "name": "bequem",
+        "trans": [
+            "Adj. 舒适的；方便的"
+        ]
+    },
+    {
+        "name": "umweltfreundlich",
+        "trans": [
+            "Adj. 对环境无害的"
+        ]
+    },
+    {
+        "name": "glücklicherweise",
+        "trans": [
+            "Adv. 幸亏，幸好，幸而"
+        ]
+    },
+    {
+        "name": "gelingen",
+        "trans": [
+            "Verb. 成功"
+        ]
+    },
+    {
+        "name": "anscheinend",
+        "trans": [
+            "Adv. 看来，似乎"
+        ]
+    },
+    {
+        "name": "die Jeans -",
+        "trans": [
+            "名词. 牛仔裤"
+        ]
+    },
+    {
+        "name": "beeindruckend",
+        "trans": [
+            "Adj. 给人留下深刻印象的"
+        ]
+    },
+    {
+        "name": "der Anfang äe",
+        "trans": [
+            "名词. 开端，开始"
+        ]
+    },
+    {
+        "name": "motivieren",
+        "trans": [
+            "Verb. 激发……的积极性"
+        ]
+    },
+    {
+        "name": "weit",
+        "trans": [
+            "Adj. 远的；宽的"
+        ]
+    },
+    {
+        "name": "der Fuß üe",
+        "trans": [
+            "名词. 足，脚"
+        ]
+    },
+    {
+        "name": "zu Fuß gehen",
+        "trans": [
+            "Verb. 步行"
+        ]
+    },
+    {
+        "name": "der Aufsatz äe",
+        "trans": [
+            "名词. 文章，作文，论文"
+        ]
+    },
+    {
+        "name": "das Kleid -Kleider",
+        "trans": [
+            "名词. 连衣裙；衣服（Pl.）"
+        ]
+    },
+    {
+        "name": "hilfsbereit",
+        "trans": [
+            "Adj. 乐于助人的"
+        ]
+    },
+    {
+        "name": "das Perfekt -e",
+        "trans": [
+            "名词. 现在完成时"
+        ]
+    },
+    {
+        "name": "der Unterschied -e",
+        "trans": [
+            "名词. 区别，差别"
+        ]
+    },
+    {
+        "name": "auffallen",
+        "trans": [
+            "Verb. 引起……注意  （不规则变化）"
+        ]
+    },
+    {
+        "name": "vergleichen",
+        "trans": [
+            "Verb. （用……与……）比较  （ + mit）"
+        ]
+    },
+    {
+        "name": "das Hilfsverb -en",
+        "trans": [
+            "名词. 助动词"
+        ]
+    },
+    {
+        "name": "das Vollverb -en",
+        "trans": [
+            "名词. 独立动词，完全动词"
+        ]
+    },
+    {
+        "name": "statt",
+        "trans": [
+            "Präp. 代替  （+ G）"
+        ]
+    },
+    {
+        "name": "das Präteritum ta",
+        "trans": [
+            "名词. 过去时"
+        ]
+    },
+    {
+        "name": "häufig",
+        "trans": [
+            "Adj./Adv. 经常的（地），常见的"
+        ]
+    },
+    {
+        "name": "die Änderung -en",
+        "trans": [
+            "名词. 变化，改变"
+        ]
+    },
+    {
+        "name": "die Bewegung -en",
+        "trans": [
+            "名词. 运动，动作，活动"
+        ]
+    },
+    {
+        "name": "der Bus -se",
+        "trans": [
+            "名词. 公共汽车"
+        ]
+    },
+    {
+        "name": "die Straßenbahn -en",
+        "trans": [
+            "名词. 有轨电车"
+        ]
+    },
+    {
+        "name": "die Freundschaft -en",
+        "trans": [
+            "名词. 友谊"
+        ]
+    },
+    {
+        "name": "die Seele -n",
+        "trans": [
+            "名词. 灵魂，心灵"
+        ]
+    },
+    {
+        "name": "das Vertrauen oPl",
+        "trans": [
+            "名词. 信任，信赖"
+        ]
+    },
+    {
+        "name": "wahr",
+        "trans": [
+            "Adj. 真实的，真正的"
+        ]
+    },
+    {
+        "name": "aktiv",
+        "trans": [
+            "Adj. 主动的，积极的"
+        ]
+    },
+    {
+        "name": "zuhören",
+        "trans": [
+            "Verb. 倾听"
+        ]
+    },
+    {
+        "name": "pflegen",
+        "trans": [
+            "Verb. 看护，照料，保养"
+        ]
+    },
+    {
+        "name": "unternehmen (unternimmt)",
+        "trans": [
+            "Verb. 着手，从事，做"
+        ]
+    },
+    {
+        "name": "Nordchina",
+        "trans": [
+            "名词. 中国北方 (das可加可不加)"
+        ]
+    }
+]

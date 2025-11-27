@@ -1,0 +1,1418 @@
+[
+    {
+        "name": "das Schach oPl",
+        "trans": [
+            "名词. （国际）象棋"
+        ]
+    },
+    {
+        "name": "malen",
+        "trans": [
+            "Verb. 绘画；涂色"
+        ]
+    },
+    {
+        "name": "fotografieren",
+        "trans": [
+            "Verb. 拍照"
+        ]
+    },
+    {
+        "name": "das Spiel -e",
+        "trans": [
+            "名词. 游戏；比赛"
+        ]
+    },
+    {
+        "name": "das Haustier -e",
+        "trans": [
+            "名词. 宠物"
+        ]
+    },
+    {
+        "name": "spannend",
+        "trans": [
+            "Adj. 令人兴奋的；紧张的"
+        ]
+    },
+    {
+        "name": "die Komödie -n",
+        "trans": [
+            "名词. 喜剧"
+        ]
+    },
+    {
+        "name": "entspannend",
+        "trans": [
+            "Adj. 放松的"
+        ]
+    },
+    {
+        "name": "basteln",
+        "trans": [
+            "Verb. 手工制作"
+        ]
+    },
+    {
+        "name": "die Werkstatt äen",
+        "trans": [
+            "名词.车间；工作室"
+        ]
+    },
+    {
+        "name": "besonders",
+        "trans": [
+            "Adv. 特别地"
+        ]
+    },
+    {
+        "name": "bauen",
+        "trans": [
+            "Verb. 建造；搭建"
+        ]
+    },
+    {
+        "name": "das Modell -e",
+        "trans": [
+            "名词. 模型"
+        ]
+    },
+    {
+        "name": "das Auto -s",
+        "trans": [
+            "名词. 汽车"
+        ]
+    },
+    {
+        "name": "das Flugzeug -e",
+        "trans": [
+            "名词. 飞机"
+        ]
+    },
+    {
+        "name": "kreativ",
+        "trans": [
+            "Adj. 有创造力的"
+        ]
+    },
+    {
+        "name": "die Kamera -s",
+        "trans": [
+            "名词. 相机"
+        ]
+    },
+    {
+        "name": "das Leben -",
+        "trans": [
+            "名词. 生活"
+        ]
+    },
+    {
+        "name": "das Ding -e",
+        "trans": [
+            "名词. 东西"
+        ]
+    },
+    {
+        "name": "das Fremdwort öer",
+        "trans": [
+            "名词. 外来词"
+        ]
+    },
+    {
+        "name": "das Poster -",
+        "trans": [
+            "名词. 海报"
+        ]
+    },
+    {
+        "name": "das Papier oPl",
+        "trans": [
+            "名词. 纸张"
+        ]
+    },
+    {
+        "name": "der Stift -e",
+        "trans": [
+            "名词. 笔"
+        ]
+    },
+    {
+        "name": "bedeuten",
+        "trans": [
+            "Verb. 意味着"
+        ]
+    },
+    {
+        "name": "regelmäßig",
+        "trans": [
+            "Adv. 定期地；经常"
+        ]
+    },
+    {
+        "name": "kleben",
+        "trans": [
+            "Verb. 粘贴"
+        ]
+    },
+    {
+        "name": "die Aufgabe -n",
+        "trans": [
+            "名词. 任务；作业"
+        ]
+    },
+    {
+        "name": "verlangen",
+        "trans": [
+            "Verb. 要求；需要"
+        ]
+    },
+    {
+        "name": "danken",
+        "trans": [
+            "Verb. 感谢"
+        ]
+    },
+    {
+        "name": "indirekt",
+        "trans": [
+            "Adj. 间接的"
+        ]
+    },
+    {
+        "name": "das Objekt -e",
+        "trans": [
+            "名词. 宾语；物体"
+        ]
+    },
+    {
+        "name": "aus/drücken",
+        "trans": [
+            "Verb. 表达"
+        ]
+    },
+    {
+        "name": "leisten",
+        "trans": [
+            "Verb. 承担；做出（贡献）"
+        ]
+    },
+    {
+        "name": "die Hilfe -n",
+        "trans": [
+            "名词. 帮助"
+        ]
+    },
+    {
+        "name": "der Zirkel -",
+        "trans": [
+            "名词. 圆规"
+        ]
+    },
+    {
+        "name": "gehören",
+        "trans": [
+            "Verb. 属于"
+        ]
+    },
+    {
+        "name": "der Kreis -e",
+        "trans": [
+            "名词. 圆圈；圈子"
+        ]
+    },
+    {
+        "name": "die Schere -n",
+        "trans": [
+            "名词. 剪刀"
+        ]
+    },
+    {
+        "name": "das Lineal -e",
+        "trans": [
+            "名词. 直尺"
+        ]
+    },
+    {
+        "name": "der Textmarker -",
+        "trans": [
+            "名词. 荧光笔"
+        ]
+    },
+    {
+        "name": "der Buntstift -e",
+        "trans": [
+            "名词.彩色铅笔"
+        ]
+    },
+    {
+        "name": "der Hefter -",
+        "trans": [
+            "名词. 订书机"
+        ]
+    },
+    {
+        "name": "das Klebeband äer",
+        "trans": [
+            "名词. 胶带"
+        ]
+    },
+    {
+        "name": "das Wörterbuch üer",
+        "trans": [
+            "名词.词典"
+        ]
+    },
+    {
+        "name": "passen zu",
+        "trans": [
+            "Verb. 与……相配"
+        ]
+    },
+    {
+        "name": "das Prinzip -ien",
+        "trans": [
+            "名词. 原则"
+        ]
+    },
+    {
+        "name": "nicht nur – sondern auch",
+        "trans": [
+            "Konj. 不但……而且……"
+        ]
+    },
+    {
+        "name": "das Lehrbuch üer",
+        "trans": [
+            "名词.教科书"
+        ]
+    },
+    {
+        "name": "der Roman -e",
+        "trans": [
+            "名词. 小说"
+        ]
+    },
+    {
+        "name": "der Krieg -e",
+        "trans": [
+            "名词. 战争"
+        ]
+    },
+    {
+        "name": "der Frieden oPl",
+        "trans": [
+            "名词. 和平"
+        ]
+    },
+    {
+        "name": "das Gedicht -e",
+        "trans": [
+            "名词. 诗歌"
+        ]
+    },
+    {
+        "name": "das Tischtennis oPl",
+        "trans": [
+            "名词. 乒乓球"
+        ]
+    },
+    {
+        "name": "schwimmen",
+        "trans": [
+            "Verb. 游泳"
+        ]
+    },
+    {
+        "name": "am liebsten",
+        "trans": [
+            "Adv. 最喜欢地"
+        ]
+    },
+    {
+        "name": "leicht",
+        "trans": [
+            "Adj. 轻的；容易的"
+        ]
+    },
+    {
+        "name": "die Energie -n",
+        "trans": [
+            "名词. 精力；能量"
+        ]
+    },
+    {
+        "name": "die Laune -n",
+        "trans": [
+            "名词. 心情"
+        ]
+    },
+    {
+        "name": "der Großvater äer",
+        "trans": [
+            "名词.爷爷，祖父，外祖父"
+        ]
+    },
+    {
+        "name": "allein",
+        "trans": [
+            "Adj./Adv. 单独的（地）；独自"
+        ]
+    },
+    {
+        "name": "der Spieler -",
+        "trans": [
+            "名词. 运动员；选手"
+        ]
+    },
+    {
+        "name": "fördern",
+        "trans": [
+            "Verb.促进；推动"
+        ]
+    },
+    {
+        "name": "die Konzentration oPl",
+        "trans": [
+            "名词. 专注，专心致志"
+        ]
+    },
+    {
+        "name": "die Fähigkeit -en",
+        "trans": [
+            "名词. 能力 ，才干"
+        ]
+    },
+    {
+        "name": "die Volksmusik oPl",
+        "trans": [
+            "名词. 民间音乐"
+        ]
+    },
+    {
+        "name": "zwar",
+        "trans": [
+            "Konj. 虽然（常与 aber 连用，虽然但是）"
+        ]
+    },
+    {
+        "name": "überall",
+        "trans": [
+            "Adv. 到处"
+        ]
+    },
+    {
+        "name": "der Nerv -en",
+        "trans": [
+            "名词. 神经"
+        ]
+    },
+    {
+        "name": "mit/nehmen",
+        "trans": [
+            "Verb. 带上；携带"
+        ]
+    },
+    {
+        "name": "herum/sitzen",
+        "trans": [
+            "Verb. 闲坐"
+        ]
+    },
+    {
+        "name": "lustig",
+        "trans": [
+            "Adj. 有趣的；搞笑的"
+        ]
+    },
+    {
+        "name": "fröhlich",
+        "trans": [
+            "Adj. 快乐的；愉快的"
+        ]
+    },
+    {
+        "name": "überhaupt",
+        "trans": [
+            "Adv. 根本；完全"
+        ]
+    },
+    {
+        "name": "die Popmusik oPl",
+        "trans": [
+            "名词. 流行音乐"
+        ]
+    },
+    {
+        "name": "verlieren",
+        "trans": [
+            "Verb. 输掉；失去"
+        ]
+    },
+    {
+        "name": "munter",
+        "trans": [
+            "Adj. 活泼的；精神好的"
+        ]
+    },
+    {
+        "name": "erhöhen",
+        "trans": [
+            "Verb. 提高；增加"
+        ]
+    },
+    {
+        "name": "die Lernfähigkeit oPl",
+        "trans": [
+            "名词. 学习能力"
+        ]
+    },
+    {
+        "name": "das Vergnügen -",
+        "trans": [
+            "名词. 愉悦；乐趣"
+        ]
+    },
+    {
+        "name": "konzentriert",
+        "trans": [
+            "Adj. 集中的；专注的"
+        ]
+    },
+    {
+        "name": "erlauben",
+        "trans": [
+            "Verb. 允许"
+        ]
+    },
+    {
+        "name": "stark",
+        "trans": [
+            "Adj. 强壮的；强烈的"
+        ]
+    },
+    {
+        "name": "sportlich",
+        "trans": [
+            "Adj. 体育的；运动的"
+        ]
+    },
+    {
+        "name": "das Sportfest -e",
+        "trans": [
+            "名词. 运动会"
+        ]
+    },
+    {
+        "name": "körperlich",
+        "trans": [
+            "Adj. 身体的；体力的"
+        ]
+    },
+    {
+        "name": "schwach",
+        "trans": [
+            "Adj. 虚弱的；弱的"
+        ]
+    },
+    {
+        "name": "erkranken",
+        "trans": [
+            "Verb. 生病；患病"
+        ]
+    },
+    {
+        "name": "blass",
+        "trans": [
+            "Adj. 苍白的"
+        ]
+    },
+    {
+        "name": "deshalb",
+        "trans": [
+            "Adv. 因此；所以"
+        ]
+    },
+    {
+        "name": "außerdem",
+        "trans": [
+            "Adv. 此外；而且"
+        ]
+    },
+    {
+        "name": "werben",
+        "trans": [
+            "Verb. 招募；做广告"
+        ]
+    },
+    {
+        "name": "der Verein -e",
+        "trans": [
+            "名词. 俱乐部；协会"
+        ]
+    },
+    {
+        "name": "die Art -en",
+        "trans": [
+            "方式，式样；品种，种类"
+        ]
+    },
+    {
+        "name": "aus/wählen",
+        "trans": [
+            "Verb. 选择；挑选"
+        ]
+    },
+    {
+        "name": "kräftig",
+        "trans": [
+            "Adj. 强壮的；有力的"
+        ]
+    },
+    {
+        "name": "schwer",
+        "trans": [
+            "Adj. 重的；困难的"
+        ]
+    },
+    {
+        "name": "begeistern",
+        "trans": [
+            "Verb. 使热情；吸引"
+        ]
+    },
+    {
+        "name": "ab/nehmen",
+        "trans": [
+            "Verb. 减轻（体重）；减少"
+        ]
+    },
+    {
+        "name": "schaden",
+        "trans": [
+            "Verb. 有害；损害"
+        ]
+    },
+    {
+        "name": "sitzen",
+        "trans": [
+            "Verb. 坐"
+        ]
+    },
+    {
+        "name": "der Computer -",
+        "trans": [
+            "名词. 电脑"
+        ]
+    },
+    {
+        "name": "durch/gehen",
+        "trans": [
+            "Verb. 经历；通过"
+        ]
+    },
+    {
+        "name": "der Fan -s",
+        "trans": [
+            "名词. 粉丝"
+        ]
+    },
+    {
+        "name": "beliebt",
+        "trans": [
+            "Adj. 受欢迎的"
+        ]
+    },
+    {
+        "name": "national",
+        "trans": [
+            "Adj. 国家的；全国性的"
+        ]
+    },
+    {
+        "name": "die Mannschaft -en",
+        "trans": [
+            "名词. 队伍"
+        ]
+    },
+    {
+        "name": "das Mädchen -",
+        "trans": [
+            "名词. 女孩"
+        ]
+    },
+    {
+        "name": "der Junge -n",
+        "trans": [
+            "名词. 男孩"
+        ]
+    },
+    {
+        "name": "die Frauenmannschaft -en",
+        "trans": [
+            "名词. 女子队"
+        ]
+    },
+    {
+        "name": "der Fußballer -",
+        "trans": [
+            "名词. 足球运动员"
+        ]
+    },
+    {
+        "name": "langweilig",
+        "trans": [
+            "Adj. 无聊的"
+        ]
+    },
+    {
+        "name": "verbessern",
+        "trans": [
+            "Verb. 改善；提高"
+        ]
+    },
+    {
+        "name": "das Knie -",
+        "trans": [
+            "名词. 膝盖"
+        ]
+    },
+    {
+        "name": "der Körper -",
+        "trans": [
+            "名词. 身体"
+        ]
+    },
+    {
+        "name": "das Training -s",
+        "trans": [
+            "名词. 训练"
+        ]
+    },
+    {
+        "name": "das Herz -en",
+        "trans": [
+            "名词. 心脏"
+        ]
+    },
+    {
+        "name": "stärken",
+        "trans": [
+            "Verb. 加强；增强"
+        ]
+    },
+    {
+        "name": "der Badeanzug üe",
+        "trans": [
+            "名词.泳衣"
+        ]
+    },
+    {
+        "name": "die Brille -n",
+        "trans": [
+            "名词. 眼镜"
+        ]
+    },
+    {
+        "name": "das Schwimmbad äer",
+        "trans": [
+            "名词.游泳池"
+        ]
+    },
+    {
+        "name": "die Angst Äe",
+        "trans": [
+            "名词.恐惧；害怕"
+        ]
+    },
+    {
+        "name": "durch",
+        "trans": [
+            "Präp. 通过；穿过"
+        ]
+    },
+    {
+        "name": "nützen",
+        "trans": [
+            "Verb. 有用；利用"
+        ]
+    },
+    {
+        "name": "drüben",
+        "trans": [
+            "Adv. 在那边"
+        ]
+    },
+    {
+        "name": "der HipHop -s",
+        "trans": [
+            "名词.嘻哈音乐"
+        ]
+    },
+    {
+        "name": "geeignet für",
+        "trans": [
+            "Adj. 适合……的"
+        ]
+    },
+    {
+        "name": "jederzeit",
+        "trans": [
+            "Adv. 随时"
+        ]
+    },
+    {
+        "name": "uninteressant",
+        "trans": [
+            "Adj. 不感兴趣的；无趣的"
+        ]
+    },
+    {
+        "name": "die Langeweile oPl",
+        "trans": [
+            "名词.无聊"
+        ]
+    },
+    {
+        "name": "trainieren",
+        "trans": [
+            "Verb. 训练"
+        ]
+    },
+    {
+        "name": "verschieden",
+        "trans": [
+            "Adj. 不同的"
+        ]
+    },
+    {
+        "name": "die Meinung -en",
+        "trans": [
+            "名词. 意见；看法"
+        ]
+    },
+    {
+        "name": "denken",
+        "trans": [
+            "Verb. 思考；认为"
+        ]
+    },
+    {
+        "name": "falsch",
+        "trans": [
+            "Adj. 错误的"
+        ]
+    },
+    {
+        "name": "zu/stimmen",
+        "trans": [
+            "Verb. 同意；相符"
+        ]
+    },
+    {
+        "name": "gemeinsam",
+        "trans": [
+            "Adj./Adv. 共同的（地）；一起"
+        ]
+    },
+    {
+        "name": "der Ausgleich -e",
+        "trans": [
+            "名词. 平衡；补偿"
+        ]
+    },
+    {
+        "name": "der Vorteil -e",
+        "trans": [
+            "名词. 优点；优势"
+        ]
+    },
+    {
+        "name": "überwiegen",
+        "trans": [
+            "Verb. 占优势；超过"
+        ]
+    },
+    {
+        "name": "der Nachteil -e",
+        "trans": [
+            "名词. 缺点；劣势"
+        ]
+    },
+    {
+        "name": "die Krise -n",
+        "trans": [
+            "名词. 危机"
+        ]
+    },
+    {
+        "name": "der Sportplatz äe",
+        "trans": [
+            "名词.运动场"
+        ]
+    },
+    {
+        "name": "das Ehrenamt -Ehrenämter",
+        "trans": [
+            "名词. 志愿工作，名誉职位"
+        ]
+    },
+    {
+        "name": "das Stadion dien",
+        "trans": [
+            "名词.体育场"
+        ]
+    },
+    {
+        "name": "interviewen",
+        "trans": [
+            "Verb. 采访，访问"
+        ]
+    },
+    {
+        "name": "ehrenamtlich",
+        "trans": [
+            "Adj. 义务的，不拿报酬的"
+        ]
+    },
+    {
+        "name": "freiwillig",
+        "trans": [
+            "Adj. 自愿的，志愿的"
+        ]
+    },
+    {
+        "name": "der Freiwillige -n",
+        "trans": [
+            "名词. 志愿者"
+        ]
+    },
+    {
+        "name": "die U-Bahn -en",
+        "trans": [
+            "名词. 地铁"
+        ]
+    },
+    {
+        "name": "die Station -en",
+        "trans": [
+            "名词. （车）站"
+        ]
+    },
+    {
+        "name": "die Halle -n",
+        "trans": [
+            "名词. 大厅，礼堂"
+        ]
+    },
+    {
+        "name": "endlich",
+        "trans": [
+            "Adv. 终于，总算，到底"
+        ]
+    },
+    {
+        "name": "ideal",
+        "trans": [
+            "Adj. 理想的"
+        ]
+    },
+    {
+        "name": "gratulieren",
+        "trans": [
+            "Verb. 祝贺，庆贺"
+        ]
+    },
+    {
+        "name": "die Zeitung -en",
+        "trans": [
+            "名词. 报纸"
+        ]
+    },
+    {
+        "name": "der Bericht -e",
+        "trans": [
+            "名词. 报告，报道"
+        ]
+    },
+    {
+        "name": "die Bezahlung -en",
+        "trans": [
+            "名词. 工资，报酬"
+        ]
+    },
+    {
+        "name": "umsonst",
+        "trans": [
+            "Adv. 免费；徒劳，白白地"
+        ]
+    },
+    {
+        "name": "prima",
+        "trans": [
+            "Adj. 头等的，出色的"
+        ]
+    },
+    {
+        "name": "aus/üben",
+        "trans": [
+            "Verb. 从事，执行；施加"
+        ]
+    },
+    {
+        "name": "die Million -en",
+        "trans": [
+            "名词. 百万"
+        ]
+    },
+    {
+        "name": "der Chinese -n",
+        "trans": [
+            "名词. 中国人"
+        ]
+    },
+    {
+        "name": "tätig",
+        "trans": [
+            "Adj. 活动着的，从事……工作的"
+        ]
+    },
+    {
+        "name": "die Gesellschaft -en",
+        "trans": [
+            "名词. 社会；团体，协会"
+        ]
+    },
+    {
+        "name": "das Krankenhaus äer",
+        "trans": [
+            "名词.医院"
+        ]
+    },
+    {
+        "name": "die Alte -n",
+        "trans": [
+            "名词. 老人（阴性形式，与形容词变格一致）"
+        ]
+    },
+    {
+        "name": "das Heim -e",
+        "trans": [
+            "名词. 家，住宅；疗养院"
+        ]
+    },
+    {
+        "name": "öffentlich",
+        "trans": [
+            "Adj. 公开的；公共的"
+        ]
+    },
+    {
+        "name": "die Einrichtung -en",
+        "trans": [
+            "名词. 设置，设施，装置"
+        ]
+    },
+    {
+        "name": "der Fahrgast äe",
+        "trans": [
+            "名词.乘客"
+        ]
+    },
+    {
+        "name": "die Suche -n",
+        "trans": [
+            "名词. 寻找，搜寻"
+        ]
+    },
+    {
+        "name": "der Verkehr oPl",
+        "trans": [
+            "名词. 交通；交往"
+        ]
+    },
+    {
+        "name": "die Verbindung -en",
+        "trans": [
+            "名词. 联系，关系；交通连接"
+        ]
+    },
+    {
+        "name": "der Ausländer -",
+        "trans": [
+            "名词. 外国人"
+        ]
+    },
+    {
+        "name": "der Weg -e",
+        "trans": [
+            "名词. （道）路；路程；途径"
+        ]
+    },
+    {
+        "name": "der Umgang oPl",
+        "trans": [
+            "名词. 交际，打交道"
+        ]
+    },
+    {
+        "name": "die Stärke -n",
+        "trans": [
+            "名词. 力（量）；优点；强度"
+        ]
+    },
+    {
+        "name": "die Schwäche -n",
+        "trans": [
+            "名词. 体弱；弱点"
+        ]
+    },
+    {
+        "name": "schüchtern",
+        "trans": [
+            "Adj. 胆怯的，羞怯的"
+        ]
+    },
+    {
+        "name": "zurückhaltend",
+        "trans": [
+            "Adj. 拘谨的，矜持的"
+        ]
+    },
+    {
+        "name": "selbstbewusst",
+        "trans": [
+            "Adj. 自信的"
+        ]
+    },
+    {
+        "name": "erzählen",
+        "trans": [
+            "Verb. 叙述，讲述"
+        ]
+    },
+    {
+        "name": "die Geschichte -n",
+        "trans": [
+            "名词. 故事；历史（o. Pl.）"
+        ]
+    },
+    {
+        "name": "der Angestellte -n",
+        "trans": [
+            "名词. 职员，雇员"
+        ]
+    },
+    {
+        "name": "geduldig",
+        "trans": [
+            "Adj. 有耐心的"
+        ]
+    },
+    {
+        "name": "die Germanistik oPl",
+        "trans": [
+            "名词. 德语语言文学"
+        ]
+    },
+    {
+        "name": "hauptsächlich",
+        "trans": [
+            "Adj. 主要的，根本的"
+        ]
+    },
+    {
+        "name": "das Zimmer -",
+        "trans": [
+            "名词. 房间"
+        ]
+    },
+    {
+        "name": "sauber",
+        "trans": [
+            "Adj. 清洁的，干净的"
+        ]
+    },
+    {
+        "name": "rausbringen",
+        "trans": [
+            "Verb. 拿出去，拿出来"
+        ]
+    },
+    {
+        "name": "reichen",
+        "trans": [
+            "Verb. 把……端给，递（给）"
+        ]
+    },
+    {
+        "name": "et cetera",
+        "trans": [
+            "Adv. (etc)等等"
+        ]
+    },
+    {
+        "name": "begleiten",
+        "trans": [
+            "Verb. 伴随，陪同"
+        ]
+    },
+    {
+        "name": "der Spaziergang äe",
+        "trans": [
+            "名词. 散步"
+        ]
+    },
+    {
+        "name": "vorlesen",
+        "trans": [
+            "Verb. 朗读"
+        ]
+    },
+    {
+        "name": "selbstständig",
+        "trans": [
+            "Adj. 独立的，自主的"
+        ]
+    },
+    {
+        "name": "übernehmen",
+        "trans": [
+            "Verb. 接收，接纳；接管"
+        ]
+    },
+    {
+        "name": "zudem",
+        "trans": [
+            "Adv. 此外，再者，而且"
+        ]
+    },
+    {
+        "name": "aufnehmen",
+        "trans": [
+            "Verb. 着手，开始；接纳，吸收；拍摄，录（音，像）"
+        ]
+    },
+    {
+        "name": "die Unterstützung -en",
+        "trans": [
+            "名词. 支持；资助"
+        ]
+    },
+    {
+        "name": "der Beitrag äe",
+        "trans": [
+            "名词. 贡献；会费"
+        ]
+    },
+    {
+        "name": "stolz",
+        "trans": [
+            "Adj. 自豪的，骄傲的"
+        ]
+    },
+    {
+        "name": "empfehlen",
+        "trans": [
+            "Verb. 推荐，介绍"
+        ]
+    },
+    {
+        "name": "die Ferien Pl.",
+        "trans": [
+            "名词. 假期"
+        ]
+    },
+    {
+        "name": "das Dorf öer",
+        "trans": [
+            "名词. 村庄"
+        ]
+    },
+    {
+        "name": "die Klasse -n",
+        "trans": [
+            "名词. 班级；年级；阶级；等级"
+        ]
+    },
+    {
+        "name": "etwa",
+        "trans": [
+            "Adv. 大约，将近"
+        ]
+    },
+    {
+        "name": "die Grammatik oPl",
+        "trans": [
+            "名词. 语法"
+        ]
+    },
+    {
+        "name": "der Schüler -",
+        "trans": [
+            "名词. （中小学校）学生；弟子"
+        ]
+    },
+    {
+        "name": "bei/bringen",
+        "trans": [
+            "Verb. 教，传授"
+        ]
+    },
+    {
+        "name": "die Hoffnung -en",
+        "trans": [
+            "名词. 希望，期望"
+        ]
+    },
+    {
+        "name": "der Dienst -e",
+        "trans": [
+            "名词. 工作，职务；值勤，值班"
+        ]
+    },
+    {
+        "name": "die Erfahrung -en",
+        "trans": [
+            "名词. 经验"
+        ]
+    },
+    {
+        "name": "sammeln",
+        "trans": [
+            "Verb. 收集，募集，积累"
+        ]
+    },
+    {
+        "name": "das Erlebnis -se",
+        "trans": [
+            "名词. 经历，阅历"
+        ]
+    },
+    {
+        "name": "unvergesslich",
+        "trans": [
+            "Adj. 令人难忘的"
+        ]
+    },
+    {
+        "name": "der Brunnen -",
+        "trans": [
+            "名词. 井；泉，喷泉"
+        ]
+    },
+    {
+        "name": "sinnvoll",
+        "trans": [
+            "Adj. 有意义的；明智的"
+        ]
+    },
+    {
+        "name": "recht",
+        "trans": [
+            "Adv. 相当，颇"
+        ]
+    },
+    {
+        "name": "die Tätigkeit -en",
+        "trans": [
+            "名词. 活动，工作"
+        ]
+    },
+    {
+        "name": "unabhängig",
+        "trans": [
+            "Adj. 独立自主的"
+        ]
+    },
+    {
+        "name": "eigen",
+        "trans": [
+            "Adj. 自己的，独特的"
+        ]
+    },
+    {
+        "name": "die Richtung -en",
+        "trans": [
+            "名词. 方向；流派，思潮"
+        ]
+    },
+    {
+        "name": "teil/nehmen",
+        "trans": [
+            "Verb. 参加"
+        ]
+    },
+    {
+        "name": "der Helfer -",
+        "trans": [
+            "名词. 帮助者，助手"
+        ]
+    },
+    {
+        "name": "der Umweltschutz oPl",
+        "trans": [
+            "名词. 环境保护"
+        ]
+    },
+    {
+        "name": "der Campus -",
+        "trans": [
+            "名词. 校园，学校场地"
+        ]
+    },
+    {
+        "name": "die Bekanntschaft -en",
+        "trans": [
+            "名词. 熟人；结识（o. Pl.）"
+        ]
+    },
+    {
+        "name": "geraten",
+        "trans": [
+            "Verb. 陷于，处于 (+ in + A)"
+        ]
+    },
+    {
+        "name": "weitergehen",
+        "trans": [
+            "Verb. 继续行进，继续"
+        ]
+    },
+    {
+        "name": "das Maß -e",
+        "trans": [
+            "名词. 计量单位，限度"
+        ]
+    },
+    {
+        "name": "in Maßen",
+        "trans": [
+            "Adv. 适量地，适中地"
+        ]
+    },
+    {
+        "name": "allerdings",
+        "trans": [
+            "Adv. 不过，当然"
+        ]
+    },
+    {
+        "name": "relaxen",
+        "trans": [
+            "Verb. 放松，休息"
+        ]
+    },
+    {
+        "name": "reduzieren",
+        "trans": [
+            "Verb. 降低，缩小，减少"
+        ]
+    },
+    {
+        "name": "die Anforderung -en",
+        "trans": [
+            "名词. 要求（对效率、能力等）"
+        ]
+    }
+]
