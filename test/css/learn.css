@@ -148,6 +148,24 @@
       justify-content:space-between;
       margin-bottom:8px;
     }
+    .settings-view .shortcut-settings{
+      gap:10px;
+    }
+    .settings-view .shortcut-row{
+      display:flex;
+      gap:8px;
+      align-items:flex-start;
+      color:var(--text);
+      font-weight:600;
+    }
+    .settings-view .shortcut-row input{
+      margin-top:2px;
+      width:auto;
+      flex:0 0 auto;
+    }
+    .settings-view .shortcut-help{
+      margin-top:2px;
+    }
 
     @media (max-width: 560px){
       .settings-view .view-title .meta{
@@ -173,6 +191,9 @@
       }
       .settings-view .pill{
         white-space:normal;
+      }
+      .settings-view .shortcut-row{
+        line-height:1.4;
       }
     }
 
@@ -375,6 +396,10 @@
       gap:10px;
     }
     .word-card:hover{ transform: translateY(-1px); box-shadow: var(--shadow-sm); }
+    .word-card.shortcut-selected{
+      border-color: rgba(16,163,127,.6);
+      box-shadow: 0 0 0 3px rgba(16,163,127,.16);
+    }
     .word-top{
       display:flex;
       gap:10px;

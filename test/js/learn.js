@@ -21,7 +21,9 @@
     goalType: "words",        // "words" | "chunks"
     goalValue: 30,
     lastDate: null,
-    lastSelection: { dictId: null, unitIds: [], order: "as-is" }
+    lastSelection: { dictId: null, unitIds: [], order: "as-is" },
+    shortcutsEnabled: true,
+    shortcutsNumberSelect: true
   };
 
   /** ---------- State ---------- */
@@ -39,6 +41,7 @@
     mergedWords: [],
     chunks: [],
     chunkIndex: 0,
+    studySelectedWordKey: null,
 
     progress: {},             // wordKey -> { learnedAt }
     settings: structuredClone(DEFAULT_SETTINGS),
@@ -176,6 +179,8 @@
     const s = readJSON(LS_KEYS.settings, structuredClone(DEFAULT_SETTINGS));
     state.settings = Object.assign(structuredClone(DEFAULT_SETTINGS), s || {});
     if (!state.settings.lastSelection) state.settings.lastSelection = structuredClone(DEFAULT_SETTINGS.lastSelection);
+    state.settings.shortcutsEnabled = state.settings.shortcutsEnabled !== false;
+    state.settings.shortcutsNumberSelect = state.settings.shortcutsNumberSelect !== false;
     return state.settings;
   }
   function saveProgress() {
@@ -363,6 +368,175 @@
     return `${sig}::chunk${chunkIndex+1}::${hashString(body)}`;
   }
 
+  function isDesktopShortcutEnv() {
+    if (typeof window === "undefined") return false;
+    if (typeof window.matchMedia !== "function") return true;
+    return window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+  }
+
+  function isTypingTarget(target) {
+    const el = target instanceof Element ? target : null;
+    if (!el) return false;
+    if (el.closest('input, textarea, select, [contenteditable="true"]')) return true;
+    return false;
+  }
+
+  function parseStudyDigitIndex(e) {
+    // 1..9 => word 1..9, 0 => word 10, Shift+1..5 => word 11..15
+    if (e.code.startsWith("Numpad")) {
+      const n = Number(e.code.slice("Numpad".length));
+      if (!Number.isInteger(n) || n < 0 || n > 9) return null;
+      return n === 0 ? 10 : n;
+    }
+    if (!e.code.startsWith("Digit")) return null;
+    const n = Number(e.code.slice("Digit".length));
+    if (!Number.isInteger(n) || n < 0 || n > 9) return null;
+    if (e.shiftKey) {
+      if (n >= 1 && n <= 5) return n + 10;
+      return null;
+    }
+    return n === 0 ? 10 : n;
+  }
+
+  function setSelectedStudyWord(wordKey) {
+    state.studySelectedWordKey = wordKey || null;
+    $$(".word-card", elViewRoot).forEach(card => {
+      card.classList.toggle("shortcut-selected", !!wordKey && card.dataset.wordkey === wordKey);
+    });
+  }
+
+  function getSelectedStudyWord() {
+    const chunk = state.chunks[state.chunkIndex] || [];
+    return chunk.find(w => w.wordKey === state.studySelectedWordKey) || null;
+  }
+
+  function selectStudyWordByIndex(index, { open=true, scroll=true } = {}) {
+    const cards = $$(".word-card", elViewRoot);
+    if (!cards.length || index < 0 || index >= cards.length) return false;
+    const card = cards[index];
+    const key = card.dataset.wordkey || null;
+    if (!key) return false;
+    setSelectedStudyWord(key);
+
+    if (open) {
+      card.classList.add("open");
+      const top = $(".word-top", card);
+      if (top) top.setAttribute("aria-expanded", "true");
+    }
+    if (scroll) {
+      card.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+    }
+    return true;
+  }
+
+  function markSelectedStudyWordAsWrong() {
+    const word = getSelectedStudyWord();
+    if (!word) return false;
+    addWrongWords([word], { source: "study" });
+    toast("已加入错词本", word.name, "warn");
+    renderChunk();
+    return true;
+  }
+
+  function handleStudyShortcuts(e) {
+    if (!state.settings.shortcutsEnabled) return;
+    if (state.settings.shortcutsNumberSelect) {
+      const idx = parseStudyDigitIndex(e);
+      if (idx !== null) {
+        if (selectStudyWordByIndex(idx - 1)) e.preventDefault();
+        return;
+      }
+    }
+
+    if (e.repeat) return;
+    const key = e.key.toLowerCase();
+    if (key === "l") {
+      const word = getSelectedStudyWord();
+      if (!word) return;
+      e.preventDefault();
+      markWordLearned(word.wordKey);
+      return;
+    }
+    if (key === "w") {
+      if (markSelectedStudyWordAsWrong()) e.preventDefault();
+      return;
+    }
+    if (key === "[") {
+      const btn = $("#btn-prev-chunk", elViewRoot);
+      if (btn && !btn.disabled) { e.preventDefault(); btn.click(); }
+      return;
+    }
+    if (key === "]") {
+      const btn = $("#btn-next-chunk", elViewRoot);
+      if (btn && !btn.disabled) { e.preventDefault(); btn.click(); }
+      return;
+    }
+    if (key === "q") {
+      const btn = $("#btn-start-quiz", elViewRoot);
+      if (btn && !btn.disabled) { e.preventDefault(); btn.click(); }
+      return;
+    }
+  }
+
+  function handleQuizShortcuts(e) {
+    if (!state.settings.shortcutsEnabled) return;
+    const choices = $$(".choice", elViewRoot);
+
+    // 1..6 answer selection
+    if (choices.length) {
+      let idx = null;
+      if (e.code.startsWith("Digit") || e.code.startsWith("Numpad")) {
+        const raw = Number(e.code.replace("Digit", "").replace("Numpad", ""));
+        if (Number.isInteger(raw) && raw >= 1 && raw <= 6) idx = raw - 1;
+      }
+      if (idx !== null) {
+        const btn = choices[idx];
+        if (btn && !btn.disabled) {
+          e.preventDefault();
+          btn.click();
+          return;
+        }
+      }
+    }
+
+    if (e.key === "Enter") {
+      const btnNext = $("#btn-next-q", elViewRoot);
+      if (btnNext && !btnNext.disabled) {
+        e.preventDefault();
+        btnNext.click();
+      }
+      return;
+    }
+    if (e.key === "Escape") {
+      const btnQuit = $("#btn-quit-quiz", elViewRoot);
+      if (btnQuit && !btnQuit.disabled) {
+        e.preventDefault();
+        btnQuit.click();
+      }
+    }
+  }
+
+  function handleGlobalShortcuts(e) {
+    if (!isDesktopShortcutEnv()) return;
+    if (!state.settings.shortcutsEnabled) return;
+    if (elModalImport.classList.contains("open")) return;
+    if (isTypingTarget(e.target)) return;
+
+    if (e.altKey && !e.ctrlKey && !e.metaKey) {
+      const map = { "1": "study", "2": "quiz", "3": "wrong", "4": "settings" };
+      const v = map[e.key];
+      if (v) {
+        e.preventDefault();
+        setView(v);
+      }
+      return;
+    }
+
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    if (state.view === "study") handleStudyShortcuts(e);
+    else if (state.view === "quiz") handleQuizShortcuts(e);
+  }
+
   /** ---------- Study view (required) ---------- */
   function renderWordCard(word) {
     const learned = !!state.progress[word.wordKey];
@@ -402,6 +576,7 @@
     });
 
     card.addEventListener("click", (e) => {
+      setSelectedStudyWord(word.wordKey);
       const btn = e.target.closest("button[data-act]");
       if (!btn) return;
       const act = btn.dataset.act;
@@ -409,11 +584,7 @@
       if (act === "learn") {
         markWordLearned(k);
       } else if (act === "mark-wrong") {
-        // add to wrong words book (study-mark also allowed)
-        addWrongWords([word], { source: "study" });
-        toast("已加入错词本", word.name, "warn");
-        // refresh tags
-        renderChunk();
+        markSelectedStudyWordAsWrong();
       }
       e.stopPropagation();
     });
@@ -459,6 +630,7 @@
   function renderChunk() {
     const totalChunks = state.chunks.length;
     if (!totalChunks) {
+      state.studySelectedWordKey = null;
       elViewRoot.innerHTML = `
         <div class="view">
           <div class="view-title">
@@ -538,6 +710,10 @@
     const frag = document.createDocumentFragment();
     for (const w of chunk) frag.appendChild(renderWordCard(w));
     wordsWrap.appendChild(frag);
+    if (!chunk.some(w => w.wordKey === state.studySelectedWordKey)) {
+      state.studySelectedWordKey = chunk[0]?.wordKey || null;
+    }
+    setSelectedStudyWord(state.studySelectedWordKey);
 
     $("#btn-prev-chunk", elViewRoot).addEventListener("click", () => { state.chunkIndex--; renderChunk(); });
     $("#btn-next-chunk", elViewRoot).addEventListener("click", () => { state.chunkIndex++; renderChunk(); });
@@ -1038,6 +1214,8 @@
     const today = readTodayLog();
     const goalType = state.settings.goalType;
     const goalValue = Math.max(1, Number(state.settings.goalValue) || 1);
+    const shortcutsEnabled = state.settings.shortcutsEnabled !== false;
+    const shortcutsNumberSelect = state.settings.shortcutsNumberSelect !== false;
 
     const cur = goalType === "words" ? (today.learnedWordsCount || 0) : (today.learnedChunksCount || 0);
     const pct = Math.min(100, Math.round((cur / goalValue) * 100));
@@ -1093,6 +1271,25 @@
 
           <div class="divider"></div>
 
+          <div class="col shortcut-settings">
+            <label class="shortcut-row">
+              <input id="set-shortcuts-enabled" type="checkbox" ${shortcutsEnabled ? "checked" : ""} />
+              启用桌面快捷键
+            </label>
+            <label class="shortcut-row">
+              <input id="set-shortcuts-number" type="checkbox" ${shortcutsNumberSelect ? "checked" : ""} />
+              学习页数字选词（1-9/0，Shift+1~5 对应第 11-15 词）
+            </label>
+            <div class="hint shortcut-help">
+              <b>快捷键说明（桌面端）</b><br/>
+              学习：1-9/0 或 Shift+1~5 选词，L 标记已掌握，W 标记错词，[ / ] 切换词块，Q 开始测验<br/>
+              测验：1-6 选答案，Enter 下一题，Esc 退出测验<br/>
+              全局：Alt+1 学习，Alt+2 测验，Alt+3 错词本，Alt+4 设置
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
           <div class="hint">
             <b>localStorage 键设计（本应用使用）：</b><br/>
             <code>${escapeHtml(LS_KEYS.settings)}</code>：用户每日目标设置<br/>
@@ -1110,6 +1307,8 @@
       const v = Math.max(1, Number($("#set-goal-value", elViewRoot).value || 1));
       state.settings.goalType = (t === "chunks") ? "chunks" : "words";
       state.settings.goalValue = v;
+      state.settings.shortcutsEnabled = !!$("#set-shortcuts-enabled", elViewRoot)?.checked;
+      state.settings.shortcutsNumberSelect = !!$("#set-shortcuts-number", elViewRoot)?.checked;
       saveSetting();
 
       // sync today's log goal fields (non-destructive)
@@ -1315,6 +1514,7 @@
   function bindEvents() {
     // tabs
     $$(".tab").forEach(t => t.addEventListener("click", () => setView(t.dataset.view)));
+    document.addEventListener("keydown", handleGlobalShortcuts);
 
     // dict selection
     elSelDict.addEventListener("change", () => {
