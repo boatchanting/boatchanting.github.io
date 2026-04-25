@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>期中模拟试题4-适中</title>
+  <link rel="stylesheet" href="期中模拟试题4-适中.css?v=mock4-medium-1">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="title-block">
+        <p class="eyebrow">新一代大学德语 2 · A2-B1</p>
+        <h1>期中模拟试题 4（适中）</h1>
+        <p class="meta-line">不含听力 · 满分 <span id="totalScoreText">85</span> 分 · 建议用时 <span id="durationText">100</span> 分钟</p>
+      </div>
+      <div class="timer-panel" aria-live="polite">
+        <span class="timer-label">剩余时间</span>
+        <strong id="timerDisplay">100:00</strong>
+        <span id="examStatus" class="status-pill">未开始</span>
+      </div>
+    </header>
+
+    <nav class="controlbar" aria-label="考试控制">
+      <button id="startBtn" class="primary-btn" type="button">开始作答</button>
+      <button id="pauseBtn" type="button" disabled>暂停</button>
+      <button id="resumeBtn" type="button" disabled>继续</button>
+      <button id="submitBtn" class="danger-btn" type="button" disabled>交卷判分</button>
+      <button id="clearBtn" type="button">清除作答</button>
+      <button id="apiReviewBtn" type="button" disabled>API复核非选择题</button>
+      <button id="aiWrongBtn" type="button" disabled>生成错题AI解析</button>
+      <button id="exportJsonBtn" type="button">导出JSON</button>
+      <button id="exportMdBtn" type="button">导出Markdown</button>
+    </nav>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="作答概览">
+        <section class="side-panel score-panel">
+          <div>
+            <span class="side-label">当前得分</span>
+            <strong id="scoreText">-- / 85</strong>
+          </div>
+          <div class="meter" aria-hidden="true"><span id="scoreMeter"></span></div>
+        </section>
+
+        <section class="side-panel">
+          <div class="side-heading">
+            <h2>进度</h2>
+            <span id="answeredCount">0 / 72</span>
+          </div>
+          <div class="meter" aria-hidden="true"><span id="progressMeter"></span></div>
+        </section>
+
+        <section class="side-panel">
+          <h2>题目导航</h2>
+          <div id="questionNav" class="question-nav"></div>
+        </section>
+
+        <section class="side-panel">
+          <h2>已作答</h2>
+          <div id="answeredList" class="compact-list empty">暂无</div>
+        </section>
+
+        <section class="side-panel">
+          <h2>已标记</h2>
+          <div id="markedList" class="compact-list empty">暂无</div>
+        </section>
+
+        <section class="side-panel api-panel">
+          <h2>API判卷</h2>
+          <label>
+            <span>Base URL</span>
+            <input id="apiBaseUrl" type="text" value="http://127.0.0.1:18900/v1">
+          </label>
+          <label>
+            <span>Model</span>
+            <input id="apiModel" type="text" value="deepseek-reasoner">
+          </label>
+          <label>
+            <span>API Key</span>
+            <input id="apiKey" type="password" autocomplete="off" placeholder="可留空">
+          </label>
+          <label class="check-row">
+            <input id="autoApiJudge" type="checkbox">
+            <span>交卷后复核非选择题</span>
+          </label>
+          <div class="api-progress">
+            <div class="meter" aria-hidden="true"><span id="apiProgressMeter"></span></div>
+            <span id="apiProgressText">0 / 0</span>
+          </div>
+        </section>
+      </aside>
+
+      <main class="exam-main">
+        <section class="intro-panel">
+          <h2>试卷结构</h2>
+          <div class="structure-grid">
+          <span>II. Wortschatz und Grammatik</span><strong>40 P</strong>
+          <span>III. Leseverstehen</span><strong>20 P</strong>
+          <span>IV. Übersetzung</span><strong>15 P</strong>
+          <span>V. Schriftlicher Ausdruck</span><strong>10 P</strong>
+          </div>
+        </section>
+
+        <form id="examForm" autocomplete="off">
+          <div id="examContainer"></div>
+        </form>
+      </main>
+    </div>
+  </div>
+
+  <div id="readingModal" class="reading-modal" hidden>
+    <div class="reading-modal-panel" role="dialog" aria-modal="true" aria-labelledby="readingModalTitle">
+      <header class="reading-modal-head">
+        <div>
+          <span class="side-label">Leseverstehen</span>
+          <h2 id="readingModalTitle">阅读放大模式</h2>
+        </div>
+        <button id="closeReadingModalBtn" type="button">关闭</button>
+      </header>
+      <div id="readingModalBody" class="reading-modal-body"></div>
+    </div>
+  </div>
+
+  <script src="期中模拟试题4-适中.js?v=mock4-medium-1"></script>
+</body>
+</html>
