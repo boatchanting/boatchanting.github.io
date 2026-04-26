@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>德语快速过词</title>
+  <link rel="stylesheet" href="css/quick_review.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div class="title-wrap">
+        <h1>德语快速过词</h1>
+        <p>快速扫词 + 错词轮次复习 + 导出错词</p>
+      </div>
+      <button id="btn-export" class="btn ghost" disabled>导出全部错词</button>
+    </header>
+
+    <main class="layout">
+      <section class="panel" id="setup-panel">
+        <h2>词书设置</h2>
+
+        <div class="field">
+          <label for="sel-dict">词书</label>
+          <select id="sel-dict"></select>
+        </div>
+
+        <div class="field">
+          <label>单元</label>
+          <div class="unit-actions">
+            <button id="btn-all" class="btn">全选</button>
+            <button id="btn-none" class="btn">全不选</button>
+          </div>
+          <div id="units" class="units"></div>
+        </div>
+
+        <div class="field inline">
+          <label class="check"><input id="chk-shuffle" type="checkbox" checked /> 打乱顺序</label>
+          <label for="num-limit">每轮词数上限</label>
+          <input id="num-limit" type="number" min="10" max="5000" value="300" />
+        </div>
+
+        <div class="actions">
+          <button id="btn-load" class="btn primary">加载并开始第 1 轮</button>
+        </div>
+
+        <div class="hint">键盘：<code>空格</code>显示释义，<code>A</code>认识，<code>S</code>不认识，<code>Enter</code>下一轮。</div>
+      </section>
+
+      <section class="panel" id="review-panel">
+        <h2>复习区</h2>
+
+        <div id="empty-state" class="empty">先在左侧选择词书和单元，然后开始复习。</div>
+
+        <div id="review-state" class="hidden">
+          <div class="meta-row">
+            <span id="pill-round" class="pill">第 1 轮</span>
+            <span id="pill-progress" class="pill">0 / 0</span>
+            <span id="pill-wrong" class="pill warn">本轮错词 0</span>
+            <span id="pill-total-wrong" class="pill">累计错词 0</span>
+          </div>
+
+          <div class="card" id="word-card">
+            <div id="word-index" class="index"></div>
+            <div id="word-name" class="word"></div>
+            <div id="word-trans" class="trans hidden"></div>
+          </div>
+
+          <div class="actions">
+            <button id="btn-show" class="btn">显示释义</button>
+            <button id="btn-known" class="btn primary">认识 (A)</button>
+            <button id="btn-unknown" class="btn danger">不认识 (S)</button>
+          </div>
+        </div>
+
+        <div id="round-end" class="hidden">
+          <h3 id="round-end-title"></h3>
+          <p id="round-end-desc"></p>
+          <div class="actions">
+            <button id="btn-next-round" class="btn primary">开始下一轮（仅错词）</button>
+            <button id="btn-restart" class="btn">重新从全部词开始</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/quick_review.js"></script>
+</body>
+</html>
